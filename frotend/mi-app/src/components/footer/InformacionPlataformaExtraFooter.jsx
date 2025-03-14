@@ -34,7 +34,7 @@ function InformacionPlataformaExtraFooter() {
                             {idExpandido === informacion.id && (
                                 <div className='enlaces-desplegables'>
                                     {informacion.enlaces.map((enlace, index) => (
-                                        <a key={index} className='enlace-desplegable'>
+                                        <a key={index} className="enlace-desplegable" href="#">
                                             {enlace}
                                         </a>
                                     ))}

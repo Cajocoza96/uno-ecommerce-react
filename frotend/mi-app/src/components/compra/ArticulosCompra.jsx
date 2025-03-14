@@ -170,13 +170,13 @@ function ArticulosCompra({ itemSeleccionado: itemDesdeProps }) {
                 .flatMap((contenido) => contenido.contenido || [])
                 .flatMap((subContenido) => subContenido.subContenido || [])
                 .find((subContenido) => subContenido.item1 === itemSeleccionado);
-
+    
             const resultadoContenido = archivosJsonCombinados
                 .flatMap((contenido) => contenido.contenido || [])
                 .find((contenido) => contenido.item1 === itemSeleccionado);
-
+    
             const resultado = resultadoSubContenido || resultadoContenido;
-
+    
             if (resultado) {
                 const productosDeSubcontenidos = obtenerProductosDeSubcontenidos(itemSeleccionado);
                 setProductos(productosDeSubcontenidos.length > 0 ? productosDeSubcontenidos : resultado.productos || []);
@@ -191,11 +191,11 @@ function ArticulosCompra({ itemSeleccionado: itemDesdeProps }) {
                     textoInfo8: resultado.textoInfo8,
                     textoInfo9: resultado.textoInfo9
                 });
-
+    
                 setItemPadre(obtenerItemPadre());
             } else {
                 const resultadoPrincipal = archivosJsonCombinados.find((contenido) => contenido.item1 === itemSeleccionado);
-
+    
                 if (resultadoPrincipal) {
                     const productosDelNivelPrincipal = obtenerTodosLosProductos(itemSeleccionado);
                     setProductos(productosDelNivelPrincipal);
@@ -210,20 +210,20 @@ function ArticulosCompra({ itemSeleccionado: itemDesdeProps }) {
                         textoInfo8: resultadoPrincipal.textoInfo8,
                         textoInfo9: resultadoPrincipal.textoInfo9
                     });
-
+    
                     setItemPadre("");
                 }
             }
         }
-    }, [itemSeleccionado]);
-
+    }, [itemSeleccionado, archivosJsonCombinados, obtenerProductosDeSubcontenidos, setProductos, setTextosInfoSeleccionados, obtenerItemPadre, setItemPadre, obtenerTodosLosProductos]);
+    
 
     useEffect(() => {
-        if (state?.itemSeleccionado) {
+        if (state && state.itemSeleccionado) {
             setItemSeleccionado(state.itemSeleccionado);
         }
-    }, [state?.itemSeleccionado]);
-
+    }, [state]);
+    
 
     const obtenerRutaImagen = (imagen) => `/assets/img/articulosCompra/${imagen}`;
 
@@ -360,6 +360,7 @@ function ArticulosCompra({ itemSeleccionado: itemDesdeProps }) {
                                 <img
                                     src={obtenerRutaImagen(producto.imagen)}
                                     className='imagen-producto-unitario'
+                                    alt = {producto.nombreProductoUnitario}
                                 />
                             </div>
 
