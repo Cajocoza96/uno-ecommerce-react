@@ -50,7 +50,7 @@ function ArticulosCompra({ itemSeleccionado: itemDesdeProps }) {
         setMenuDesplegado(false);
     }
 
-    const obtenerItemPadre = () => {
+    const obtenerItemPadre = useCallback(() => {
         for (const contenido of archivosJsonCombinados) {
             if (contenido.contenido) {
                 for (const subContenido of contenido.contenido) {
@@ -70,7 +70,7 @@ function ArticulosCompra({ itemSeleccionado: itemDesdeProps }) {
             }
         }
         return "";
-    };
+    },[]);
 
 
     const obtenerDatosItem = (item) => {
@@ -123,7 +123,7 @@ function ArticulosCompra({ itemSeleccionado: itemDesdeProps }) {
         setItemSeleccionado(item);
     }
 
-    const obtenerTodosLosProductos = (nombreObjetoPrincipal) => {
+    const obtenerTodosLosProductos = useCallback((nombreObjetoPrincipal) => {
         let productosAcumulados = [];
 
         archivosJsonCombinados.forEach((contenido) => {
@@ -143,9 +143,9 @@ function ArticulosCompra({ itemSeleccionado: itemDesdeProps }) {
             }
         });
         return productosAcumulados;
-    }
+    }, []);
 
-    const obtenerProductosDeSubcontenidos = (itemSeleccionado) => {
+    const obtenerProductosDeSubcontenidos = useCallback((itemSeleccionado) => {
         let productosAcumulados = [];
 
         archivosJsonCombinados.forEach((contenido) => {
@@ -162,7 +162,7 @@ function ArticulosCompra({ itemSeleccionado: itemDesdeProps }) {
             }
         });
         return productosAcumulados;
-    };
+    }, []);
 
     useEffect(() => {
         if (itemSeleccionado) {
@@ -170,13 +170,13 @@ function ArticulosCompra({ itemSeleccionado: itemDesdeProps }) {
                 .flatMap((contenido) => contenido.contenido || [])
                 .flatMap((subContenido) => subContenido.subContenido || [])
                 .find((subContenido) => subContenido.item1 === itemSeleccionado);
-    
+
             const resultadoContenido = archivosJsonCombinados
                 .flatMap((contenido) => contenido.contenido || [])
                 .find((contenido) => contenido.item1 === itemSeleccionado);
-    
+
             const resultado = resultadoSubContenido || resultadoContenido;
-    
+
             if (resultado) {
                 const productosDeSubcontenidos = obtenerProductosDeSubcontenidos(itemSeleccionado);
                 setProductos(productosDeSubcontenidos.length > 0 ? productosDeSubcontenidos : resultado.productos || []);
@@ -191,11 +191,11 @@ function ArticulosCompra({ itemSeleccionado: itemDesdeProps }) {
                     textoInfo8: resultado.textoInfo8,
                     textoInfo9: resultado.textoInfo9
                 });
-    
+
                 setItemPadre(obtenerItemPadre());
             } else {
                 const resultadoPrincipal = archivosJsonCombinados.find((contenido) => contenido.item1 === itemSeleccionado);
-    
+
                 if (resultadoPrincipal) {
                     const productosDelNivelPrincipal = obtenerTodosLosProductos(itemSeleccionado);
                     setProductos(productosDelNivelPrincipal);
@@ -210,19 +210,18 @@ function ArticulosCompra({ itemSeleccionado: itemDesdeProps }) {
                         textoInfo8: resultadoPrincipal.textoInfo8,
                         textoInfo9: resultadoPrincipal.textoInfo9
                     });
-    
+
                     setItemPadre("");
                 }
             }
         }
-    }, [itemSeleccionado, archivosJsonCombinados, obtenerProductosDeSubcontenidos, setProductos, setTextosInfoSeleccionados, obtenerItemPadre, setItemPadre, obtenerTodosLosProductos]);
-    
+    }, [itemSeleccionado, archivosJsonCombinados, obtenerProductosDeSubcontenidos, obtenerTodosLosProductos, obtenerItemPadre]);
 
     useEffect(() => {
-        if (state && state.itemSeleccionado) {
+        if (state?.itemSeleccionado) {
             setItemSeleccionado(state.itemSeleccionado);
         }
-    }, [state]);
+    }, [state?.itemSeleccionado]);
     
 
     const obtenerRutaImagen = (imagen) => `/assets/img/articulosCompra/${imagen}`;
