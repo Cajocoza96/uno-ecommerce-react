@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.contenedor-informacion-plataforma-extra-icono-footer-varios{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-informacion-plataforma-extra-icono-footer{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.contenedor-informacion-plataforma-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.contenedor-informacion-plataforma-footer .texto-principal-informacion-plataforma-footer{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contenedor-icono-plataforma-extra-footer{
+    overflow: hidden;
+}
+
+.enlaces-desplegables{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.enlace-desplegable {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #242525;
+    margin-bottom: 0.3rem;
+    outline: none;
+}
+
+.enlace-desplegable:hover {
+    color: #ff0000
+}
+
+.icono-expansion-abajo, .icono-expansion-arriba {
+    transition: transform 0.3s ease-in-out;
+}
+
+.contenedor-icono-plataforma-extra-footer .icono-expansion-arriba, .icono-expansion-abajo{
+    color: #000000;
+    font-size: 1rem;
+}
+
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape){
+    .contenedor-informacion-plataforma-footer .texto-principal-informacion-plataforma-footer{
+        font-size: 1.2rem;
+    }
+
+    .enlace-desplegable {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-icono-plataforma-extra-footer .icono-expansion-arriba, .icono-expansion-abajo{
+        font-size: 1.2rem;
+    }
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px){
+    .contenedor-informacion-plataforma-footer .texto-principal-informacion-plataforma-footer{
+        font-size: 1.2rem;
+    }
+
+    .enlace-desplegable {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-icono-plataforma-extra-footer .icono-expansion-arriba, .icono-expansion-abajo{
+        font-size: 1.2rem;
+    }
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px){
+    .contenedor-informacion-plataforma-footer .texto-principal-informacion-plataforma-footer{
+        font-size: 1.4rem;
+    }
+
+    .enlace-desplegable {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-icono-plataforma-extra-footer .icono-expansion-arriba, .icono-expansion-abajo{
+        font-size: 1.4rem;
+    }
+}
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+    .contenedor-informacion-plataforma-footer .texto-principal-informacion-plataforma-footer{
+        font-size: 1.6rem;
+    }
+
+    .enlace-desplegable {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-icono-plataforma-extra-footer .icono-expansion-arriba, .icono-expansion-abajo{
+        font-size: 1.6rem;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px){
+    .contenedor-informacion-plataforma-footer .texto-principal-informacion-plataforma-footer{
+        font-size: 1.8rem;
+    }
+
+    .enlace-desplegable {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-icono-plataforma-extra-footer .icono-expansion-arriba, .icono-expansion-abajo{
+        font-size: 1.8rem;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px){
+    .contenedor-informacion-plataforma-footer .texto-principal-informacion-plataforma-footer{
+        font-size: 2rem;
+    }
+
+    .enlace-desplegable {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-icono-plataforma-extra-footer .icono-expansion-arriba, .icono-expansion-abajo{
+        font-size: 2rem;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px){
+    .contenedor-informacion-plataforma-footer .texto-principal-informacion-plataforma-footer{
+        font-size: 2.2rem;
+    }
+
+    .enlace-desplegable {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-icono-plataforma-extra-footer .icono-expansion-arriba, .icono-expansion-abajo{
+        font-size: 2.2rem;
+    }
+}
+

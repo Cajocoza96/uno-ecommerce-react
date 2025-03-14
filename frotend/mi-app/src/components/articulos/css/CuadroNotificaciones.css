@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.contenedor-icono-notificaciones-icono-cerrar{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background-color: #e7ff11;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-icono-notificaciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contenedor-icono-notificaciones .icono-notificaciones{
+    font-size: 1rem;
+    color: #000000;
+}
+
+.contenedor-icono-notificaciones .texto-notificaciones{
+    font-size: 1rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.contenedor-icono-notificaciones-icono-cerrar .icono-cerrar{
+    font-size: 1rem;
+    color: #000000;
+    cursor: pointer;
+}
+
+.contenedor-informacion-notificaciones{
+    width: 100%;
+    max-height: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-informacion-notificaciones .texto-informacion-notificaciones{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape){
+    .contenedor-icono-notificaciones .icono-notificaciones{
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-icono-notificaciones .texto-notificaciones{
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-icono-notificaciones-icono-cerrar .icono-cerrar{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-informacion-notificaciones .texto-informacion-notificaciones{
+        font-size: 1.2rem;
+    }
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px){
+    .contenedor-icono-notificaciones .icono-notificaciones{
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-icono-notificaciones .texto-notificaciones{
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-icono-notificaciones-icono-cerrar .icono-cerrar{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-informacion-notificaciones .texto-informacion-notificaciones{
+        font-size: 1.2rem;
+    }
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px){
+    .contenedor-icono-notificaciones .icono-notificaciones{
+        font-size: 1.4rem;
+    }
+    
+    .contenedor-icono-notificaciones .texto-notificaciones{
+        font-size: 1.4rem;
+    }
+    
+    .contenedor-icono-notificaciones-icono-cerrar .icono-cerrar{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-informacion-notificaciones .texto-informacion-notificaciones{
+        font-size: 1.4rem;
+    }
+}
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+    .contenedor-icono-notificaciones .icono-notificaciones{
+        font-size: 1.6rem;
+    }
+    
+    .contenedor-icono-notificaciones .texto-notificaciones{
+        font-size: 1.6rem;
+    }
+    
+    .contenedor-icono-notificaciones-icono-cerrar .icono-cerrar{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-informacion-notificaciones .texto-informacion-notificaciones{
+        font-size: 1.6rem;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px){
+    .contenedor-icono-notificaciones .icono-notificaciones{
+        font-size: 1.8rem;
+    }
+    
+    .contenedor-icono-notificaciones .texto-notificaciones{
+        font-size: 1.8rem;
+    }
+    
+    .contenedor-icono-notificaciones-icono-cerrar .icono-cerrar{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-informacion-notificaciones .texto-informacion-notificaciones{
+        font-size: 1.8rem;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px){
+    .contenedor-icono-notificaciones .icono-notificaciones{
+        font-size: 2rem;
+    }
+    
+    .contenedor-icono-notificaciones .texto-notificaciones{
+        font-size: 2rem;
+    }
+    
+    .contenedor-icono-notificaciones-icono-cerrar .icono-cerrar{
+        font-size: 2rem;
+    }
+
+    .contenedor-informacion-notificaciones .texto-informacion-notificaciones{
+        font-size: 2rem;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px){
+    .contenedor-icono-notificaciones .icono-notificaciones{
+        font-size: 2.2rem;
+    }
+    
+    .contenedor-icono-notificaciones .texto-notificaciones{
+        font-size: 2.2rem;
+    }
+    
+    .contenedor-icono-notificaciones-icono-cerrar .icono-cerrar{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-informacion-notificaciones .texto-informacion-notificaciones{
+        font-size: 2.2rem;
+    }
+}
+

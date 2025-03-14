@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.cabecera-titulo-evento-compra{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.2rem;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.cabecera-titulo-evento-compra .titulo-evento-compra{
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.contenedor-tarjeta-uno {
+    padding: 0.4rem;
+    background-color: #fbff02;
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+.contenedor-tarjeta-uno .tarjeta-uno {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape){
+
+    .cabecera-titulo-evento-compra .titulo-evento-compra{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.2rem;
+    }
+    
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px){
+
+    .cabecera-titulo-evento-compra .titulo-evento-compra{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.2rem;
+    }
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px){
+
+    .cabecera-titulo-evento-compra .titulo-evento-compra{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.4rem;
+    }
+}
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+
+    .cabecera-titulo-evento-compra .titulo-evento-compra{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.6rem;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px){
+
+    .cabecera-titulo-evento-compra .titulo-evento-compra{
+        font-size: 2rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.8rem;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px){
+
+    .cabecera-titulo-evento-compra .titulo-evento-compra{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 2rem;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px){
+
+    .cabecera-titulo-evento-compra .titulo-evento-compra{
+        font-size: 2.4rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 2.2rem;
+    }
+}

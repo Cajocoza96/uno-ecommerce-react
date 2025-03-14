@@ -1,0 +1,291 @@
+{
+    "blackFriday": [
+        {
+            "id": 1,
+            "titulo1": "Black Friday",
+            "item1": "black-friday",
+            "textoInfo1": "¡No te pierdas las mejores ofertas en nuestro Black Friday",
+            "textoInfo2": "en Uno! ¿Quieres aprovechar descuentos imperdibles",
+            "textoInfo3": "en productos de calidad? ¡Visita nuestro evento",
+            "textoInfo4": "especial y descubre una selección exclusiva de artículos",
+            "textoInfo5": "a precios increíbles! Desde tecnología hasta",
+            "textoInfo6": "moda y hogar, tenemos todo lo que necesitas",
+            "textoInfo7": "para renovar tu estilo de vida sin gastar de más.",
+            "contenido": [
+                {
+                    "id": 1,
+                    "titulo1": "Electronica y tecnologia",
+                    "item1": "electronica-y-tecnologia",
+                    "textoInfo1": "¡No te pierdas las mejores ofertas en Electrónica",
+                    "textoInfo2": "y Tecnología en Uno! ¿Buscas lo último en innovación",
+                    "textoInfo3": "y calidad al mejor precio? ¡Explora nuestra selección",
+                    "textoInfo4": "exclusiva de dispositivos y accesorios con",
+                    "textoInfo5": "descuentos increíbles!",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Laptos",
+                            "item1": "laptos",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Laptops en Uno!",
+                            "textoInfo2": "¿Buscas potencia, rendimiento y el mejor precio?",
+                            "textoInfo3": "¡Descubre nuestra selección exclusiva de laptops",
+                            "textoInfo4": "con descuentos increíbles! Desde equipos para el trabajo",
+                            "textoInfo5": "y estudio hasta portátiles gaming de alto desempeño,",
+                            "textoInfo6": "tenemos todo lo que necesitas para llevar tu",
+                            "textoInfo7": "productividad y entretenimiento al siguiente nivel.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "portatilHPPavilionAMDRyzen77730URAM8GB512GBSSD15eh3004la.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Portatil HP Pavilion AMD Ryzen 7 7730U RAM 8 GB 512 GB SSD 15eh3004la",
+                                    "detalle1": "HP Pavilion",
+                                    "detalle2": "AMD Ryzen 7",
+                                    "marcaProductoUnitario": "HP",
+                                    "porcentajeProductoDescuentoUnitario": 40,
+                                    "precioProductoAntesUnitarioPorcentaje": 3559000,
+                                    "precioProductoOfertaUno": 2135401,
+                                    "precioProductoUnitarioOtros": 2299000
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "lenovoThinkbookAmdRyzen57430USsd512GbRam16GbLed14FullHd.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Lenovo Thinkbook Amd Ryzen 5 7430U Ssd 512Gb Ram 16Gb Led 14 Full Hd",
+                                    "detalle1": "Lenovo Thinkbook",
+                                    "detalle2": "Amd Ryzen 5",
+                                    "marcaProductoUnitario": "Lenovo",
+                                    "porcentajeProductoDescuentoUnitario": 32,
+                                    "precioProductoAntesUnitarioPorcentaje": 2600000,
+                                    "precioProductoUnitario": 1749999
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "portatilAsusVivobook16IntelCorei512500HRAM16GB1TBSSDX1605ZAMB712W.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Portatil Asus Vivobook 16 Intel Core i5 12500H RAM 16 GB 1 TB SSD X1605ZAMB712W",
+                                    "detalle1": "Asus Vivobook",
+                                    "detalle2": "16 Intel Core",
+                                    "marcaProductoUnitario": "Asus",
+                                    "porcentajeProductoDescuentoUnitario": 50,
+                                    "precioProductoAntesUnitarioPorcentaje": 3899000,
+                                    "precioProductoOfertaUno": 1949500,
+                                    "precioProductoUnitarioOtros": 2300410
+                                },
+                                {
+                                    "id": 4,
+                                    "imagen": "dellInspironIntelCoreI71255USsd512GbRam24GbLed156pulgadasFullHd.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Dell Inspiron Intel Core I7 1255U Ssd 512Gb Ram 24Gb Led 15,6 pulgadas Full Hd",
+                                    "detalle1": "Dell Inspiron",
+                                    "detalle2": "Intel Core I7",
+                                    "marcaProductoUnitario": "Dell",
+                                    "porcentajeProductoDescuentoUnitario": 69,
+                                    "precioProductoAntesUnitarioPorcentaje": 7999990,
+                                    "precioProductoUnitario": 2450990
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Audifonos inalambricos",
+                            "item1": "audifonos-inalambricos",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Audífonos",
+                            "textoInfo2": "Inalámbricos en Uno! ¿Quieres disfrutar de tu música,",
+                            "textoInfo3": "llamadas y contenido favorito con total libertad?",
+                            "textoInfo4": "¡Explora nuestra selección exclusiva de audífonos",
+                            "textoInfo5": "inalámbricos con descuentos increíbles!",
+                            "textoInfo6": "tenemos todo lo que necesitas para una",
+                            "textoInfo7": "experiencia de sonido sin límites.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "audifonosInalambricosTwsPowerbankF95.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Audifonos Inalambricos Tws Powerbank F9 5",
+                                    "marcaProductoUnitario": "Generico",
+                                    "detalle1": "Audifonos Inalambricos",
+                                    "detalle2": "Tws Powerbank F9 5",
+                                    "porcentajeProductoDescuentoUnitario": 52,
+                                    "precioProductoAntesUnitarioPorcentaje": 41521,
+                                    "precioProductoUnitario": 19830
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo1": "Hogar y muebles",
+                    "item1": "hogar-y-muebles",
+                    "textoInfo1": "¡No te pierdas las mejores ofertas en Hogar y Muebles",
+                    "textoInfo2": "en Uno! ¿Quieres renovar tus espacios con estilo",
+                    "textoInfo3": "y comodidad al mejor precio? ¡Descubre nuestra",
+                    "textoInfo4": "selección exclusiva de muebles y artículos",
+                    "textoInfo5": "para el hogar con descuentos increíbles!",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Sofas",
+                            "item1": "sofas",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Sofás en Uno!",
+                            "textoInfo2": "¿Buscas comodidad, estilo y el mejor precio para tu sala?",
+                            "textoInfo3": "¡Descubre nuestra selección exclusiva de sofás con",
+                            "textoInfo4": "descuentos increíbles! Desde diseños modernos y",
+                            "textoInfo5": "elegantes hasta modelos reclinables y seccionales,",
+                            "textoInfo6": "tenemos todo lo que necesitas para darle",
+                            "textoInfo7": "un toque acogedor y sofisticado a tu hogar",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "sofaByron3PuestosEcocueroBlanco.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Sofa Byron 3 Puestos Ecocuero Blanco",
+                                    "marcaProductoUnitario": "Sofa Market Online",
+                                    "porcentajeProductoDescuentoUnitario": 36,
+                                    "precioProductoAntesUnitarioPorcentaje": 2199900,
+                                    "precioProductoUnitario": 1399900
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Mesas de comedor",
+                            "item1": "mesas-de-comedor",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Mesas de Comedor",
+                            "textoInfo2": "en Uno! ¿Quieres darle un toque elegante y funcional",
+                            "textoInfo3": "a tu comedor? ¡Descubre nuestra selección exclusiva",
+                            "textoInfo4": "de mesas con descuentos increíbles! Desde diseños",
+                            "textoInfo5": "modernos y minimalistas hasta clásicos y extensibles,",
+                            "textoInfo6": "tenemos la opción perfecta para que",
+                            "textoInfo7": "disfrutes cada comida con estilo y comodidad.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "comedorBerlín6PuestosColorBeigePiedraSinterizada.jpg",
+                                    "vendidoPor": "Dormilandia",
+                                    "nombreProductoUnitario": "Comedor Berlín 6 Puestos Color Beige Piedra Sinterizada",
+                                    "marcaProductoUnitario": "Dormiñandia",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 2310000,
+                                    "precioProductoUnitario": 1617000
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Lamparas de techo",
+                            "item1": "lamparas-de-techo",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Lámparas",
+                            "textoInfo2": "de Techo en Uno! ¿Buscas la combinación perfecta",
+                            "textoInfo3": "de iluminación y estilo para tu hogar? ¡Explora",
+                            "textoInfo4": "nuestra selección exclusiva de lámparas de techo con",
+                            "textoInfo5": "descuentos increíbles! Desde diseños modernos y",
+                            "textoInfo6": "minimalistas hasta opciones elegantes y decorativas,",
+                            "textoInfo7": "tenemos todo lo que necesitas",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "lamparaVentiladorTechoEnchufeLuzLedControlRemotoAromaterapia.jpg",
+                                    "vendidoPor": "Tecnohogarjssas",
+                                    "nombreProductoUnitario": "Lampara Ventilador Techo Enchufe Luz Led Control Remoto Aromaterapia",
+                                    "marcaProductoUnitario": "Generico",
+                                    "porcentajeProductoDescuentoUnitario": 41,
+                                    "precioProductoAntesUnitarioPorcentaje": 79900,
+                                    "precioProductoUnitario": 46799
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "titulo1": "Calzado",
+                    "item1": "calzado",
+                    "textoInfo1": "¡No te pierdas las mejores ofertas en Calzado",
+                    "textoInfo2": "en Uno! ¿Buscas comodidad, estilo y calidad?",
+                    "textoInfo3": "¡Descubre nuestra selección exclusiva de calzado",
+                    "textoInfo4": "con descuentos increíbles! Desde sneakers,",
+                    "textoInfo5": "botas y sandalias hasta zapatos formales, ",
+                    "textoInfo6": "tenemos opciones para",
+                    "textoInfo7": "todos los gustos y ocasiones.",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Sneakers",
+                            "item1": "sneakers",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Sneakers",
+                            "textoInfo2": "en Uno! ¿Buscas el par perfecto de sneakers para",
+                            "textoInfo3": "combinar estilo y comodidad? ¡Explora nuestra selección",
+                            "textoInfo4": "exclusiva de sneakers con descuentos increíbles! Desde",
+                            "textoInfo5": "modelos deportivos, casuales y de alta tendencia, tenemos",
+                            "textoInfo6": "opciones para todos los gustos. Perfectos para un look",
+                            "textoInfo7": "urbano y para mantenerte cómodo todo el día."
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Botas",
+                            "item1": "botas",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Botas en Uno!",
+                            "textoInfo2": "¿Buscas un par de botas que te ofrezca estilo y resistencia?",
+                            "textoInfo3": "¡Descubre nuestra selección exclusiva de botas con",
+                            "textoInfo4": "descuentos increíbles! Desde modelos de cuero,",
+                            "textoInfo5": "de estilo militar hasta opciones perfectas para",
+                            "textoInfo6": "la temporada de frío, tenemos todo lo que necesitas",
+                            "textoInfo7": "para mantenerte cómodo y a la moda."
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Sandalias",
+                            "item1": "sandalias",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Sandalias en Uno!",
+                            "textoInfo2": "¿Buscas comodidad y frescura para tus pies en los días",
+                            "textoInfo3": "cálidos? ¡Explora nuestra selección exclusiva de sandalias",
+                            "textoInfo4": "con descuentos increíbles! Desde modelos casuales, de playa,",
+                            "textoInfo5": "hasta opciones más elegantes, tenemos sandalias para",
+                            "textoInfo6": "todos los gustos y ocasiones. Perfectas para combinar con",
+                            "textoInfo7": "tu estilo y mantenerte cómodo durante todo el día."
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Tenis",
+                            "item1": "tenis",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Tenis en Uno!",
+                            "textoInfo2": "¿Buscas el par ideal para tus actividades deportivas",
+                            "textoInfo3": "o para un look casual y cómodo? ¡Descubre nuestra selección",
+                            "textoInfo4": "exclusiva de tenis con descuentos increíbles! Desde",
+                            "textoInfo5": "modelos de running, entrenamiento hasta opciones de",
+                            "textoInfo6": "estilo urbano, tenemos tenis para cada necesidad.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "tenisNikeHombreDeportivosVentureRunner.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Tenis Nike Hombre Deportivos Venture Runner",
+                                    "nombreCorto": "Tenis Nike",
+                                    "marcaProductoUnitario": "Nike",
+                                    "porcentajeProductoDescuentoUnitario": 50,
+                                    "precioProductoAntesUnitarioPorcentaje": 379990,
+                                    "precioProductoOfertaUno": 189995,
+                                    "precioProductoUnitarioOtros": 227994
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Zapatos",
+                            "item1": "zapatos",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Zapatos en Uno!",
+                            "textoInfo2": "¿Buscas un par de zapatos que combine estilo y comodidad",
+                            "textoInfo3": "para cualquier ocasión? ¡Explora nuestra selección exclusiva",
+                            "textoInfo4": "de zapatos con descuentos increíbles! Desde modelos",
+                            "textoInfo5": "formales y de oficina hasta opciones casuales",
+                            "textoInfo6": "para el día a día, tenemos todo lo que necesitas",
+                            "textoInfo7": "para completar tu look."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

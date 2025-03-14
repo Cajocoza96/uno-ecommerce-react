@@ -1,0 +1,800 @@
+{
+    "novedades": [
+        {
+            "id": 1,
+            "titulo1": "Black Friday",
+            "item1": "black-friday",
+            "iconoExpansionDerecha": "FaChevronRight",
+            "contenido": [
+                {
+                    "id": 1,
+                    "titulo1": "Electronica y tecnologia",
+                    "item1": "electronica-y-tecnologia",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Laptos",
+                            "item1": "laptos"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Audifonos inalambricos",
+                            "item1": "audifonos-inalambricos"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo1": "Hogar y muebles",
+                    "item1": "hogar-y-muebles",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Sofas",
+                            "item1": "sofas"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Mesas de comedor",
+                            "item1": "mesas-de-comedor"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Lamparas de techo",
+                            "item1": "lamparas-de-techo"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "titulo1": "Calzado",
+                    "item1": "calzado",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Sneakers",
+                            "item1": "sneakers"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Botas",
+                            "item1": "botas"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Sandalias",
+                            "item1": "sandalias"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Tenis",
+                            "item1": "tenis"
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Zapatos",
+                            "item1": "zapatos"
+                        }
+
+                    ]
+                }
+            ]
+        }
+    ],
+    "categorias": [
+        {
+            "id": 1,
+            "titulo1": "Mercado",
+            "item1": "mercado",
+            "iconoExpansionDerecha": "FaChevronRight",
+            "contenido": [
+                {
+                    "id": 1,
+                    "titulo1": "Aseo del hogar",
+                    "item1": "aseo-del-hogar",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Jabones, detergentes y limpiadores",
+                            "item1": "jabones-detergentes-y-limpiadores"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Papel higienico",
+                            "item1": "papel-higienico"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Lavalozas y desengrasantes",
+                            "item1": "lavalozas-y-desengrasantes"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Suavizantes",
+                            "item1": "suavizantes"
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Servilletas y toallas de cocina",
+                            "item1": "servilletas-y-toallas-de-cocina"
+                        },
+                        {
+                            "id": 6,
+                            "titulo1": "Ambientadores e insecticidas",
+                            "item1": "ambientadores-e-insecticidas"
+                        },
+                        {
+                            "id": 7,
+                            "titulo1": "Implementos para la limpieza",
+                            "item1": "implementos-para-la-limpieza"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo1": "Frutas y verduras",
+                    "item1": "frutas-y-verduras",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Frutas",
+                            "item1": "frutas"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Verduras y hortalizas",
+                            "item1": "verduras-y-hortalizas"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "titulo1": "Pollo, carne y pescado",
+                    "item1": "pollo-carne-y-pescado",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Res",
+                            "item1": "res"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Cerdo",
+                            "item1": "cerdo"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Pollo",
+                            "item1": "pollo"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Pescado y mariscos",
+                            "item1": "pescado y mariscos"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "titulo1": "Lacteos, huevos y refrigerados",
+                    "item1": "lacteos-huevos-y-refrigerados",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Leche",
+                            "item1": "leche"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Huevos",
+                            "item1": "huevos"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Arepas",
+                            "item1": "arepas"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Carne frias y embutidos",
+                            "item1": "carne-frias-y-embutidos"
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Quesos, quesitos y cuajadas",
+                            "item1": "quesos-quesitos-y-cuajadas"
+                        },
+                        {
+                            "id": 6,
+                            "titulo1": "Yogurt y bebidas lacteas",
+                            "item1": "yogurt-y-bebidas-lacteas"
+                        },
+                        {
+                            "id": 7,
+                            "titulo1": "Mantequilla y margarina",
+                            "item1": "mantequilla-y-margarina"
+                        },
+                        {
+                            "id": 8,
+                            "titulo1": "Cremas de leche, queso crema y sueros",
+                            "item1": "cremas-de-leche-queso-crema-y-sueros"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "titulo1": "Despensa",
+                    "item1": "despensa",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Arroz y granos",
+                            "item1": "arroz-y-granos"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Aceites y vinagres",
+                            "item1": "aceites-y-vinagres"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Atunes, enlatados y conservas",
+                            "item1": "atunes-enlatados-y-conservas"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Cafe y chocolate",
+                            "item1": "cafe-y-chocolate"
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Cereales y granolas",
+                            "item1": "cereales-y-granolas"
+                        },
+                        {
+                            "id": 6,
+                            "titulo1": "Pastas",
+                            "item1": "pastas"
+                        },
+                        {
+                            "id": 7,
+                            "titulo1": "Salsas y condimentos",
+                            "item1": "salsas-y-condimentos"
+                        },
+                        {
+                            "id": 8,
+                            "titulo1": "Harinas y mezclas para preparar",
+                            "item1": "harinas-y-mezclas-para-preparar"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "titulo1": "Galletas",
+                    "item1": "galletas",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Galletas dulces",
+                            "item1": "galletas-dulces"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Galletas saladas",
+                            "item1": "galletas-saladas"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Galletas integrales",
+                            "item1": "galletas integrales"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Galletas de arroz y otras",
+                            "item1": "galletas-de-arroz-y-otras"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "titulo1": "Bebidas y pasabocas",
+                    "item1": "bebidas-y-pasabocas",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Pasabocas y mecato de paquete",
+                            "item1": "pasabocas-y-mecato-de-paquete"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Gaseosas y sodas",
+                            "item1": "gaseosas-y-sodas"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Nueces, pistachos y frutos secos",
+                            "item1": "nueces-pistachos-y-frutos-secos"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Jugos y zumos",
+                            "item1": "jugos-y-zumos"
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Hidratantes y energizantes",
+                            "item1": "hidratantes-y-energizantes"
+                        },
+                        {
+                            "id": 6,
+                            "titulo1": "Agua y te",
+                            "item1": "agua-y-te"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "titulo1": "Panaderia y reposteria",
+                    "item1": "panaderia-y-reposteria",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Panaderia y pasteleria empacada",
+                            "item1": "panaderia-y-pasteleria-empacada"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Panaderia fresca y artesanal",
+                            "item1": "panaderia-fresca-y-artesanal"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Postres y tortas",
+                            "item1": "postres-y-tortas"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "titulo1": "Dulces y chocolateria",
+                    "item1": "dulces-y-chocolateria",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Chocolateria",
+                            "item1": "chocolateria"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Chicles",
+                            "item1": "chicles"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Confiteria",
+                            "item1": "confiteria"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Arequipe y leche condensada",
+                            "item1": "arequipe-y-leche-condensada"
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Gomitas y masmelos",
+                            "item1": "gomitas-y-masmelos"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "titulo1": "Congelados",
+                    "item1": "congelados",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Papas, yucas y verduras congeladas",
+                            "item1": "papas-yucas-y-verduras-congeladas"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Pasabocas y panaderia congelada",
+                            "item1": "pasabocas-y-panaderia-congelada"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Comida preparada",
+                            "item1": "comida-preparada"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Helados y postres",
+                            "item1": "helados-y-postres"
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "titulo1": "Charcuteria",
+                    "item1": "charcuteria",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Quesos madurados y especiales",
+                            "item1": "quesos-madurados-y-especiales"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Carnes especiales",
+                            "item1": "carnes-especiales"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Encurtidos, conservas y pates",
+                            "item1": "encurtidos-conservas-y-pates"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Nueces, pistachos y frutos secos",
+                            "item1": "nueces-pistachos-y-frutos-secos"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "titulo1": "Vinos y licores",
+            "item1": "vinos-y-licores",
+            "iconoExpansionDerecha": "FaChevronRight",
+            "contenido": [
+                {
+                    "id": 1,
+                    "titulo1": "Marcas whisky",
+                    "item1": "marcas-whisky",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Buchana's",
+                            "item1": "buchanas"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Old Parr",
+                            "item1": "old-parr"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Chivas",
+                            "item1": "chivas"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Glenlivet",
+                            "item1": "glenlivet"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo1": "Whisky",
+                    "item1": "whisky",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Para regalar",
+                            "item1": "para-regalar"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Whisky joven",
+                            "item1": "whisky-joven"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Whisky premium",
+                            "item1": "whisky-premium"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Whisky reserva",
+                            "item1": "whisky-reserva"
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Cremas de whisky",
+                            "item1": "cremas-de-whisky"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "titulo1": "Cervezas",
+                    "item1": "cervezas",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Cervezas nacionales",
+                            "item1": "cervezas-nacionales"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Cervezas importadas",
+                            "item1": "cervezas-importadas"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Cervezas artesanales",
+                            "item1": "cervezas-artesanales"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Cervezas sin alcohol",
+                            "item1": "cervezas-sin-alcohol"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "titulo1": "Vinos",
+                    "item1": "vinos",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Vino tinto",
+                            "item1": "vino-tinto"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Vino blanco",
+                            "item1": "vino-blanco"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Vino rosado",
+                            "item1": "vino-rosado"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Vino espumoso y champaña",
+                            "item1": "vino-espumoso-y-champana"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "titulo1": "Tecnologia",
+            "item1": "tecnologia",
+            "iconoExpansionDerecha": "FaChevronRight",
+            "contenido": [
+                {
+                    "id": 1,
+                    "titulo1": "Computadores y accesorios",
+                    "item1": "computadores-y-accesorios",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Gaming",
+                            "item1": "gaming"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "De escritorio y all in one",
+                            "item1": "de-escritorio-y-all-in-one"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Copilot + PC's IA",
+                            "item1": "copilot-pcs-ia"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Tablets",
+                            "item1": "tablets"
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Pantallas y monitores",
+                            "item1": "pantallas-y-monitores"
+                        },
+                        {
+                            "id": 6,
+                            "titulo1": "Videos proyectores",
+                            "item1": "videos-proyectores"
+                        },
+                        {
+                            "id": 7,
+                            "titulo1": "Accesorios",
+                            "item1": "accesorios"
+                        },
+                        {
+                            "id": 8,
+                            "titulo1": "Pines de licencias de software y antivirus",
+                            "item1": "pines-de-licencias-de-software-y-antivirus"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo1": "Mundo gamer",
+                    "item1": "mundo-gamer",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Consolas",
+                            "item1": "consolas"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Monitores gamer",
+                            "item1": "monitores-gamer"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Videojuegos",
+                            "item1": "videojuegos"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Controles y accesorios",
+                            "item1": "controles-y-accesorios"
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Sillas",
+                            "item1": "sillas"
+                        },
+                        {
+                            "id": 6,
+                            "titulo1": "Pines de video juegos",
+                            "item1": "pines-de-video-juegos"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "titulo1": "Celulares",
+                    "item1": "celulares",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Gama alta",
+                            "item1": "gama-alta"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Gama media",
+                            "item1": "gama-media"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Gama baja",
+                            "item1": "gama-baja"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "titulo1": "Televisores",
+                    "item1": "televisores",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Televisores Samsung",
+                            "item1": "televisores-samsung"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Televisores LG",
+                            "item1": "televisores-lg"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Televisores Hisense",
+                            "item1": "televisores-hisense"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Televisores Hyundai",
+                            "item1": "televisores-hyundai"
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Televisores Challenger",
+                            "item1": "televisores-challenger"
+                        },
+                        {
+                            "id": 6,
+                            "titulo1": "Televisores Finlandek",
+                            "item1": "televisores-finlandek"
+                        },
+                        {
+                            "id": 7,
+                            "titulo1": "Televisores TCL",
+                            "item1": "televisores-tcl"
+                        },
+                        {
+                            "id": 8,
+                            "titulo1": "Televisores Kalley",
+                            "item1": "televisores-kalley"
+                        },
+                        {
+                            "id": 9,
+                            "titulo1": "Televisores Caixun",
+                            "item1": "televisores-caixun"
+                        },
+                        {
+                            "id": 10,
+                            "titulo1": "Televisores Otras marcas",
+                            "item1": "televisores-otras-marcas"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "titulo1": "Neveras",
+                    "item1": "neveras",
+                    "iconoExpansionDerecha": "FaChevronRight",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Marca Haceb",
+                            "item1": "marca-haceb"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "servicios": [
+        {
+            "id": 1,
+            "titulo1": "WhatsApp",
+            "item1": "whatsApp"
+        },
+        {
+            "id": 2,
+            "titulo1": "Vende con nosotros",
+            "item1": "vende-con-nosotros"
+        },
+        {
+            "id": 3,
+            "titulo1": "Ahorra dinero",
+            "item1": "ahorra-dinero"
+        },
+        {
+            "id": 4,
+            "titulo1": "Puntos Colombia",
+            "item1": "puntos-colombia"
+        },
+        {
+            "id": 5,
+            "titulo1": "Centro de ayuda",
+            "item1": "centro-de-ayuda"
+        }
+    ]
+}

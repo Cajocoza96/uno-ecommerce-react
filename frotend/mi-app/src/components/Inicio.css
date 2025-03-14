@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.contenedor-padre{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    position: relative;
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1001; 
+    pointer-events: none; 
+}
+
+.overlay-active .overlay {
+    pointer-events: auto; 
+}
+
+.contenedor-contenido-menu-hamburguesa-novedades-categoria{
+    width: 90%;
+    min-height: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    
+    display: none;
+
+    position: fixed;
+
+    z-index: 1001;
+
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.contenedor-contenido-menu-hamburguesa-novedades-categoria.visible {
+    display: block;
+}
+
+.contenedor-contenido-menu-hamburguesa-novedades-categoria.hidden {
+    display: none;
+}
+
+.contenedor-compra-antDes-desc-producto{
+    margin: 8.5rem auto 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-hora-producto-antes-despues-varios{
+    margin: 2rem auto 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-prod-desc-prom-desc-product2-antes-despues2{
+    margin: 2rem auto 1rem;
+    width: 95%;
+    height: auto;
+}
+
+.contenedor-evento-compra-tarjeta-opcional{
+    margin: 2rem auto 1rem;
+    width: 95%;
+    height: auto;
+}
+
+.contenedor-lo-mejor-categoria-producto-descuento-definitivo-pagos{
+    margin: 2rem auto 1rem;
+    width: 96%;
+    height: auto;
+}
+
+
+.contenedor-recibir-pedido-compra-recoge-envio-domicilio{
+    margin: 0 auto 2rem;
+    width: 100%;
+    max-height: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+
+    display: none;
+    
+    position: fixed;
+    z-index: 1002;
+
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.contenedor-recibir-pedido-compra-recoge-envio-domicilio.visible {
+    display: block;
+}
+
+.contenedor-recibir-pedido-compra-recoge-envio-domicilio.hidden {
+    display: none;
+}
+
+.contenedor-cuadro-notificaciones{
+    margin: 0;
+    width: auto;
+    max-width: 90%;
+    max-height: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+
+    display: none;
+    
+    position: fixed;
+    z-index: 1003;
+
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    
+    
+    top: 0;
+    right: 0;
+    left: auto;
+}
+
+.contenedor-cuadro-notificaciones.visible {
+    display: block;
+}
+
+.contenedor-cuadro-notificaciones.hidden {
+    display: none;
+}
+
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape){
+    .contenedor-compra-antDes-desc-producto{
+        margin: 9.3rem auto 1rem;
+    } 
+
+    .contenedor-cuadro-notificaciones{
+        max-width: 50%;
+    }
+
+    .contenedor-contenido-menu-hamburguesa-novedades-categoria{
+        max-width: 75%;
+    }
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px){
+    .contenedor-compra-antDes-desc-producto{
+        margin: 11.8rem auto 1rem;
+    }
+
+    .contenedor-cuadro-notificaciones{
+        max-width: 50%;
+    }
+
+    .contenedor-contenido-menu-hamburguesa-novedades-categoria{
+        max-width: 75%;
+    }
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px){
+    .contenedor-compra-antDes-desc-producto{
+        margin: 10.6rem auto 1rem;
+    }
+
+    .contenedor-cuadro-notificaciones{
+        max-width: 50%;
+    }
+
+    .contenedor-contenido-menu-hamburguesa-novedades-categoria{
+        max-width: 60%;
+    }
+}
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+    .contenedor-compra-antDes-desc-producto{
+        margin: 11.5rem auto 1rem;
+    }
+
+    .contenedor-cuadro-notificaciones{
+        max-width: 50%;
+    }
+
+    .contenedor-contenido-menu-hamburguesa-novedades-categoria{
+        max-width: 60%;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px){
+    .contenedor-compra-antDes-desc-producto{
+        margin: 12.5rem auto 1rem;
+    }
+
+    .contenedor-cuadro-notificaciones{
+        max-width: 50%;
+    }
+
+    .contenedor-contenido-menu-hamburguesa-novedades-categoria{
+        max-width: 50%;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px){
+    .contenedor-compra-antDes-desc-producto{
+        margin: 13.2rem auto 1rem;
+    }
+
+    .contenedor-cuadro-notificaciones{
+        max-width: 40%;
+    }
+
+    .contenedor-contenido-menu-hamburguesa-novedades-categoria{
+        max-width: 30%;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px){
+    .contenedor-compra-antDes-desc-producto{
+        margin: 14.8rem auto 1rem;
+    }
+
+    .contenedor-cuadro-notificaciones{
+        max-width: 40%;
+    }
+
+    .contenedor-contenido-menu-hamburguesa-novedades-categoria{
+        max-width: 30%;
+    }
+}

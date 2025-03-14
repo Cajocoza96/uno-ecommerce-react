@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.contenedor-padre-inicio-compra{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    position: relative;
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1001; 
+    pointer-events: none; 
+}
+
+.overlay-active .overlay {
+    pointer-events: auto; 
+}
+
+.contenedor-contenido-menu-hamburguesa-novedades-categoria{
+    width: 90%;
+    max-height: 100%;
+    height: 78rem;
+    background-color: #ffffff;
+    
+    display: none;
+
+    position: fixed;
+
+    z-index: 1001;
+
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.contenedor-contenido-menu-hamburguesa-novedades-categoria.visible {
+    display: block;
+}
+
+.contenedor-contenido-menu-hamburguesa-novedades-categoria.hidden {
+    display: none;
+}
+
+.contenedor-recibir-pedido-compra-recoge-envio-domicilio{
+    margin: 0 auto 2rem;
+    width: 100%;
+    max-height: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+
+    display: none;
+    
+    position: fixed;
+    z-index: 1002;
+
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.contenedor-recibir-pedido-compra-recoge-envio-domicilio.visible {
+    display: block;
+}
+
+.contenedor-recibir-pedido-compra-recoge-envio-domicilio.hidden {
+    display: none;
+}
+
+.contenedor-cuadro-notificaciones{
+    margin: 0;
+    width: 90%;
+    max-height: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+
+    display: none;
+    
+    position: fixed;
+    z-index: 1003;
+
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    
+    
+    top: 0;
+    right: 0;
+    left: auto;
+}
+
+.contenedor-cuadro-notificaciones.visible {
+    display: block;
+}
+
+.contenedor-cuadro-notificaciones.hidden {
+    display: none;
+}
+
+.contenedor-articulos-compra{
+    margin: 1rem auto 2rem;
+    width: 95%;
+    height: auto;
+}

@@ -1,0 +1,746 @@
+{
+    "tecnologia": [
+        {
+            "id": 1,
+            "titulo1": "Tecnologia",
+            "item1": "tecnologia",
+            "textoInfo1": "¡No te pierdas las mejores ofertas en Tecnología en Uno!",
+            "textoInfo2": "¿Quieres estar a la vanguardia con los mejores",
+            "textoInfo3": "dispositivos al precio más bajo? ¡Explora",
+            "textoInfo4": "nuestra selección exclusiva de productos",
+            "textoInfo5": "tecnológicos con descuentos increíbles! ",
+            "contenido": [
+                {
+                    "id": 1,
+                    "titulo1": "Computadores y accesorios",
+                    "item1": "computadores-y-accesorios",
+                    "textoInfo1": "¡No te pierdas las mejores ofertas en Computadores",
+                    "textoInfo2": "y Accesorios  en Uno! ¿Buscas el mejor rendimiento",
+                    "textoInfo3": "para trabajar, estudiar o jugar? ¡Descubre",
+                    "textoInfo4": "nuestra selección exclusiva de computadores",
+                    "textoInfo5": "y accesorios con descuentos increíbles!",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Gaming",
+                            "item1": "gaming",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Gaming",
+                            "textoInfo2": "en Uno! ¿Eres un amante de los videojuegos y",
+                            "textoInfo3": "buscas la mejor tecnología? ¡Descubre nuestra",
+                            "textoInfo4": "selección exclusiva de productos gaming con",
+                            "textoInfo5": "descuentos increíbles! Desde laptops y PCs de",
+                            "textoInfo6": "alto rendimiento hasta teclados, mouse y ",
+                            "textoInfo7": "auriculares diseñados para llevar tu",
+                            "textoInfo8": "experiencia de juego al siguiente nivel."
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "De escritorio y all in one",
+                            "item1": "de-escritorio-y-all-in-one",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Computadoras",
+                            "textoInfo2": "de Escritorio y All-in-One en Uno! ¿Buscas un",
+                            "textoInfo3": "equipo potente y eficiente para tu hogar o",
+                            "textoInfo4": "oficina? ¡Explora nuestra selección exclusiva",
+                            "textoInfo5": "de computadoras de escritorio y todo en uno con",
+                            "textoInfo6": "descuentos increíbles! Desde equipos de alto",
+                            "textoInfo7": "rendimiento para trabajo y multitarea hasta opciones",
+                            "textoInfo8": "compactas y elegantes para ahorrar espacio.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "allInOneHPAMDRyzen37320URAM8GB512GBSSD24cr0000la.jpg",
+                                    "vendidoPor": "Power computer",
+                                    "nombreProductoUnitario": "All In One HP AMD Ryzen 3 7320U RAM 8 GB 512 GB SSD 24cr0000la",
+                                    "detalle1": "HP AMD",
+                                    "detalle2": "Ryzen 3 7320U",
+                                    "marcaProductoUnitario": "HP",
+                                    "porcentajeProductoDescuentoUnitario": 45,
+                                    "precioProductoAntesUnitarioPorcentaje": 3082900,
+                                    "precioProductoOfertaUno": 1695596,
+                                    "precioProductoUnitarioOtros": 1849000
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "aioLenovo27IntelI512450HRam16Gb1TbSsdBlack.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Aio Lenovo 27′ Intel I5 12450H Ram 16Gb 1Tb Ssd Black",
+                                    "detalle1": "Aio Lenovo",
+                                    "detalle2": "27′ Intel I5",
+                                    "marcaProductoUnitario": "Lenovo",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 4215000,
+                                    "precioProductoUnitario": 2950500
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Copilot + PC's IA",
+                            "item1": "copilot-pcs-ia",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Copilot",
+                            "textoInfo2": "y PCs con IA en Uno! ¿Estás listo para llevar",
+                            "textoInfo3": "tu productividad y rendimiento al siguiente",
+                            "textoInfo4": "nivel con la inteligencia artificial? ¡Descubre",
+                            "textoInfo5": "nuestra selección exclusiva de PCs con tecnología",
+                            "textoInfo6": "IA y Copilot integrado, diseñadas para ofrecerte",
+                            "textoInfo7": "una experiencia más rápida y eficiente! Desde",
+                            "textoInfo8": "asistentes inteligentes hasta sistemas optimizados."
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Tablets",
+                            "item1": "tablets",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Tablets",
+                            "textoInfo2": "en Uno! ¿Buscas un dispositivo versátil y",
+                            "textoInfo3": "potente para trabajar, estudiar o disfrutar",
+                            "textoInfo4": "de entretenimiento sobre la marcha? ¡Explora",
+                            "textoInfo5": "nuestra selección exclusiva de tablets con",
+                            "textoInfo6": "descuentos increíbles! Desde modelos ligeros",
+                            "textoInfo7": "y de alto rendimiento hasta opciones",
+                            "textoInfo8": "con pantallas de alta resolución."
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Pantallas y monitores",
+                            "item1": "pantallas-y-monitores",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Pantallas",
+                            "textoInfo2": "y Monitores en Uno! ¿Buscas una calidad de imagen",
+                            "textoInfo3": "excepcional para trabajar, jugar o ver tus",
+                            "textoInfo4": "contenidos favoritos? ¡Descubre nuestra selección",
+                            "textoInfo5": "exclusiva de pantallas y monitores con descuentos",
+                            "textoInfo6": "increíbles! Desde opciones ultra panorámicas",
+                            "textoInfo7": "y 4K hasta monitores de alta tasa de refresco para",
+                            "textoInfo8": "gamers, tenemos todo lo que necesitas."
+                        },
+                        {
+                            "id": 6,
+                            "titulo1": "Videos proyectores",
+                            "item1": "videos-proyectores",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Video",
+                            "textoInfo2": "Proyectores en Uno! ¿Buscas una forma",
+                            "textoInfo3": "impactante de presentar tus contenidos o",
+                            "textoInfo4": "disfrutar de una película en gran pantalla?",
+                            "textoInfo5": "¡Explora nuestra selección exclusiva de",
+                            "textoInfo6": "video proyectores con descuentos increíbles!",
+                            "textoInfo7": "Desde modelos portátiles hasta opciones de",
+                            "textoInfo8": "alta definición para el hogar o la oficina.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "videoBeamProyectorParaNinosConParlanteHdKids700Lm.jpg",
+                                    "vendidoPor": "Novapunto colo",
+                                    "nombreProductoUnitario": "Video Beam Proyector Para Niños Con Parlante Hd Kids 700Lm",
+                                    "marcaProductoUnitario": "Generico",
+                                    "porcentajeProductoDescuentoUnitario": 54,
+                                    "precioProductoAntesUnitarioPorcentaje": 699900,
+                                    "precioProductoUnitario": 314999
+                                }
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "titulo1": "Accesorios",
+                            "item1": "accesorios",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Accesorios",
+                            "textoInfo2": "en Uno! ¿Buscas complementar tu tecnología con",
+                            "textoInfo3": "los mejores gadgets y periféricos? ¡Descubre",
+                            "textoInfo4": "nuestra selección exclusiva de accesorios con",
+                            "textoInfo5": "descuentos increíbles! Desde cargadores, fundas",
+                            "textoInfo6": "y teclados hasta audífonos, mouse y soportes,",
+                            "textoInfo7": "tenemos todo lo que necesitas para optimizar tu",
+                            "textoInfo8": "experiencia tecnológica."
+                        },
+                        {
+                            "id": 8,
+                            "titulo1": "Pines de licencias de software y antivirus",
+                            "item1": "pines-de-licencias-de-software-y-antivirus",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Pines de",
+                            "textoInfo2": "Licencias de Software y Antivirus en Uno!",
+                            "textoInfo3": "¿Quieres proteger tu computadora y optimizar tu",
+                            "textoInfo4": "software al mejor precio? ¡Descubre nuestra",
+                            "textoInfo5": "selección exclusiva de pines para licencias",
+                            "textoInfo6": "de software y antivirus con descuentos",
+                            "textoInfo7": "increíbles! Desde programas de productividad",
+                            "textoInfo8": "hasta soluciones de seguridad líderes en el mercado"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo1": "Mundo gamer",
+                    "item1": "mundo-gamer",
+                    "textoInfo1": "¡No te pierdas las mejores ofertas en el Mundo",
+                    "textoInfo2": "Gamer en Uno! ¿Eres un verdadero fanático de",
+                    "textoInfo3": "los videojuegos? ¡Descubre nuestra selección",
+                    "textoInfo4": "exclusiva de productos gamer con descuentos",
+                    "textoInfo5": "increíbles! Desde consolas y accesorios",
+                    "textoInfo6": "especializados hasta videojuegos y gadgets,",
+                    "textoInfo7": "tenemos todo lo que necesitas para llevar",
+                    "textoInfo8": "tu experiencia de juego al máximo nivel.",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Consolas",
+                            "item1": "consolas",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Consolas",
+                            "textoInfo2": "en Uno! ¿Estás listo para llevar tu experiencia",
+                            "textoInfo3": "de juego a nuevas alturas? ¡Descubre nuestra",
+                            "textoInfo4": "selección exclusiva de consolas con descuentos",
+                            "textoInfo5": "increíbles! Desde las más populares hasta opciones",
+                            "textoInfo6": "de última generación, tenemos todo lo que necesitas",
+                            "textoInfo7": "para disfrutar de tus juegos favoritos",
+                            "textoInfo8": "con la mejor calidad y rendimiento."
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Monitores gamer",
+                            "item1": "monitores-gamer",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Monitores",
+                            "textoInfo2": "Gamer en Uno! ¿Buscas un monitor que te",
+                            "textoInfo3": "ofrezca una experiencia de juego sin igual?",
+                            "textoInfo4": "¡Explora nuestra selección exclusiva de",
+                            "textoInfo5": "monitores gamer con descuentos increíbles!",
+                            "textoInfo6": "Desde pantallas con altas tasas de refresco,",
+                            "textoInfo7": "resoluciones 4K, hasta modelos curvos para",
+                            "textoInfo8": "una inmersión total, ¡llevalo ahora!"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Videojuegos",
+                            "item1": "videojuegos",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en",
+                            "textoInfo2": "Videojuegos en Uno! ¿Estás listo para",
+                            "textoInfo3": "sumergirte en nuevas aventuras,",
+                            "textoInfo4": "desafíos y mundos virtuales?",
+                            "textoInfo5": "¡Descubre nuestra selección exclusiva",
+                            "textoInfo6": "de videojuegos con descuentos increíbles!",
+                            "textoInfo7": "Desde títulos de acción y aventura hasta",
+                            "textoInfo8": "opciones para todos los gustos y plataformas"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Controles y accesorios",
+                            "item1": "controles-y-accesorios",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en",
+                            "textoInfo2": "Controles y Accesorios en Uno! ¿Buscas",
+                            "textoInfo3": "mejorar tu experiencia de juego con los",
+                            "textoInfo4": "mejores periféricos? ¡Explora nuestra",
+                            "textoInfo5": "selección exclusiva de controles y",
+                            "textoInfo6": "accesorios con descuentos increíbles!",
+                            "textoInfo7": "Desde mandos ergonómicos, teclados",
+                            "textoInfo8": "y mouses especializados hasta auriculares."
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Sillas",
+                            "item1": "sillas",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Sillas",
+                            "textoInfo2": "en Uno! ¿Buscas comodidad y estilo para",
+                            "textoInfo3": "tu espacio de gaming? ¡Descubre nuestra",
+                            "textoInfo4": "selección exclusiva de sillas con descuentos",
+                            "textoInfo5": "increíbles! Tales como sillas gamer",
+                            "textoInfo6": "diseñadas para una experiencia de juego óptima",
+                            "textoInfo7": ", tenemos todo lo que necesitas para",
+                            "textoInfo8": "sentarte con estilo y confort."
+                        },
+                        {
+                            "id": 6,
+                            "titulo1": "Pines de video juegos",
+                            "item1": "pines-de-video-juegos",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Pines",
+                            "textoInfo2": "de Videojuegos en Uno! ¿Eres un fanático de los",
+                            "textoInfo3": "videojuegos y te encanta coleccionar artículos",
+                            "textoInfo4": "exclusivos? ¡Explora nuestra selección de pines",
+                            "textoInfo5": "con diseños inspirados en tus juegos favoritos!",
+                            "textoInfo6": "Desde personajes icónicos hasta emblemas y logos,",
+                            "textoInfo7": "tenemos todo lo que necesitas para destacar tu",
+                            "textoInfo8": "pasión por el gaming de una manera única."
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "titulo1": "Celulares",
+                    "item1": "celulares",
+                    "textoInfo1": "¡No te pierdas las mejores ofertas en Celulares",
+                    "textoInfo2": "en Uno! ¿Estás buscando un smartphone que se",
+                    "textoInfo3": "ajuste a tu presupuesto y necesidades? ¡Descubre",
+                    "textoInfo4": "nuestra selección exclusiva de celulares de",
+                    "textoInfo5": "gama alta, media y baja con descuentos increíbles!",
+                    "textoInfo6": "Desde modelos de gama alta con tecnología de",
+                    "textoInfo7": "vanguardia, cámaras de alta resolución y pantallas",
+                    "textoInfo8": "4K, hasta opciones de gama media con un rendimiento",
+                    "textoInfo9": "equilibrado y celulares de gama baja.",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Gama alta",
+                            "item1": "gama-alta",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en",
+                            "textoInfo2": "Celulares de Gama Alta en Uno! ¿Buscas",
+                            "textoInfo3": "lo último en tecnología, rendimiento",
+                            "textoInfo4": "y diseño? ¡Explora nuestra selección",
+                            "textoInfo5": "exclusiva de smartphones de gama alta",
+                            "textoInfo6": "con descuentos increíbles! Desde cámaras",
+                            "textoInfo7": "profesionales, pantallas de alta resolución",
+                            "textoInfo8": "y procesadores de última generación hasta",
+                            "textoInfo9": "baterías de larga duración.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "celularSamsungGalaxyS25ULTRA5G512GB12GBRAMBLANCOGALAXYWATCH740MMBT.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Celular Samsung Galaxy S25 ULTRA 5G 512 GB 12 GB RAM BLANCO + GALAXY WATCH7 40MM BT",
+                                    "detalles1": "Celular Samsung",
+                                    "detalles2": "Galaxy S25 ULTRA",
+                                    "marcaProductoUnitario": "Samsung",
+                                    "porcentajeProductoDescuentoUnitario": 50,
+                                    "precioProductoAntesUnitarioPorcentaje": 7219900,
+                                    "precioProductoOfertaUno": 3130940,
+                                    "precioProductoUnitarioOtros": 3609950
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Gama media",
+                            "item1": "gama-media",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en",
+                            "textoInfo2": "Celulares de Gama Media en Uno! ¿Buscas",
+                            "textoInfo3": "un celular con buen rendimiento a un",
+                            "textoInfo4": "buen rendimiento a un excelente precio?",
+                            "textoInfo5": "¡Descubre nuestra selección exclusiva de",
+                            "textoInfo6": "smartphones de gama media con descuentos",
+                            "textoInfo7": "increíbles! Con cámaras de calidad,",
+                            "textoInfo8": "pantallas nítidas y procesadores rápidos.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "googlePixel7A128Gb8GbRamAzul.jpg",
+                                    "vendidoPor": "Hphones",
+                                    "nombreProductoUnitario": "Google Pixel 7A 128 Gb 8 Gb Ram Azul",
+                                    "marcaProductoUnitario": "Google",
+                                    "detalles1": "Google Pixel",
+                                    "detalles2": "7A 128 Gb 8",
+                                    "porcentajeProductoDescuentoUnitario": 18,
+                                    "precioProductoAntesUnitarioPorcentaje": 2349999,
+                                    "precioProductoUnitario": 1926999
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Gama baja",
+                            "item1": "gama-baja",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en",
+                            "textoInfo2": "Celulares de Gama Baja en Uno! ¿Buscas",
+                            "textoInfo3": "un teléfono accesible con las funciones",
+                            "textoInfo4": "esenciales para tu día a día? ¡Explora",
+                            "textoInfo5": "nuestra selección exclusiva de",
+                            "textoInfo6": "smartphones de gama baja con descuentos",
+                            "textoInfo7": "increíbles! Con pantallas de buena calidad,",
+                            "textoInfo8": "cámaras adecuadas y un rendimiento confiable.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "celularRedmi14C128Gb4GbRamNegro.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Celular Redmi 14C 128Gb 4Gb Ram Negro",
+                                    "marcaProductoUnitario": "Redmi",
+                                    "detalles1": "Celular Redmi",
+                                    "detalles2": "14C 128Gb",
+                                    "porcentajeProductoDescuentoUnitario": 32,
+                                    "precioProductoAntesUnitarioPorcentaje": 620900,
+                                    "precioProductoUnitario": 418900
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "celularXiaomiPocoM6Pro512Gb12Ram64MpNegro.jpg",
+                                    "vendidoPor": "Technology expr",
+                                    "nombreProductoUnitario": "Celular Xiaomi Poco M6 Pro / 512Gb / 12Ram / 64Mp Negro",
+                                    "marcaProductoUnitario": "Xiaomi",
+                                    "detalles1": "Celular Xiaomi",
+                                    "detalles2": "Poco M6 Pro",
+                                    "porcentajeProductoDescuentoUnitario": 63,
+                                    "precioProductoAntesUnitarioPorcentaje": 2899900,
+                                    "precioProductoUnitario": 1063840
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "celularRealmeC67256GB8GBRAMNegro.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Celular Realme C67 256 GB 8 GB RAM Negro",
+                                    "marcaProductoUnitario": "Realme",
+                                    "detalles1": "Celular Realme",
+                                    "detalles2": "C67 256",
+                                    "porcentajeProductoDescuentoUnitario": 31,
+                                    "precioProductoAntesUnitarioPorcentaje": 1450400,
+                                    "precioProductoOfertaUno": 410280,
+                                    "precioProductoUnitarioOtros": 449524
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "titulo1": "Televisores",
+                    "item1": "televisores",
+                    "textoInfo1": "¡No te pierdas las mejores ofertas en Televisores",
+                    "textoInfo2": "en Uno! ¿Buscas una experiencia visual única",
+                    "textoInfo3": "y envolvente para tu hogar? ¡Descubre nuestra",
+                    "textoInfo4": "selección exclusiva de televisores con descuentos",
+                    "textoInfo5": "increíbles! Desde modelos 4K y OLED hasta opciones",
+                    "textoInfo6": "con Smart TV para disfrutar de tus plataformas",
+                    "textoInfo7": "de streaming favoritas, tenemos todo lo que",
+                    "textoInfo8": "necesitas para llevar el cine a tu sala.",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Televisores Samsung",
+                            "item1": "televisores-samsung",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Televisores",
+                            "textoInfo2": "Samsung en Uno! ¿Buscas tecnología de vanguardia",
+                            "textoInfo3": "y calidad de imagen excepcional? ¡Explora nuestra",
+                            "textoInfo4": "selección exclusiva de televisores Samsung con",
+                            "textoInfo5": "descuentos increíbles! Desde modelos 4K y QLED",
+                            "textoInfo6": "hasta Smart TVs con funciones avanzadas,",
+                            "textoInfo7": "disfruta de colores vibrantes, imágenes nítidas",
+                            "textoInfo8": "y una experiencia de entretenimiento inigualable.",
+                            "textoInfo9": "¡Lleva el cine y la diversión a tu hogar con Samsung!",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "televisorSamsung65PulgadasLedUhd4KSmartTvUN65DU7000KXZL.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Televisor Samsung 65 Pulgadas LED Uhd4K Smart TV UN65DU7000KXZL",
+                                    "detalle1": "Televisor Samsung 65",
+                                    "detalle2": "Pulgadas LED",
+                                    "marcaProductoUnitario": "Samsung",
+                                    "porcentajeProductoDescuentoUnitario": 53,
+                                    "precioProductoAntesUnitarioPorcentaje": 4099900,
+                                    "precioProductoOfertaUno": 1899900,
+                                    "precioProductoUnitarioOtros": 2199900
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "televisorSAMSUNG55PulgadasQLEDUhd4KSmartTVQN55Q60DAKXZL.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Televisor Samsung 55 Pulgadas QLED Uhd4K Smart TV QN55Q60DAKXZL",
+                                    "detalle1": "Televisor Samsung 55",
+                                    "detalle2": "Pulgadas QLED",
+                                    "marcaProductoUnitario": "Samsung",
+                                    "porcentajeProductoDescuentoUnitario": 51,
+                                    "precioProductoAntesUnitarioPorcentaje": 4199900,
+                                    "precioProductoOfertaUno": 2047907,
+                                    "precioProductoUnitarioOtros": 2299900
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "televisorSAMSUNG55pulgadasNeoQLEDUhd4KSmartTVQN55QN85DBKXZL.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Televisor Samsung 55 pulgadas Neo QLED Uhd4K Smart TV QN55QN85DBKXZL",
+                                    "detalle1": "Televisor Samsung 55",
+                                    "detalle2": "Pulgadas Neo QLED",
+                                    "marcaProductoUnitario": "Samsung",
+                                    "porcentajeProductoDescuentoUnitario": 50,
+                                    "precioProductoAntesUnitarioPorcentaje": 6299900,
+                                    "precioProductoOfertaUno": 3134905,
+                                    "precioProductoUnitarioOtros": 3449900 
+                                }
+
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Televisores LG",
+                            "item1": "televisores-lg",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Televisores",
+                            "textoInfo2": "LG en Uno! ¿Buscas una experiencia visual de calidad",
+                            "textoInfo3": "superior con tecnología avanzada? ¡Descubre nuestra",
+                            "textoInfo4": "selección exclusiva de televisores LG con descuentos",
+                            "textoInfo5": "increíbles! Desde modelos 4K, OLED y Smart TV",
+                            "textoInfo6": "hasta opciones con funciones de inteligencia",
+                            "textoInfo7": "artificial, disfruta de imágenes impresionantes,",
+                            "textoInfo8": "sonido envolvente y todo lo que necesitas para",
+                            "textoInfo9": "transformar tu hogar en un centro de entretenimiento.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "televisorLG65PulgadasLEDUhd4KSmartTV65UR7410PSA.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Televisor LG 65 Pulgadas LED Uhd4K Smart TV 65UR7410PSA.AWC",
+                                    "detalle1": "Televisor LG 65",
+                                    "detalle2": "Pulgadas LED",
+                                    "marcaProductoUnitario": "LG",
+                                    "porcentajeProductoDescuentoUnitario": 55,
+                                    "precioProductoAntesUnitarioPorcentaje": 3999900,
+                                    "precioProductoOfertaUno": 1799900,
+                                    "precioProductoUnitarioOtros": 2099900
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Televisores Hisense",
+                            "item1": "televisores-hisense",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Televisores",
+                            "textoInfo2": "Hisense en Uno! ¿Estás buscando calidad, rendimiento",
+                            "textoInfo3": "y un excelente precio? ¡Explora nuestra selección",
+                            "textoInfo4": "exclusiva de televisores Hisense con descuentos",
+                            "textoInfo5": "increíbles! Desde modelos 4K, LED y Smart TV, hasta",
+                            "textoInfo6": "opciones con tecnologías avanzadas para una",
+                            "textoInfo7": "experiencia visual impresionante, Hisense ofrece",
+                            "textoInfo8": "todo lo que necesitas para disfrutar de tus",
+                            "textoInfo9": "contenidos favoritos con colores nítidos.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "televisorHISENSE58PulgadasLEDUhd4KSmartTV58A6N.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Televisor Hisense 58 Pulgadas LED Uhd4K Smart TV 58A6N",
+                                    "detalle1": "Televisor Hisense 58",
+                                    "detalle2": "Pulgadas LED",
+                                    "marcaProductoUnitario": "Hisense",
+                                    "porcentajeProductoDescuentoUnitario": 61,
+                                    "precioProductoAntesUnitarioPorcentaje": 3599900,
+                                    "precioProductoOfertaUno": 1379900,
+                                    "precioProductoUnitarioOtros": 1599900
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Televisores Hyundai",
+                            "item1": "televisores-hyundai",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Televisores",
+                            "textoInfo2": "Hyundai en Uno! ¿Buscas un televisor con tecnología",
+                            "textoInfo3": "moderna y una excelente relación calidad-precio?",
+                            "textoInfo4": "¡Descubre nuestra selección exclusiva de televisores",
+                            "textoInfo5": "Hyundai con descuentos increíbles! Desde opciones",
+                            "textoInfo6": "con resoluciones HD, Full HD y 4K, hasta modelos",
+                            "textoInfo7": "Smart TV para disfrutar de tus plataformas de",
+                            "textoInfo8": "streaming favoritas, Hyundai ofrece una experiencia",
+                            "textoInfo9": "visual impresionante sin comprometer tu presupuesto.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "televisorHYUNDAI43PulgadasLEDFhdSmartTVHYLED4322GiM.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Televisor Hyundai 43 Pulgadas LED Fhd Smart TV HYLED4322GiM",
+                                    "detalle1": "Televisor Hyundai 43",
+                                    "detalle2": "Pulgadas LED",
+                                    "marcaProductoUnitario": "Hyundai",
+                                    "porcentajeProductoDescuentoUnitario": 23,
+                                    "precioProductoAntesUnitarioPorcentaje": 1256900,
+                                    "precioProductoOfertaUno": 957100,
+                                    "precioProductoUnitarioOtros": 1019900
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Televisores Challenger",
+                            "item1": "televisores-challenger",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Televisores",
+                            "textoInfo2": "Challenger en Uno! ¿Buscas un televisor con gran",
+                            "textoInfo3": "rendimiento y un precio accesible? ¡Explora nuestra",
+                            "textoInfo4": "selección exclusiva de televisores Challenger con",
+                            "textoInfo5": "descuentos increíbles! Con opciones de resolución",
+                            "textoInfo6": "Full HD y tecnología LED, estos televisores ofrecen",
+                            "textoInfo7": "una calidad de imagen nítida y colores vibrantes,",
+                            "textoInfo8": "todo a un excelente precio. ¡Haz de tu sala el",
+                            "textoInfo9": "lugar perfecto para disfrutar de series y películas.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "televisorCHALLENGER65PulgadasLEDUhd4KSmartTVUHD65LO70.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Televisor Challenger 65 Pulgadas LED Uhd4K Smart TV UHD65LO70",
+                                    "detalle1": "Televisor Challenger 65",
+                                    "detalle2": "Pulgadas LED",
+                                    "marcaProductoUnitario": "CHALLENGER",
+                                    "precioProductoUnitario": 2079900
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "titulo1": "Televisores Finlandek",
+                            "item1": "televisores-finlandek",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Televisores",
+                            "textoInfo2": "Finlandek en Uno! ¿Buscas un televisor de excelente",
+                            "textoInfo3": "calidad a un precio asequible? ¡Descubre nuestra",
+                            "textoInfo4": "selección exclusiva de televisores Finlandek con",
+                            "textoInfo5": "descuentos increíbles! Con opciones de resolución",
+                            "textoInfo6": "Full HD y tecnología LED, estos televisores",
+                            "textoInfo7": "ofrecen una gran experiencia visual con colores",
+                            "textoInfo8": "brillantes y detalles nítidos. ¡Renueva tu hogar",
+                            "textoInfo9": "y disfruta de tu entretenimiento favorito.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "televisorFindlandek43PulgadasLEDFhdSmartTVFILED4301IV.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Televisor Findlandek 43 Pulgadas LED Fhd Smart TV FILED4301IV",
+                                    "detalle1": "Televisor Findlandek 43",
+                                    "detalle2": "Pulgadas LED",
+                                    "marcaProductoUnitario": "Findlandek",
+                                    "porcentajeProductoDescuentoUnitario": 48,
+                                    "precioProductoAntesUnitarioPorcentaje": 1599900,
+                                    "precioProductoOfertaUno": 819905,
+                                    "precioProductoUnitarioOtros": 899900
+                                }
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "titulo1": "Televisores TCL",
+                            "item1": "televisores-tcl",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Televisores",
+                            "textoInfo2": "TCL en Uno! ¿Estás buscando una excelente",
+                            "textoInfo3": "calidad de imagen y un rendimiento impresionante?",
+                            "textoInfo4": "¡Explora nuestra selección exclusiva de",
+                            "textoInfo5": "televisores TCL con descuentos increíbles! Desde",
+                            "textoInfo6": "modelos 4K, LED y Smart TV hasta opciones",
+                            "textoInfo7": "con Dolby Vision y sonido envolvente, TCL te ofrece",
+                            "textoInfo8": "una experiencia visual de alta definición que",
+                            "textoInfo9": "transformará tu hogar en el centro de entretenimiento.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "televisorTCL50PulgadasQLEDUhd4KSmartTV50C655.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Televisor TCL 50 pulgadas QLED Uhd4K Smart TV 50C655",
+                                    "detalle1": "Televisor TCL 50",
+                                    "detalle2": "pulgadas QLED",
+                                    "marcaProductoUnitario": "TCL",
+                                    "porcentajeProductoDescuentoUnitario": 56,
+                                    "precioProductoAntesUnitarioPorcentaje": 3499900,
+                                    "precioProductoOfertaUno": 1524900,
+                                    "precioProductoUnitarioOtros": 1699900
+                                }
+                            ]
+                        },
+                        {
+                            "id": 8,
+                            "titulo1": "Televisores Kalley",
+                            "item1": "televisores-kalley",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Televisores",
+                            "textoInfo2": "Kalley en Uno! ¿Buscas un televisor con gran calidad",
+                            "textoInfo3": "de imagen a un precio accesible? ¡Descubre nuestra",
+                            "textoInfo4": "selección exclusiva de televisores Kalley con",
+                            "textoInfo5": "descuentos increíbles! Con opciones de resolución HD",
+                            "textoInfo6": "y tecnología LED, estos televisores ofrecen una",
+                            "textoInfo7": "experiencia visual nítida y colores vibrantes.",
+                            "textoInfo8": "¡Haz de tu hogar un lugar ideal para",
+                            "textoInfo9": "disfrutar de tus contenidos favoritos con Kalley!",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "televisorKalley58PulgadasQLEDUhd4KSmartTV.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Televisor Kalley 58 Pulgadas QLED Uhd4K Smart TV Google TV",
+                                    "detalle1": "Televisor Kalley 58",
+                                    "detalle2": "Pulgadas QLED",
+                                    "marcaProductoUnitario": "Kalley",
+                                    "porcentajeProductoDescuentoUnitario": 50,
+                                    "precioProductoAntesUnitarioPorcentaje": 3499900,
+                                    "precioProductoOfertaUno": 1749900,
+                                    "precioProductoUnitarioOtros": 1849900
+                                }
+                            ]
+                        },
+                        {
+                            "id": 9,
+                            "titulo1": "Televisores Caixun",
+                            "item1": "televisores-caixun",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Televisores",
+                            "textoInfo2": "Caixun en Uno! ¿Buscas un televisor con una",
+                            "textoInfo3": "excelente relación calidad-precio? ¡Explora",
+                            "textoInfo4": "nuestra selección exclusiva de televisores",
+                            "textoInfo5": "Caixun con descuentos increíbles! Con opciones de",
+                            "textoInfo6": "resolución HD, Full HD y Smart TV, estos televisores",
+                            "textoInfo7": "ofrecen una experiencia visual nítida, colores",
+                            "textoInfo8": "vibrantes y acceso a tus plataformas de streaming",
+                            "textoInfo9": "favoritas. ¡Disfruta del mejor entretenimiento!",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "televisorCaixun40PulgadasLEDFhdSmartTVC40VAFG.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Televisor Caixun 40 Pulgadas LED Fhd Smart TV C40VAFG",
+                                    "detalle1": "Televisor Caixun 40",
+                                    "detalle2": "Pulgadas LED",
+                                    "marcaProductoUnitario": "Caixun",
+                                    "porcentajeProductoDescuentoUnitario": 47,
+                                    "precioProductoAntesUnitarioPorcentaje": 1499900,
+                                    "precioProductoOfertaUno": 789900,
+                                    "precioProductoUnitarioOtros": 879900
+                                }
+                            ]
+                        },
+                        {
+                            "id": 10,
+                            "titulo1": "Televisores Otras marcas",
+                            "item1": "televisores-otras-marcas",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Televisores",
+                            "textoInfo2": "de Otras Marcas en Uno! ¿Buscas una excelente",
+                            "textoInfo3": "calidad de imagen y funcionalidad a un precio",
+                            "textoInfo4": "accesible? ¡Explora nuestra selección exclusiva",
+                            "textoInfo5": "de televisores de diversas marcas con descuentos",
+                            "textoInfo6": "increíbles! Con opciones en HD, Full HD, 4K y",
+                            "textoInfo7": "Smart TV, estos televisores ofrecen una experiencia",
+                            "textoInfo8": "visual impresionante y acceso a tus contenidos",
+                            "textoInfo9": "favoritos. ¡El televisor perfecto para ti!"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "titulo1": "Neveras",
+                    "item1": "neveras",
+                    "textoInfo1": "¡No te pierdas las mejores ofertas en Neveras",
+                    "textoInfo2": "en Uno! ¿Buscas la mejor opción para mantener",
+                    "textoInfo3": "tus alimentos frescos y organizados? ¡Descubre",
+                    "textoInfo4": "nuestra selección exclusiva de neveras con",
+                    "textoInfo5": "descuentos increíbles! Desde modelos de alta",
+                    "textoInfo6": "capacidad, con tecnología de bajo consumo,",
+                    "textoInfo7": "hasta opciones con congeladores separados y",
+                    "textoInfo8": "funciones inteligentes, ¡la nevera perfecta!.",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Marca Haceb",
+                            "item1": "marca-haceb",
+                            "textoInfo1": "¡No te pierdas las mejores ofertas en Neveras",
+                            "textoInfo2": "Haceb en Uno! ¿Buscas una nevera de calidad,",
+                            "textoInfo3": "eficiente y con un diseño moderno? ¡Descubre",
+                            "textoInfo4": "nuestra selección exclusiva de Neveras Haceb",
+                            "textoInfo5": "con descuentos increíbles! Desde modelos de",
+                            "textoInfo6": "una puerta, hasta opciones No Frost y con",
+                            "textoInfo7": "congelador superior o inferior, Haceb",
+                            "textoInfo8": "ofrece tecnología avanzada para mantener",
+                            "textoInfo9": "tus alimentos frescos por más tiempo.",
+                            "textoMarcaDeProducto1": "En electros",
+                            "textoMarcaDeProducto2": "Marca Haceb",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "neveraHacebCongeladorSuperior311LTS9002751.jpg",
+                                    "vendidoPor": "Éxito",
+                                    "nombreProductoUnitario": "Nevera Haceb Congelador Superior 311 LTS 9002751",
+                                    "marcaProductoUnitario": "Haceb",
+                                    "porcentajeProductoDescuentoUnitario": 40,
+                                    "precioProductoAntesUnitarioPorcentaje": 2629900,
+                                    "precioProductoOfertaUno": 1574900,
+                                    "precioProductoUnitarioOtros": 1762033
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

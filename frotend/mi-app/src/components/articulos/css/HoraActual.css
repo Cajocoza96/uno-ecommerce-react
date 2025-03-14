@@ -1,0 +1,64 @@
+.contenedor-hora-actual{
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-hora-actual .hora-actual{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape){
+    .contenedor-hora-actual .hora-actual{
+        font-size: 2.2rem;
+    }
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px){
+    .contenedor-hora-actual .hora-actual{
+        font-size: 2.2rem;
+    }
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px){
+    .contenedor-hora-actual .hora-actual{
+        font-size: 2.4rem;
+    }
+}
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+    .contenedor-hora-actual .hora-actual{
+        font-size: 2.6rem;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px){
+    .contenedor-hora-actual .hora-actual{
+        font-size: 2.8rem;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px){
+    .contenedor-hora-actual .hora-actual{
+        font-size: 3rem;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px){
+    .contenedor-hora-actual .hora-actual{
+        font-size: 3.2rem;
+    }
+}

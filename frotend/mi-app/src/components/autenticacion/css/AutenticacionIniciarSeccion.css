@@ -1,0 +1,762 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body, html{
+    height: 100%;
+}
+
+.contenedor-autenticacion-iniciar-seccion-derechos-footer{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-autenticacion-iniciar-seccion{
+    margin-bottom: 14.3rem;
+    width: 100%;
+    min-height: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.contenedor-eligir-opcion-ingresar{
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-eligir-opcion-ingresar .texto-eligir-opcion-ingresar{
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.contenedor-iniciar-seccion-clave-acceso-ingresar-google-terminos-condiciones{
+    margin-bottom: 1rem;
+    width: 95%;
+    height: 100vh;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.contenedor-inicio-seccion{
+    width: 95%;
+    height: auto;
+    background-color: #c9c3c3e5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.contenedor-iniciar-con-email-contrasena .texto-iniciar-con-email-contrasena{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenedor-ingresar-email{
+    width: 95%;
+    height: auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 0.5rem;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.contenedor-ingresar-email input{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    border: none;
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+.contenedor-ingresar-email input:focus{
+    outline: none;
+}
+
+.contenedor-icono-ingresar-contrasena{
+    width: 95%;
+    height: auto;
+    padding: 1rem;
+    background-color: #ffffffe5;
+    border: 1px solid #000000;
+    border-radius: 0.7rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+.contenedor-icono-ingresar-contrasena .icono-visualizar-contrasena{
+    font-size: 1.1rem;
+    color: #312f2fe5;
+    font-weight: bold;
+}
+
+.contenedor-icono-ingresar-contrasena input{
+    width: 100%;
+    height: auto;
+    background-color: #ffffffe5;
+    border: none;
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+.contenedor-icono-ingresar-contrasena input:focus{
+    outline: none;
+}
+
+.contenedor-olvidaste-contrasena{
+    width: 95%;
+    height: auto;
+}
+
+.contenedor-olvidaste-contrasena .texto-olvidaste-contrasena{
+    font-size: 1rem;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+.contenedor-inicio-seccion .boton-entrar{
+    padding: 0.8rem;
+    width: 95%;
+    height: auto;
+    border: none;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fc5304;
+    cursor: pointer;
+}
+
+.contenedor-inicio-seccion .boton-entrar:active{
+    background-color: #e9743d;
+}
+
+.link-sin-contrasena-creala{
+    width: 95%;
+    height: auto;
+}
+
+.contenedor-clave-acceso-ingresar-con-google-terminos-condiciones{
+    padding: 0.5rem;
+    width: 95%;
+    height: auto;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contenedor-sin-contrasena-creala{
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-sin-contrasena-creala .texto-sin-contrasena-creala{
+    font-size: 1rem;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+.contenedor-recibir-clave-acceso{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 0.5rem;
+}
+
+.contenedor-recibir-clave-acceso .texto-recibir-clave-acceso{
+    font-size: 1rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.contenedor-icono-ingresar-con-google{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+}
+
+.contenedor-icono-google{
+    width: 5.5%;
+    height: auto;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-icono-google .icono-google{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.contenedor-ingresar-con-google .texto-ingresar-con-google{
+    font-size: 1rem;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenedor-texto-terminos-condiciones-tratamientos-datos-1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+    font-size: 0.8rem;
+    color: #000000;
+}
+
+.contenedor-texto-terminos-condiciones-tratamientos-datos-1 .subrayado-1 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape){
+    .contenedor-autenticacion-iniciar-seccion{
+        margin-bottom: 15rem;
+    }
+
+    .contenedor-iniciar-seccion-clave-acceso-ingresar-google-terminos-condiciones{
+        flex-direction: row-reverse;
+    }
+
+    .contenedor-clave-acceso-ingresar-con-google-terminos-condiciones{
+        width: 55%;
+    }
+
+    .contenedor-icono-ingresar-con-google{
+        justify-content: center;
+    }
+
+    .contenedor-icono-google{
+        width: 10%;
+    }
+
+    .contenedor-eligir-opcion-ingresar .texto-eligir-opcion-ingresar{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-iniciar-con-email-contrasena .texto-iniciar-con-email-contrasena{
+        font-size: 1.3rem;
+    }
+
+    .contenedor-ingresar-email input{
+        font-size: 1.3rem;
+    }
+
+    .contenedor-icono-ingresar-contrasena .icono-visualizar-contrasena{
+        font-size: 1.3rem;
+    }
+
+    .contenedor-icono-ingresar-contrasena input{
+        font-size: 1.3rem;
+    }
+
+    .contenedor-olvidaste-contrasena .texto-olvidaste-contrasena{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-inicio-seccion .boton-entrar{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-sin-contrasena-creala .texto-sin-contrasena-creala{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-recibir-clave-acceso .texto-recibir-clave-acceso{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .contenedor-ingresar-con-google .texto-ingresar-con-google{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+        font-size: 1rem;
+    }
+    
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px){
+    .contenedor-autenticacion-iniciar-seccion{
+        margin-bottom: 15.4rem;
+    }
+
+    .contenedor-iniciar-seccion-clave-acceso-ingresar-google-terminos-condiciones{
+        flex-direction: row-reverse;
+    }
+
+    .contenedor-clave-acceso-ingresar-con-google-terminos-condiciones{
+        width: 55%;
+    }
+
+    .contenedor-icono-ingresar-con-google{
+        justify-content: center;
+    }
+
+    .contenedor-icono-google{
+        width: 7.5%;
+    }
+
+    .contenedor-eligir-opcion-ingresar .texto-eligir-opcion-ingresar{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-iniciar-con-email-contrasena .texto-iniciar-con-email-contrasena{
+        font-size: 1.3rem;
+    }
+
+    .contenedor-ingresar-email input{
+        font-size: 1.3rem;
+    }
+
+    .contenedor-icono-ingresar-contrasena .icono-visualizar-contrasena{
+        font-size: 1.3rem;
+    }
+
+    .contenedor-icono-ingresar-contrasena input{
+        font-size: 1.3rem;
+    }
+
+    .contenedor-olvidaste-contrasena .texto-olvidaste-contrasena{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-inicio-seccion .boton-entrar{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-sin-contrasena-creala .texto-sin-contrasena-creala{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-recibir-clave-acceso .texto-recibir-clave-acceso{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .contenedor-ingresar-con-google .texto-ingresar-con-google{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+        font-size: 1rem;
+    }
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px){
+    .contenedor-autenticacion-iniciar-seccion{
+        margin-bottom: 15rem;
+    }
+
+    .contenedor-iniciar-seccion-clave-acceso-ingresar-google-terminos-condiciones{
+        flex-direction: row-reverse;
+    }
+
+    .contenedor-clave-acceso-ingresar-con-google-terminos-condiciones{
+        width: 55%;
+    }
+
+    .contenedor-icono-ingresar-con-google{
+        justify-content: center;
+    }
+
+    .contenedor-icono-google{
+        width: 5.5%;
+    }
+
+    .contenedor-eligir-opcion-ingresar .texto-eligir-opcion-ingresar{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-iniciar-con-email-contrasena .texto-iniciar-con-email-contrasena{
+        font-size: 1.5rem;
+    }
+
+    .contenedor-ingresar-email input{
+        font-size: 1.5rem;
+    }
+
+    .contenedor-icono-ingresar-contrasena .icono-visualizar-contrasena{
+        font-size: 1.5rem;
+    }
+
+    .contenedor-icono-ingresar-contrasena input{
+        font-size: 1.5rem;
+    }
+
+    .contenedor-olvidaste-contrasena .texto-olvidaste-contrasena{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-inicio-seccion .boton-entrar{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-sin-contrasena-creala .texto-sin-contrasena-creala{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-recibir-clave-acceso .texto-recibir-clave-acceso{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .contenedor-ingresar-con-google .texto-ingresar-con-google{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+        font-size: 1.2rem;
+    }
+}
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+    .contenedor-autenticacion-iniciar-seccion{
+        margin-bottom: 15.2rem;
+    }
+
+    .contenedor-iniciar-seccion-clave-acceso-ingresar-google-terminos-condiciones{
+        flex-direction: row-reverse;
+    }
+
+    .contenedor-clave-acceso-ingresar-con-google-terminos-condiciones{
+        width: 55%;
+    }
+
+    .contenedor-icono-ingresar-con-google{
+        justify-content: center;
+    }
+
+    .contenedor-icono-google{
+        width: 5.5%;
+    }
+
+    .contenedor-eligir-opcion-ingresar .texto-eligir-opcion-ingresar{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-iniciar-con-email-contrasena .texto-iniciar-con-email-contrasena{
+        font-size: 1.7rem;
+    }
+
+    .contenedor-ingresar-email input{
+        font-size: 1.7rem;
+    }
+
+    .contenedor-icono-ingresar-contrasena .icono-visualizar-contrasena{
+        font-size: 1.7rem;
+    }
+
+    .contenedor-icono-ingresar-contrasena input{
+        font-size: 1.7rem;
+    }
+
+    .contenedor-olvidaste-contrasena .texto-olvidaste-contrasena{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-inicio-seccion .boton-entrar{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-sin-contrasena-creala .texto-sin-contrasena-creala{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-recibir-clave-acceso .texto-recibir-clave-acceso{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .contenedor-ingresar-con-google .texto-ingresar-con-google{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+        font-size: 1.4rem;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px){
+    .contenedor-autenticacion-iniciar-seccion{
+        margin-bottom: 15rem;
+    }
+
+    .contenedor-iniciar-seccion-clave-acceso-ingresar-google-terminos-condiciones{
+        flex-direction: row-reverse;
+    }
+
+    .contenedor-clave-acceso-ingresar-con-google-terminos-condiciones{
+        width: 55%;
+    }
+
+    .contenedor-icono-ingresar-con-google{
+        justify-content: center;
+    }
+
+    .contenedor-icono-google{
+        width: 4.5%;
+    }
+
+    .contenedor-eligir-opcion-ingresar .texto-eligir-opcion-ingresar{
+        font-size: 2rem;
+    }
+
+    .contenedor-iniciar-con-email-contrasena .texto-iniciar-con-email-contrasena{
+        font-size: 1.9rem;
+    }
+
+    .contenedor-ingresar-email input{
+        font-size: 1.9rem;
+    }
+
+    .contenedor-icono-ingresar-contrasena .icono-visualizar-contrasena{
+        font-size: 1.9rem;
+    }
+
+    .contenedor-icono-ingresar-contrasena input{
+        font-size: 1.9rem;
+    }
+
+    .contenedor-olvidaste-contrasena .texto-olvidaste-contrasena{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-inicio-seccion .boton-entrar{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-sin-contrasena-creala .texto-sin-contrasena-creala{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-recibir-clave-acceso .texto-recibir-clave-acceso{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .contenedor-ingresar-con-google .texto-ingresar-con-google{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+        font-size: 1.6rem;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px){
+    .contenedor-autenticacion-iniciar-seccion{
+        margin-bottom: 15.1rem;
+    }
+
+    .contenedor-iniciar-seccion-clave-acceso-ingresar-google-terminos-condiciones{
+        flex-direction: row-reverse;
+    }
+
+    .contenedor-clave-acceso-ingresar-con-google-terminos-condiciones{
+        width: 55%;
+    }
+
+    .contenedor-icono-ingresar-con-google{
+        justify-content: center;
+    }
+
+    .contenedor-icono-google{
+        width: 3%;
+    }
+
+    .contenedor-eligir-opcion-ingresar .texto-eligir-opcion-ingresar{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-iniciar-con-email-contrasena .texto-iniciar-con-email-contrasena{
+        font-size: 2.1rem;
+    }
+
+    .contenedor-ingresar-email input{
+        font-size: 2.1rem;
+    }
+
+    .contenedor-icono-ingresar-contrasena .icono-visualizar-contrasena{
+        font-size: 2.1rem;
+    }
+
+    .contenedor-icono-ingresar-contrasena input{
+        font-size: 2.1rem;
+    }
+
+    .contenedor-olvidaste-contrasena .texto-olvidaste-contrasena{
+        font-size: 2rem;
+    }
+
+    .contenedor-inicio-seccion .boton-entrar{
+        font-size: 2rem;
+    }
+
+    .contenedor-sin-contrasena-creala .texto-sin-contrasena-creala{
+        font-size: 2rem;
+    }
+
+    .contenedor-recibir-clave-acceso .texto-recibir-clave-acceso{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .contenedor-ingresar-con-google .texto-ingresar-con-google{
+        font-size: 2rem;
+    }
+
+    .contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+        font-size: 2rem;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px){
+    .contenedor-autenticacion-iniciar-seccion{
+        margin-bottom: 15rem;
+    }
+
+    .contenedor-iniciar-seccion-clave-acceso-ingresar-google-terminos-condiciones{
+        flex-direction: row-reverse;
+    }
+
+    .contenedor-clave-acceso-ingresar-con-google-terminos-condiciones{
+        width: 55%;
+    }
+
+    .contenedor-icono-ingresar-con-google{
+        justify-content: center;
+    }
+
+    .contenedor-icono-google{
+        width: 3%;
+    }
+
+    .contenedor-eligir-opcion-ingresar .texto-eligir-opcion-ingresar{
+        font-size: 2.4rem;
+    }
+
+    .contenedor-iniciar-con-email-contrasena .texto-iniciar-con-email-contrasena{
+        font-size: 2.3rem;
+    }
+
+    .contenedor-ingresar-email input{
+        font-size: 2.3rem;
+    }
+
+    .contenedor-icono-ingresar-contrasena .icono-visualizar-contrasena{
+        font-size: 2.3rem;
+    }
+
+    .contenedor-icono-ingresar-contrasena input{
+        font-size: 2.3rem;
+    }
+
+    .contenedor-olvidaste-contrasena .texto-olvidaste-contrasena{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-inicio-seccion .boton-entrar{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-sin-contrasena-creala .texto-sin-contrasena-creala{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-recibir-clave-acceso .texto-recibir-clave-acceso{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .contenedor-ingresar-con-google .texto-ingresar-con-google{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+        font-size: 2.2rem;
+    }
+}

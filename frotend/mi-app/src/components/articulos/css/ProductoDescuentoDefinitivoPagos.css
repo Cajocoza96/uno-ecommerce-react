@@ -1,0 +1,572 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.swiper-prod-desc-defi-pagos-boton-agregar {
+    width: 100%;
+    height: 100%;
+}
+
+.swiperSlide-contenedor-prod-desc-defi-pago {
+    transition: transform 0.3s ease-in-out;
+    width: 67%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-prod-desc-defi-pagos-boton-agregar {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.contenedor-imagen-prod-defi {
+    width: 60%;
+    height: 10rem;
+    overflow: hidden;
+}
+
+.contenedor-imagen-prod-defi .imagen-prod-defi {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.contenedor-detalles-desc-antes-precio-tarjeta-prod-defi-padre {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.7rem;
+}
+
+.contenedor-texto-detalles-marca-prod-defi {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-texto-detalles-prod-defi {
+    width: auto;
+    height: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-texto-detalles-prod-defi .texto-detalles-prod-defi {
+    font-size: 1rem;
+    color: #2b2929;
+    font-weight: bold;
+}
+
+.contenedor-texto-detalles-marca-prod-defi .texto-marca-prod-defi {
+    font-size: 1.1rem;
+    color: #2b2929;
+    font-weight: bold;
+}
+
+.contenedor-desc-defi-pagos {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.contenedor-precio-antes-pago-defini {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.contenedor-precio-antes-pago-defini .texto-descuento {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contenedor-precio-antes-pago-defini .texto-precio-antes {
+    color: #000000;
+    font-size: 1rem;
+    text-decoration: line-through;
+    text-decoration-color: #ff0000;
+    font-weight: bold;
+}
+
+.contenedor-precio-tarjeta-uno {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contenedor-precio-tarjeta-uno .texto-precio-tarjeta-uno {
+    color: #000000;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contenedor-tarjeta-uno {
+    padding: 0.4rem;
+    background-color: #fbff02;
+    border-radius: 50%;
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-tarjeta-uno .tarjeta-uno {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+.contenedor-precio-tarjeta-mastercard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contenedor-precio-tarjeta-mastercard .texto-precio-tarjeta-mastercard {
+    color: #ff4800f6;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contenedor-tarjeta-mastercard {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.contenedor-tarjeta-mastercard .contenedor-amarillo {
+    width: 10%;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #fbff02;
+}
+
+.contenedor-tarjeta-mastercard .contenedor-rojo {
+    width: 10%;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #ff0000;
+}
+
+
+.contenedor-descuento-otro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contenedor-descuento-otro .texto-precio-otro {
+    color: #000000;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.contenedor-texto-precio-unitario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contenedor-texto-precio-unitario .texto-precio-unitario-prod-defi {
+    color: #220147;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contenedor-boton-agregar {
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-boton-agregar .texto-vendido-por-empresa {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape) {
+    .contenedor-imagen-prod-defi {
+        height: 16rem;
+    }
+
+    .swiperSlide-contenedor-prod-desc-defi-pago{
+        flex-direction: row;
+    }
+
+    .contenedor-texto-detalles-prod-defi .texto-detalles-prod-defi {
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-texto-detalles-marca-prod-defi .texto-marca-prod-defi {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-precio-antes-pago-defini .texto-descuento {
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-precio-antes-pago-defini .texto-precio-antes {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-precio-tarjeta-uno .texto-precio-tarjeta-uno {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-precio-tarjeta-mastercard .texto-precio-tarjeta-mastercard {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-descuento-otro .texto-precio-otro {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-texto-precio-unitario .texto-precio-unitario-prod-defi {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-boton-agregar .texto-vendido-por-empresa {
+        font-size: 1.2rem;
+    }
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+    .contenedor-imagen-prod-defi {
+        height: 16rem;
+    }
+
+    .swiperSlide-contenedor-prod-desc-defi-pago{
+        flex-direction: row;
+    }
+
+    .contenedor-texto-detalles-prod-defi .texto-detalles-prod-defi {
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-texto-detalles-marca-prod-defi .texto-marca-prod-defi {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-precio-antes-pago-defini .texto-descuento {
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-precio-antes-pago-defini .texto-precio-antes {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-precio-tarjeta-uno .texto-precio-tarjeta-uno {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-precio-tarjeta-mastercard .texto-precio-tarjeta-mastercard {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-descuento-otro .texto-precio-otro {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-texto-precio-unitario .texto-precio-unitario-prod-defi {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-boton-agregar .texto-vendido-por-empresa {
+        font-size: 1.2rem;
+    }
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+    .contenedor-imagen-prod-defi {
+        height: 16rem;
+    }
+
+    .swiperSlide-contenedor-prod-desc-defi-pago{
+        flex-direction: row;
+    }
+
+    .contenedor-texto-detalles-prod-defi .texto-detalles-prod-defi {
+        font-size: 1.4rem;
+    }
+    
+    .contenedor-texto-detalles-marca-prod-defi .texto-marca-prod-defi {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-precio-antes-pago-defini .texto-descuento {
+        font-size: 1.4rem;
+    }
+    
+    .contenedor-precio-antes-pago-defini .texto-precio-antes {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-precio-tarjeta-uno .texto-precio-tarjeta-uno {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-precio-tarjeta-mastercard .texto-precio-tarjeta-mastercard {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-descuento-otro .texto-precio-otro {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-texto-precio-unitario .texto-precio-unitario-prod-defi {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-boton-agregar .texto-vendido-por-empresa {
+        font-size: 1.4rem;
+    }
+}
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .contenedor-imagen-prod-defi {
+        height: 16rem;
+    }
+
+    .swiperSlide-contenedor-prod-desc-defi-pago{
+        flex-direction: row;
+    }
+
+    .contenedor-texto-detalles-prod-defi .texto-detalles-prod-defi {
+        font-size: 1.6rem;
+    }
+    
+    .contenedor-texto-detalles-marca-prod-defi .texto-marca-prod-defi {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-precio-antes-pago-defini .texto-descuento {
+        font-size: 1.6rem;
+    }
+    
+    .contenedor-precio-antes-pago-defini .texto-precio-antes {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-precio-tarjeta-uno .texto-precio-tarjeta-uno {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-precio-tarjeta-mastercard .texto-precio-tarjeta-mastercard {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-descuento-otro .texto-precio-otro {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-texto-precio-unitario .texto-precio-unitario-prod-defi {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-boton-agregar .texto-vendido-por-empresa {
+        font-size: 1.6rem;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px) {
+    .contenedor-imagen-prod-defi {
+        height: 16rem;
+    }
+
+    .swiperSlide-contenedor-prod-desc-defi-pago{
+        flex-direction: row;
+    }
+
+    .contenedor-texto-detalles-prod-defi .texto-detalles-prod-defi {
+        font-size: 1.8rem;
+    }
+    
+    .contenedor-texto-detalles-marca-prod-defi .texto-marca-prod-defi {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-precio-antes-pago-defini .texto-descuento {
+        font-size: 1.8rem;
+    }
+    
+    .contenedor-precio-antes-pago-defini .texto-precio-antes {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-precio-tarjeta-uno .texto-precio-tarjeta-uno {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-precio-tarjeta-mastercard .texto-precio-tarjeta-mastercard {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-descuento-otro .texto-precio-otro {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-texto-precio-unitario .texto-precio-unitario-prod-defi {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-boton-agregar .texto-vendido-por-empresa {
+        font-size: 1.8rem;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px) {
+    .contenedor-imagen-prod-defi {
+        height: 17rem;
+    }
+
+    .swiperSlide-contenedor-prod-desc-defi-pago{
+        flex-direction: row;
+    }
+
+    .contenedor-texto-detalles-prod-defi .texto-detalles-prod-defi {
+        font-size: 2rem;
+    }
+    
+    .contenedor-texto-detalles-marca-prod-defi .texto-marca-prod-defi {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-precio-antes-pago-defini .texto-descuento {
+        font-size: 2rem;
+    }
+    
+    .contenedor-precio-antes-pago-defini .texto-precio-antes {
+        font-size: 2rem;
+    }
+
+    .contenedor-precio-tarjeta-uno .texto-precio-tarjeta-uno {
+        font-size: 2rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 2rem;
+    }
+
+    .contenedor-precio-tarjeta-mastercard .texto-precio-tarjeta-mastercard {
+        font-size: 2rem;
+    }
+
+    .contenedor-descuento-otro .texto-precio-otro {
+        font-size: 2rem;
+    }
+
+    .contenedor-texto-precio-unitario .texto-precio-unitario-prod-defi {
+        font-size: 2rem;
+    }
+
+    .contenedor-boton-agregar .texto-vendido-por-empresa {
+        font-size: 2rem;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px) {
+    .contenedor-imagen-prod-defi {
+        height: 17rem;
+    }
+
+    .swiperSlide-contenedor-prod-desc-defi-pago{
+        flex-direction: row;
+    }
+
+    .contenedor-texto-detalles-prod-defi .texto-detalles-prod-defi {
+        font-size: 2.2rem;
+    }
+    
+    .contenedor-texto-detalles-marca-prod-defi .texto-marca-prod-defi {
+        font-size: 2.3rem;
+    }
+
+    .contenedor-precio-antes-pago-defini .texto-descuento {
+        font-size: 2.2rem;
+    }
+    
+    .contenedor-precio-antes-pago-defini .texto-precio-antes {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-precio-tarjeta-uno .texto-precio-tarjeta-uno {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-precio-tarjeta-mastercard .texto-precio-tarjeta-mastercard {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-descuento-otro .texto-precio-otro {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-texto-precio-unitario .texto-precio-unitario-prod-defi {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-boton-agregar .texto-vendido-por-empresa {
+        font-size: 2.2rem;
+    }
+}

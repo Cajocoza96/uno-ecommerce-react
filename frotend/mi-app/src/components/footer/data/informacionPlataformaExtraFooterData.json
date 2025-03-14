@@ -1,0 +1,86 @@
+{
+    "informaciones": [
+        {
+            "id": 1,
+            "textoPrincipal": "Contactanos",
+            "enlaces":
+                [
+                    "Ventas WhatsApp(+57) 310 325 67 32",
+                    "Servicio al cliente WhatsApp(+57) 310 456 37 62",
+                    "Linea de servicio nacional 01 8000 325 700"
+                ]
+        },
+        {
+            "id": 2,
+            "textoPrincipal": "Centro de ayudas",
+            "enlaces":
+                [
+                    "Preguntas frecuentes",
+                    "Politicas de cambios y devoluciones",
+                    "Solicitud de garantias",
+                    "Contacto",
+                    "Cambia tu producto facil",
+                    "Almacenes",
+                    "Escribenos",
+                    "¿Como gestionar mi pedido"
+                ]
+        },
+        {
+            "id": 3,
+            "textoPrincipal": "uno.com",
+            "enlaces":
+                [
+                    "Calendario Viernes Mastercard",
+                    "Referidos uno",
+                    "Compra y recoge",
+                    "Domicilio telefonico",
+                    "Garantia extendida",
+                    "Vende con uno.com",
+                    "Paute con nosotros",
+                    "Revista virtual"
+                ]
+        },
+        {
+            "id": 4,
+            "textoPrincipal": "Nuestra compañia",
+            "enlaces": 
+            [
+                "Grupo Uno",
+                "Fundacion Uno",
+                "Donar goticas",
+                "Inversionistas",
+                "Ventas empresariales",
+                "Oportunidades de empleo"
+            ]
+        },
+        {
+            "id": 5,
+            "textoPrincipal": "Comunidades",
+            "enlaces": 
+            [
+                "Vivevinos",
+                "Exploradores Uno"
+            ]
+        },
+        {
+            "id": 6,
+            "textoPrincipal": "Informacion legal",
+            "enlaces": 
+            [
+                "Legales del dia",
+                "Terminos y condiciones",
+                "Marketplace",
+                "Politicas de privacidad",
+                "Autorizacion de tratamientos de datos",
+                "Superintendencia de industria y comercio - SIC",
+                "Derecho de retracto",
+                "Solicitud de reversiones"
+            ]
+        },
+        {
+            "id": 7,
+            "textoPrincipal": "Uno atendido",
+            "enlaces": ["Soy vendededor atendido"]
+        }
+    ]
+}

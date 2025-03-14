@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.contenedor-actualizar-beneficios-boton-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 0.5rem;
+}
+
+.contenedor-actualizar-beneficios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.contenedor-actualizar-beneficios .texto-actualizar-datos{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.contenedor-actualizar-beneficios .texto-descubrir-beneficios{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1f1d1d;
+}
+
+.contenedor-actualizar-beneficios-boton-footer .boton-actualizar{
+    width: auto; 
+    height: auto;
+    padding: 0.5rem;
+    background-color: #7c00c4;
+    border: none;
+    border-radius: 0.3rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-actualizar-beneficios-boton-footer .boton-actualizar:active{
+    background-color: #8b46b3;
+}
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape){
+    .contenedor-actualizar-beneficios{
+        flex-direction: row;  
+    }
+
+    .contenedor-actualizar-beneficios .texto-actualizar-datos{
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-actualizar-beneficios .texto-descubrir-beneficios{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-actualizar-beneficios-boton-footer .boton-actualizar{
+        font-size: 1.2rem;
+    }
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px){
+    .contenedor-actualizar-beneficios{
+        flex-direction: row;  
+    }
+
+    .contenedor-actualizar-beneficios .texto-actualizar-datos{
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-actualizar-beneficios .texto-descubrir-beneficios{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-actualizar-beneficios-boton-footer .boton-actualizar{
+        font-size: 1.2rem;
+    }
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px){
+    .contenedor-actualizar-beneficios{
+        flex-direction: row;  
+    }
+
+    .contenedor-actualizar-beneficios .texto-actualizar-datos{
+        font-size: 1.4rem;
+    }
+    
+    .contenedor-actualizar-beneficios .texto-descubrir-beneficios{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-actualizar-beneficios-boton-footer .boton-actualizar{
+        font-size: 1.4rem;
+    }
+}
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+    .contenedor-actualizar-beneficios{
+        flex-direction: row;  
+    }
+
+    .contenedor-actualizar-beneficios .texto-actualizar-datos{
+        font-size: 1.6rem;
+    }
+    
+    .contenedor-actualizar-beneficios .texto-descubrir-beneficios{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-actualizar-beneficios-boton-footer .boton-actualizar{
+        font-size: 1.6rem;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px){
+    .contenedor-actualizar-beneficios{
+        flex-direction: row;  
+    }
+
+    .contenedor-actualizar-beneficios .texto-actualizar-datos{
+        font-size: 1.8rem;
+    }
+    
+    .contenedor-actualizar-beneficios .texto-descubrir-beneficios{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-actualizar-beneficios-boton-footer .boton-actualizar{
+        font-size: 1.8rem;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px){
+    .contenedor-actualizar-beneficios{
+        flex-direction: row;  
+    }
+
+    .contenedor-actualizar-beneficios .texto-actualizar-datos{
+        font-size: 2rem;
+    }
+    
+    .contenedor-actualizar-beneficios .texto-descubrir-beneficios{
+        font-size: 2rem;
+    }
+
+    .contenedor-actualizar-beneficios-boton-footer .boton-actualizar{
+        font-size: 2rem;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px){
+    .contenedor-actualizar-beneficios{
+        flex-direction: row;  
+    }
+
+    .contenedor-actualizar-beneficios .texto-actualizar-datos{
+        font-size: 2.2rem;
+    }
+    
+    .contenedor-actualizar-beneficios .texto-descubrir-beneficios{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-actualizar-beneficios-boton-footer .boton-actualizar{
+        font-size: 2.2rem;
+    }
+}
+
+

@@ -1,0 +1,1410 @@
+{
+    "mercado": [
+        {
+            "id": 1,
+            "titulo1": "Mercado",
+            "item1": "mercado",
+            "textoInfo1": "¡No te pierdas las mejores ofertas en nuestro Mercado",
+            "textoInfo2": "Online! ¿Quieres aprovechar las mejores ofertas en",
+            "textoInfo3": "productos de calidad? ¡Visita nuestro mercado y",
+            "textoInfo4": "descubre una seleccion exclusiva de articulos a precios",
+            "textoInfo5": "increibles! Desde productos de belleza hasta articulos",
+            "textoInfo6": "para el hogar, tenemos todo lo que necesitas para",
+            "textoInfo7": "darle un toque extra a tu vida sin gastar de mas",
+            "contenido": [
+                {
+                    "id": 1,
+                    "titulo1": "Aseo del hogar",
+                    "item1": "aseo-del-hogar",
+                    "textoInfo1": "Descubre nuestros productos de limpieza en Uno.com",
+                    "textoInfo2": "Para mantener tu hogar fresco y ordenado. Desde",
+                    "textoInfo3": "detergentes hasta articulos para el cuidado del hogar.",
+                    "textoInfo4": "¡Compra y recibe en casa!",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Jabones, detergentes y limpiadores",
+                            "item1": "jabones-detergentes-y-limpiadores",
+                            "textoInfo1": "Economiza y en cada compra de jabones, detergentes y",
+                            "textoInfo2": "limpiadores en Uno. Obten descuentos exclusivos en",
+                            "textoInfo3": "marcas que conoces y confias. Ingresa ahora",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "detergenteTopTerra4000gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Detergente TOP TERRA (4000 gr)",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 9)",
+                                    "precioProductoUnitario": 37900
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "limpiaPisosFabulosoAntibacterialLavanda.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Limpia Pisos FABULOSO (3000 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 8)",
+                                    "porcentajeProductoDescuentoUnitario": 37,
+                                    "precioProductoAntesUnitarioPorcentaje": 20850,
+                                    "precioProductoUnitario": 12950
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "detergenteEnPolvoFABUltraFlash.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Detergente En Polvo FAB Ultra Flash (4000 gr)",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 12)",
+                                    "porcentajeProductoDescuentoUnitario": 36,
+                                    "precioProductoAntesUnitarioPorcentaje": 48700,
+                                    "precioProductoUnitario": 31050
+                                },
+                                {
+                                    "id": 4,
+                                    "imagen": "detergenteEnPolvoEkonoMultiusosAromafloral.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Detergente En Polvo Ekono Multiusos (2800 gr)",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 3)",
+                                    "precioProductoAntesUnitario": 9930,
+                                    "precioProductoUnitario": 9890
+                                },
+                                {
+                                    "id": 5,
+                                    "imagen": "detergenteLiquidoExitoMarcaPropiaAromafloral.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Detergente En Liquido EXITO MARCA Propia Aroma Floral (3000 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 4)",
+                                    "precioProductoUnitario": 12590
+                                },
+                                {
+                                    "id": 6,
+                                    "imagen": "detergenteEnPolvoArielTriplePoder.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Detergente En Polvo ARIEL Triple Poder (5000 gr)",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 12)",
+                                    "porcentajeProductoDescuentoUnitario": 13,
+                                    "precioProductoAntesUnitarioPorcentaje": 28750,
+                                    "precioProductoUnitario": 24900
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Papel higienico",
+                            "item1": "papel-higienico",
+                            "textoInfo1": "Ahorra en cada compra de papel higiénico.",
+                            "textoInfo2": "Aprovecha ofertas imperdibles en las marcas que confías.",
+                            "textoInfo3": "Realiza tu compra aquí y disfruta de la calidad al mejor precio.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "papelHigienicoFamiliaAcolchamaxMegarolloX12Rollos3552mts.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Papel Higienico FAMILIA Acolchamax Megarollo x12 Rollos (355.2 mts)",
+                                    "unidadPrecioProductoUnitario": "(Mt a $ 47)",
+                                    "porcentajeProductoDescuentoUnitario": 32,
+                                    "precioProductoAntesUnitarioPorcentaje": 25050,
+                                    "precioProductoUnitario": 16940
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "papelHigienicoExitoMarcaPropiaTripleHojaX12Rollos420mts.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Papel Higienico Exito Marca Propia Triple Hoja x12 Rollos (420 mts)",
+                                    "unidadPrecioProductoUnitario": "(Mt a $ 33)",
+                                    "precioProductoUnitario": 13950
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "papelHigienicoExitoMarcaPropiaTripleHojaX24Rollos840mts.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Papel Higienico EXITO MARCA PROPIA Triple Hoja x24 rollos (840 mts)",
+                                    "unidadPrecioProductoUnitario": "(Mt a $ 32)",
+                                    "precioProductoAntesUnitario": 29150,
+                                    "precioProductoUnitario": 26950
+                                },
+                                {
+                                    "id": 4,
+                                    "imagen": "papelHigienicoFamiliaExpert4HojasX9Rollos234Mts.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Papel Higienico FAMILIA Expert 4 hojas x9 rollos (234 mts)",
+                                    "unidadPrecioProductoUnitario": "(Mt a $ 93)",
+                                    "precioProductoUnitario": 21850
+                                },
+                                {
+                                    "id": 5,
+                                    "imagen": "papelHigienicoFamiliaDeluxUltraSuaveX12Rollos355mts.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Papel Higienico Familia Delux Ultra Suave X12 Rollos (355 mts)",
+                                    "unidadPrecioProductoUnitario": "(Mt a $ 76)",
+                                    "porcentajeProductoDescuentoUnitario": 15,
+                                    "precioProductoAntesUnitarioPorcentaje": 32000,
+                                    "precioProductoUnitario": 27200
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Lavalozas y desengrasantes",
+                            "item1": "lavalozas-y-desengrasantes",
+                            "textoInfo1": "Experimenta la eficacia de lavalozas, desengrasante y",
+                            "textoInfo2": "lava vajillas en Uno.",
+                            "textoInfo3": "Productos de TLD y Ekono elegidos para",
+                            "textoInfo4": "la mejor limpieza de tu hogar. Ingresa aquí",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "lavalozaEkonoEnCremaAromaALimon500gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Lavaloza EKONO en crema aroma a limon (500 gr)",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 4)",
+                                    "precioProductoUnitario": 2390
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "lavalozaCremaAxionLimon900gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Lavaloza Crema AXION Limon (900 gr)",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 13)",
+                                    "porcentajeProductoDescuentoUnitario": 10,
+                                    "precioProductoAntesUnitarioPorcentaje": 13000,
+                                    "precioProductoUnitario": 11700
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "lavalozaEkonoLiquidoAromaALimon500ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Lavaloza EKONO Liquido Aroma A Limon (500 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 5)",
+                                    "precioProductoUnitario": 2590
+                                },
+                                {
+                                    "id": 4,
+                                    "imagen": "lavalozaLozaCremLiquidoCuidaLasManos1500ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Lavaloza LOZA CREM Liquido Cuida Las Manos (1500 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 10)",
+                                    "porcentajeProductoDescuentoUnitario": 13,
+                                    "precioProductoAntesUnitarioPorcentaje": 18600,
+                                    "precioProductoUnitario": 16150
+                                },
+                                {
+                                    "id": 5,
+                                    "imagen": "lavalozaLiquidoAxionLimonDoypack1500ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Lavaloza Liquido AXION Limon Doypack (1500 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 9)",
+                                    "porcentajeProductoDescuentoUnitario": 18,
+                                    "precioProductoAntesUnitarioPorcentaje": 18400,
+                                    "precioProductoUnitario": 14940
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Suavizantes",
+                            "item1": "suavizantes",
+                            "textoInfo1": "Experimenta la eficacia de suavizantes para la ropa en Uno.",
+                            "textoInfo2": "Productos de TLD y Ekono calidad garantizada. Descubre más",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "blanqueadorEKONODesinfectante2000ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Blanqueador EKONO desinfectante (2000 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 1)",
+                                    "precioProductoUnitario": 2780
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "blanqueadorCLOROX2260ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "BLANQUEADOR CLOROX (2260 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 3)",
+                                    "precioProductoAntesUnitario": 7970,
+                                    "precioProductoUnitario": 7390
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "suavizanteExitoMarcaPropiaParaRopaAromaFloral3000Ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Suavizante EXITO MARCA PROPIA para ropa aroma floral (3000 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 2)",
+                                    "precioProductoUnitario": 8980
+                                },
+                                {
+                                    "id": 4,
+                                    "imagen": "suavizanteSuavitelCuidadoSuperiorFrescaPrimavera2000ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Suavizante Suavitel Cuidado Superior Fresca Primavera (2000 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 8)",
+                                    "porcentajeProductoDescuentoUnitario": 10,
+                                    "precioProductoAntesUnitarioPorcentaje": 18000,
+                                    "precioProductoUnitario": 16200
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Servilletas y toallas de cocina",
+                            "item1": "servilletas-y-toallas-de-cocina",
+                            "textoInfo1": "Descubre la calidad de nuestras servilletas",
+                            "textoInfo2": "y toallas de cocina de papel en Uno.",
+                            "textoInfo3": "Disfruta de productos de TLD y Ekono,",
+                            "textoInfo4": "seleccionados especialmente para ti. Haz clic ahora",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "toallasDeCocinaEkonoDesechables50und.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Toallas de cocina EKONO desechables (50 und)",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 32)",
+                                    "precioProductoUnitario": 1630
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "servilletasFamiliaBlancaMedianas300und.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Servilletas FAMILIA Blanca medíanas (300 und)",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 30)",
+                                    "precioProductoAntesUnitario": 9780,
+                                    "precioProductoUnitario": 9080
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "toallasDeCocinaFamiliaGreenTripleHoja135und.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Toallas De Cocina FAMILIA Green Triple Hoja (135 und)",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 54)",
+                                    "porcentajeProductoDescuentoUnitario": 20,
+                                    "precioProductoAntesUnitarioPorcentaje": 9220,
+                                    "precioProductoUnitario": 7376
+                                },
+                                {
+                                    "id": 4,
+                                    "imagen": "servilletasFamiliaAcolchamaxNormalBlanca300und.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Servilletas FAMILIA Acolchamax normal blanca (300 und)",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 29)",
+                                    "porcentajeProductoDescuentoUnitario": 20,
+                                    "precioProductoAntesUnitarioPorcentaje": 11200,
+                                    "precioProductoUnitario": 8.960
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "titulo1": "Ambientadores e insecticidas",
+                            "item1": "ambientadores-e-insecticidas",
+                            "textoInfo1": "Aprovecha las promociones exclusivas en ambientadores",
+                            "textoInfo2": "e insecticidas en Uno.",
+                            "textoInfo3": "Calidad garantizada con TLD. Descubre más",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "ambientadorElectricoTLDTodosLosDias3389267.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Ambientador Electrico TLD TODOS LOS DIAS 3389267",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 267)",
+                                    "precioProductoUnitario": 10700
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "ambientadorEternaVaritasFantasiaDeCanela40ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Ambientador Eterna Varitas Fantasia De Canela (40 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 122)",
+                                    "precioProductoAntesUnitario": 5380,
+                                    "precioProductoUnitario": 4900
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "ambientadorAerosol3PackGlade1024195.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Ambientador Aerosol 3 Pack GLADE 1024195",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 18)",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 31750,
+                                    "precioProductoUnitario": 22225
+                                },
+                                {
+                                    "id": 4,
+                                    "imagen": "ambientadorAeroFrutosRojosBonaireSinRef.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Ambientador Aero Frutos Rojos BONAIRE SIN REF",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 26)",
+                                    "precioProductoUnitario": 6720
+                                }
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "titulo1": "Implementos para la limpieza",
+                            "item1": "implementos-para-la-limpieza",
+                            "textoInfo1": "Descubre nuestra selección de bolsas de basura, guantes",
+                            "textoInfo2": "y más en Uno. Cada producto de las marcas",
+                            "textoInfo3": "TLD, Eterna, Ekono",
+                            "textoInfo4": "y Task es sinónimo de calidad y durabilidad.",
+                            "textoInfo5": "Elige el tuyo ahora",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "bolsaBasuraResidencial65x80TLDTodosLosDias3008977.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Bolsa Basura residencial 65x80 TLD TODOS LOS DIAS 3008977",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 219)",
+                                    "precioProductoUnitario": 2190
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "bolsaDeBasuraNegraEkono3462329.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Bolsa De Basura Negra EKONO 3462329",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 189)",
+                                    "precioProductoUnitario": 1890
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "bolsaBasura43x48PapeleraEkono3101013.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Bolsa Basura 43x48 Papelera EKONO 3101013",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 73)",
+                                    "porcentajeProductoDescuentoUnitario": 44,
+                                    "precioProductoAntesUnitarioPorcentaje": 3950,
+                                    "precioProductoUnitario": 2190
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo1": "Frutas y verduras",
+                    "item1": "frutas-y-verduras",
+                    "textoInfo1": "¡Aprovecha nuestras ofertas en frutas y verduras! Gran",
+                    "textoInfo2": "variedad para una alimentacion saludable y deliciosa.",
+                    "textoInfo3": "Prueba nuestras frutas cultivadas con cuidado y",
+                    "textoInfo4": "pasión",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Frutas",
+                            "item1": "frutas",
+                            "textoInfo1": "Descubre nuestras ofertas en frutas como: fresas,",
+                            "textoInfo2": "manzanas, arandanos y mas. Te ofrecemos una",
+                            "textoInfo3": "experiencia inigualable con productos de Taeq,",
+                            "textoInfo4": "Frescampo, Ekono y Akys Frut. Descubre mas",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "banano1Und.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Banano 1 Und",
+                                    "detalle1": "Banano",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 140)",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 200,
+                                    "precioProductoUnitario": 140
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "mangoTommy1Und.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Mango Tommy 1 und",
+                                    "detalle1": "Mango Tommy",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 882)",
+                                    "porcentajeProductoDescuentoUnitario": 32,
+                                    "precioProductoAntesUnitarioPorcentaje": 1300,
+                                    "precioProductoUnitario": 882
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "limonTahitiMallaTAEQ1000gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Limon Tahiti Malla TAEQ 1000 gr",
+                                    "detalle1": "Limon Tahiti Malla TAEQ",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 2.170)",
+                                    "porcentajeProductoDescuentoUnitario": 64,
+                                    "precioProductoAntesUnitarioPorcentaje": 6100,
+                                    "precioProductoUnitario": 2170
+                                },
+                                {
+                                    "id": 4,
+                                    "imagen": "piña1Und.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Piña 1 und",
+                                    "detalle1": "Piña",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 4.774)",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 6820,
+                                    "precioProductoUnitario": 4774
+                                },
+                                {
+                                    "id": 5,
+                                    "imagen": "papayaUnd1Und.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Papaya Und 1 Und",
+                                    "detalle1": "Papaya",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 4.088)",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 5840,
+                                    "precioProductoUnitario": 4088
+                                },
+                                {
+                                    "id": 6,
+                                    "imagen": "granadilla1Und.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Granadilla 1 Und",
+                                    "detalle1": "Granadilla",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 1.890)",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 2700,
+                                    "precioProductoUnitario": 1890
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Verduras y hortalizas",
+                            "item1": "verduras-y-hortalizas",
+                            "textoInfo1": "Descubre nuestra amplia gama de verduras como:",
+                            "textoInfo2": "tomate, cebolla, zanahorias y más productos frescos.",
+                            "textoInfo3": "Elige un estilo de vida saludable para todo tipo de",
+                            "textoInfo4": "preparaciones, con las mejores marcas Frescampo,",
+                            "textoInfo5": "Ekono, Hilant y Pomario. Descubre más",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "cebollaBlanca1Und.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Cebolla Blanca 1 Und",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 798)",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 1140,
+                                    "precioProductoUnitario": 798
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "tomateChonto1Und.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Tomate Chonto 1 und",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 434)",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 620,
+                                    "precioProductoUnitario": 434
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "platanoMaduroUnd1Und.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Platano Maduro Und 1 Und",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 756)",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 1080,
+                                    "precioProductoUnitario": 756
+                                },
+                                {
+                                    "id": 4,
+                                    "imagen": "pepinoCohombro1Und.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Pepino Cohombro 1 Und",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 1.554)",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 2220,
+                                    "precioProductoUnitario": 1554
+                                },
+                                {
+                                    "id": 5,
+                                    "imagen": "cebollaRoja1Und.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Cebolla Roja 1 Und",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 700)",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 1000,
+                                    "precioProductoUnitario": 700
+                                },
+                                {
+                                    "id": 6,
+                                    "imagen": "aguacateUnd450Gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Aguacate Und 450 Gr",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 10)",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 7000,
+                                    "precioProductoUnitario": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "titulo1": "Pollo, carne y pescado",
+                    "item1": "pollo-carne-y-pescado",
+                    "textoInfo1": "¡Carne, pollo y pescado frescos y de calidad",
+                    "textoInfo2": "al alcance de tu mano! Compra online y recibe",
+                    "textoInfo3": "tus productos en la puerta de tu casa.",
+                    "textoInfo4": "¡No te pierdas nuestras ofertas!",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Res",
+                            "item1": "res",
+                            "textoInfo1": "Traemos a tu mesa carne de res, solomito y",
+                            "textoInfo2": "carne molida fresco y de calidad. Disfruta de las marcas",
+                            "textoInfo3": "Taeq, Frescampo y Pomona que cuidan cada detalle.",
+                            "textoInfo4": "Realiza tu compra aquí",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "carneDeResAsarFreirFresca.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Carne de res asar freir fresca",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 21)",
+                                    "porcentajeProductoDescuentoUnitario": 15,
+                                    "precioProductoAntesUnitarioPorcentaje": 25880,
+                                    "precioProductoUnitario": 21900
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "molidaDeRes937Fresca.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Molida De Res 93/7 Fresca",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 23)",
+                                    "precioProductoAntesUnitario": 12940,
+                                    "precioProductoUnitario": 11940
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "pechoOCarneDeResParaSudarFresco.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Pecho O Carne De Res Para Sudar Fresco",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 26)",
+                                    "precioProductoAntesUnitario": 26880,
+                                    "precioProductoUnitario": 26280
+                                },
+                                {
+                                    "id": 4,
+                                    "imagen": "milanesaDeResFresca.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Milanesa De Res Fresca",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 25)",
+                                    "precioProductoUnitario": 12910
+                                },
+                                {
+                                    "id": 5,
+                                    "imagen": "costillaDeResCorriente.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Costilla de res corriente",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 17)",
+                                    "precioProductoUnitario": 17800
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Cerdo",
+                            "item1": "cerdo",
+                            "textoInfo1": "Promociones imperdibles en carne de",
+                            "textoInfo2": "cerdo, lomo y panceta.",
+                            "textoInfo3": "Encuentra las marcas más ",
+                            "textoInfo4": "reconocidas y con productos más frescos.",
+                            "textoInfo5": "Frescampo, Pomona y La Fazenda. Haz clic ahora",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "lomoDeCerdoOCañonFresco.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Lomo de cerdo o cañon fresco",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 19)",
+                                    "porcentajeProductoDescuentoUnitario": 20,
+                                    "precioProductoAntesUnitarioPorcentaje": 7992,
+                                    "precioProductoUnitario": 9990
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "chuletaDeCerdoEconomica.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Chuleta De Cerdo Economica",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 13)",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 8490,
+                                    "precioProductoUnitario": 6792
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "tocinoCarnudoOBarrigueroFrescoSelecto.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Tocino Carnudo O Barriguero Fresco Selecto",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 21)",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 13400,
+                                    "precioProductoUnitario": 10720
+                                },
+                                {
+                                    "id": 4,
+                                    "imagen": "costillaDeCerdoFresca.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Costilla De Cerdo Fresca",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 21)",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 13450,
+                                    "precioProductoUnitario": 10760
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Pollo",
+                            "item1": "pollo",
+                            "textoInfo1": "Disfruta de lo mejor con nuestra selección de",
+                            "textoInfo2": "filetes y pechuga de pollo.",
+                            "textoInfo3": "Encuentra marcas reconocidas como: Frescampo, Kokoriko,",
+                            "textoInfo4": "Bucanero y Zenú a precios increíbles.",
+                            "textoInfo5": "Haz que cada ocasión sea especial. Compra ahora.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "piernaPernilDePolloIMarin.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Pierna Pernil De Pollo I.Marin",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 7)",
+                                    "porcentajeProductoDescuentoUnitario": 17,
+                                    "precioProductoAntesUnitarioPorcentaje": 9500,
+                                    "precioProductoUnitario": 7800
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "fileteDePechugaDePolloFrikoHfEmpaqueIndividualx10und850gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Filete De Pechuga De Pollo FRIKO HF Empaque Individual x10und (850 gr)",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 28)",
+                                    "porcentajeProductoDescuentoUnitario": 22,
+                                    "precioProductoAntesUnitarioPorcentaje": 30800,
+                                    "precioProductoUnitario": 23900
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "pechugaDePolloMarinada.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Pechuga De Pollo Marinada",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 14)",
+                                    "precioProductoUnitario": 14500
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Pescado y mariscos",
+                            "item1": "pescado-y-mariscos",
+                            "textoInfo1": "Encuentra camarones, pescado y mariscos",
+                            "textoInfo2": "frescos con ofertas especiales.",
+                            "textoInfo3": "Encuentra marcas como: Taeq, Frescampo, Pomona y",
+                            "textoInfo4": "Antillana que ofrecen calidad inigualable. Compra aquí",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "fileteDeSalmonPremium.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Filete De Salmon Premium",
+                                    "unidadPrecioProductoUnitario": "(Kg a $ 97)",
+                                    "porcentajeProductoDescuentoUnitario": 20,
+                                    "precioProductoAntesUnitarioPorcentaje": 19500,
+                                    "precioProductoUnitario": 24375
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "tilapiaRojaOMojarraRojaFresca.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Tilapia Roja O Mojarra Roja Fresca",
+                                    "unidadPrecioProductoUnitario": "(Kg a $ 19)",
+                                    "porcentajeProductoDescuentoUnitario": 20,
+                                    "precioProductoAntesUnitarioPorcentaje": 7960,
+                                    "precioProductoUnitario": 9950
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "titulo1": "Lacteos, huevos y refrigerados",
+                    "item1": "lacteos-huevos-y-refrigerados",
+                    "textoInfo1": "Descubre las mejores ofertas en productos",
+                    "textoInfo2": "de lácteos, huevos y refrigerados en Uno.",
+                    "textoInfo3": "Desde quesos frescos y yogures",
+                    "textoInfo4": "cremosos hasta huevos de calidad y opciones refrigeradas",
+                    "textoInfo5": "ideales para tu día a día. Calidad garantizada a precios irresistibles.",
+                    "textoInfo7": "¡Haz tu pedido ahora!",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Leche",
+                            "item1": "leche",
+                            "textoInfo1": "Ofertas especiales en leche entera,",
+                            "textoInfo2": "deslactosada y descremada en Uno.",
+                            "textoInfo3": "Calidad premium a precios que no puedes dejar pasar.",
+                            "textoInfo4": "Realiza tu pedido aquí",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "lecheExitoMarcaPropiaEnterax6und5400ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Leche EXITO MARCA PROPIA Entera x6und (5400 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 2)",
+                                    "precioProductoUnitario": 15840
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Huevos",
+                            "item1": "huevos",
+                            "textoInfo1": "Elige frescura y calidad con nuestros huevos:",
+                            "textoInfo2": "frescos, orgánicos y de corral.",
+                            "textoInfo3": "Perfectos para desayunos, recetas y más,",
+                            "textoInfo4": "son una fuente esencial de nutrición para tu hogar.",
+                            "textoInfo5": "Compra ahora y lleva los mejores",
+                            "textoInfo6": "huevos con descuento a tu cocina.",
+                            "textoInfo7": "¡Aprovecha nuestras ofertas!",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "huevosASmnRojo30und.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Huevos A SMN Rojo (30 und)",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 365)",
+                                    "precioProductoAntesUnitario": 10.980,
+                                    "precioProductoUnitario": 10960
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Arepas",
+                            "item1": "arepas",
+                            "textoInfo1": "Conoce nuestras arepas de maíz, choclo y más.",
+                            "textoInfo2": "Productos de las marcas Sary, Uno y Frescampo",
+                            "textoInfo3": "para garantizarte el mejor sabor",
+                            "textoInfo4": "y calidad. Pide ahora",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "arepaFrescampoMinitelax10und500gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Arepa FRESCAMPO Minitela x10und (500 gr)",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 4)",
+                                    "porcentajeProductoDescuentoUnitario": 20,
+                                    "precioProductoAntesUnitarioPorcentaje": 2200,
+                                    "precioProductoUnitario": 1760
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Carne frias y embutidos",
+                            "item1": "carne-frias-y-embutidos",
+                            "textoInfo1": "Explora nuestra selección de carnes frías",
+                            "textoInfo2": "y embutidos en Uno. Jamones, salchichas,",
+                            "textoInfo3": "chorizos y más, con el sabor y la calidad ",
+                            "textoInfo4": "que necesitas para tus comidas. Aprovecha nuestras ",
+                            "textoInfo5": "ofertas y realiza tu pedido hoy mismo.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "salchichaRancheraRanchera480gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Salchicha Ranchera RANCHERA (480 gr)",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 45)",
+                                    "precioProductoAntesUnitario": 22750,
+                                    "precioProductoUnitario": 22000
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Quesos, quesitos y cuajadas",
+                            "item1": "quesos-quesitos-y-cuajadas",
+                            "textoInfo1": "Conoce nuestra variedad de quesos, quesitos",
+                            "textoInfo2": "y cuajadas de todas las marcas a precios insuperables.",
+                            "textoInfo3": "Con sabores y texturas para todos los gustos son",
+                            "textoInfo4": "perfectos para cualquier ocasión. ¡Aprovecha esta",
+                            "textoInfo5": "oportunidad! Compra ahora y disfruta del mejor sabor",
+                            "textoInfo6": "con nuestros productos en oferta.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "quesoParmesanoAlpinaRallado100gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Queso Parmesano ALPINA Rallado (100 gr)",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 129)",
+                                    "porcentajeProductoDescuentoUnitario": 20,
+                                    "precioProductoAntesUnitarioPorcentaje": 13050,
+                                    "precioProductoUnitario": 10360
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "titulo1": "Yogurt y bebidas lacteas",
+                            "item1": "yogurt-y-bebidas-lacteas",
+                            "textoInfo1": "Descubre nuestras ofertas en yogurt, avena",
+                            "textoInfo2": "y mucho más en Uno. Disfruta el sabor de las",
+                            "textoInfo3": "mejores marcas Alpina, Taeq, Alquería",
+                            "textoInfo4": "y Colanta . No dejes pasar",
+                            "textoInfo5": "esta oportunidad y adquiérelo hoy",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "yogurColantaPaqueteSurtidoX6und1200gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Yogur COLANTA Paquete Surtido x 6und (1200 gr)",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 5)",
+                                    "precioProductoAntesUnitario": 6700,
+                                    "precioProductoUnitario": 6460
+                                }
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "titulo1": "Mantequilla y margarina",
+                            "item1": "mantequilla-y-margarina",
+                            "textoInfo1": "Conoce nuestra selección de mantequilla y margarina.",
+                            "textoInfo2": "Las mejores marcas como Alpina y Campi, garantizando",
+                            "textoInfo3": "la calidad. Elige el tuyo y disfruta ahora",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "mantequillaSinSalColanta250gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Mantequilla Sin Sal COLANTA 250 gr",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 58)",
+                                    "porcentajeProductoDescuentoUnitario": 20,
+                                    "precioProductoAntesUnitarioPorcentaje": 11760,
+                                    "precioProductoUnitario": 14700
+                                }
+                            ]
+                        },
+                        {
+                            "id": 8,
+                            "titulo1": "Cremas de leche, queso crema y sueros",
+                            "item1": "cremas-de-leche-queso-crema-y-sueros",
+                            "textoInfo1": "Disfruta de la crema de leche, queso crema",
+                            "textoInfo2": "y suero en Uno. Te ofrecemos las mejores marcas",
+                            "textoInfo3": "como Alquería, Alpina y Colanta, especialmente",
+                            "textoInfo4": "seleccionadas para ti. Elige el tuyo ahora",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "quesoCremaColantaFrescoSemiblando230gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Queso Crema COLANTA Fresco Semiblando (230 gr)",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 21)",
+                                    "precioProductoAntesUnitario": 5390,
+                                    "precioProductoUnitario": 4900
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "titulo1": "Despensa",
+                    "item1": "despensa",
+                    "textoInfo1": "La mejor selección de productos esenciales",
+                    "textoInfo2": "para simplificar tus compras en San Bernardo del Viento",
+                    "textoInfo3": "y en toda Colombia. Compra online y recibe",
+                    "textoInfo4": " en casa, facilitando tu vida con productos de calidad",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Arroz y granos",
+                            "item1": "arroz-y-granos",
+                            "textoInfo1": "Encuentra calidad y variedad en nuestros",
+                            "textoInfo2": "frijoles, lentejas, arroz, garbanzos y más",
+                            "textoInfo3": "granos para tu mercado. Perfectos para que",
+                            "textoInfo4": "prepares tus recetas favoritas, ofreciendo nutrición",
+                            "textoInfo5": "y sabor a tu familia. ¡No esperes más",
+                            "textoInfo6": "y aprovechas de ofertas increíbles!",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "lentejaFrescampoGranosSeleccionados1000gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Lenteja FRESCAMPO Granos Seleccionados (1000 gr)",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 6)",
+                                    "precioProductoUnitario": 6970
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "frijolFrescampoGranosSeleccionados500gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Frijol FRESCAMPO Granos Seleccionados (500 gr)",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 8)",
+                                    "precioProductoUnitario": 4480
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Aceites y vinagres",
+                            "item1": "aceites-y-vinagres",
+                            "textoInfo1": "Conoce nuestra selección de aceites y",
+                            "textoInfo2": "vinagres de alta calidad. Perfectos para realizar",
+                            "textoInfo3": "el sabor de tus comidas, añade un toque gourmet a",
+                            "textoInfo4": "cualquier receta. ¡Aprovecha estas ofertas!",
+                            "textoInfo5": "Compra ahora y transforma tus platos",
+                            "textoInfo6": "con nuestros mejores aceites y vinagres",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "aceiteVegetalFrescampoMezclaDeAceites3000ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Aceite Vegetal FRESCAMPO Mezcla De Aceites (3000 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 7)",
+                                    "precioProductoUnitario": 22980
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "aceiteDeOlivaExitoMarcaPropiaExtraVirgen500ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Aceite De Oliva EXITO MARCA PROPIA Extra Virgen (500 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 43)",
+                                    "precioProductoUnitario": 21940
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Atunes, enlatados y conservas",
+                            "item1": "atunes-enlatados-y-conservas",
+                            "textoInfo1": "Prepara tus comidas con enlatados, atún",
+                            "textoInfo2": "en lata y carne enlatada. Calidad garantizada",
+                            "textoInfo3": "por Van Camps, Taeq, Bary,",
+                            "textoInfo4": "Zenú y San jorge. Ingresa ahora",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "atunExitoMarcaPropiaLomitosEnAgua110.5gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Atun Exito Marca Propia Lomitos En Agua (110.5 gr)",
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 40)",
+                                    "precioProductoUnitario": 4430
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Cafe y chocolate",
+                            "item1": "cafe-y-chocolate",
+                            "textoInfo1": "Conoce nuestra selección de café, chocolate",
+                            "textoInfo2": "y cremas no lácteas. Descubre las mejores",
+                            "textoInfo3": "marcas Frescampo y Ekono. Elige el tuyo",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "cafeSelloRojoMolidoFuerte600gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Cafe SELLO ROJO Molido Fuerte (600 gr)",                                   
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 36)",
+                                    "precioProductoAntesUnitario": 23250,
+                                    "precioProductoUnitario": 21600
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Cereales y granolas",
+                            "item1": "cereales-y-granolas",
+                            "textoInfo1": "Disfruta promociones únicas en cereales y granolas.",
+                            "textoInfo2": "Encuentra los mejores productos a precios de marcas",
+                            "textoInfo3": "reconocidas como: Ekono, Kellogg's,",
+                            "textoInfo4": "Tosh, Flips y Taeq. Compra aquí",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "cerealZucaritasZucaritasOriginal610gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Cereal ZUCARITAS Zucaritas Original (610 gr)",                                   
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 31)",
+                                    "porcentajeProductoDescuentoUnitario": 30,
+                                    "precioProductoAntesUnitarioPorcentaje": 27550,
+                                    "precioProductoUnitario": 19285
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "titulo1": "Pastas",
+                            "item1": "pastas",
+                            "textoInfo1": "Conoce nuestra variedad de pastas: spaghetti,",
+                            "textoInfo2": "macarrones, fusilli y más. Encuentra productos",
+                            "textoInfo3": "de las mejores marcas: La muñeca, Doria,",
+                            "textoInfo4": "Ekono, Monticello, Comarrico. Descubre más",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "pastaEkonoFideos250gr.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Pasta EKONO Fideos (250 gr)",                                   
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 4)",
+                                    "precioProductoAntesUnitario": 1230,
+                                    "precioProductoUnitario": 1190
+                                }
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "titulo1": "Salsas y condimentos",
+                            "item1": "salsas-y-condimentos",
+                            "textoInfo1": "Encuentra en nuestra variedad de salsas, condimentos",
+                            "textoInfo2": "y pimientas, los básicos para tus preparaciones.",
+                            "textoInfo3": "Delicias de las mejores marcas Fruco, Maggi,",
+                            "textoInfo4": "Ricostilla, La constancia y Ekono. Descubre más",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "caldoDeGallinaMaggiDesmenuzadoPaga12Lleva14.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Caldo De Gallina MAGGI Desmenuzado Paga 12 Lleva 14 (108 gr)",                                   
+                                    "unidadPrecioProductoUnitario": "(Gr a $ 48)",
+                                    "precioProductoUnitario": 5290
+                                }
+                            ]
+                        },
+                        {
+                            "id": 8,
+                            "titulo1": "Harinas y mezclas para preparar",
+                            "item1": "harinas-y-mezclas-para-preparar",
+                            "textoInfo1": "Descubre nuestra variedad de harinas y mezclas",
+                            "textoInfo2": "para preparar en Uno. Desde harinas tradicionales",
+                            "textoInfo3": "hasta mezclas listas para tus recetas favoritas.",
+                            "textoInfo4": "Calidad garantizada para tus mejores preparaciones.",
+                            "textoInfo5": "¡Haz tu pedido hoy mismo!"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "titulo1": "Galletas",
+                    "item1": "galletas",
+                    "textoInfo1": "Deléitate con nuestra variedad de galletas en Uno.",
+                    "textoInfo2": "Dulces, saladas, integrales o de arroz y otras,",
+                    "textoInfo3": "perfectas para cualquier momento del día.",
+                    "textoInfo4": "Calidad y sabor que no te puedes perder.",
+                    "textoInfo5": "¡Haz tu pedido ahora!",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Galletas dulces",
+                            "item1": "galletas-dulces",
+                            "textoInfo1": "Endulza tu día con nuestra selección",
+                            "textoInfo2": "de galletas dulces en Uno.",
+                            "textoInfo3": "Desde sabores clásicos hasta opciones rellenas",
+                            "textoInfo4": "y especiales, perfectas para consentirte",
+                            "textoInfo5": "o compartir. ¡Haz tu pedido ahora y disfruta!"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Galletas saladas",
+                            "item1": "galletas-saladas",
+                            "textoInfo1": "Disfruta de nuestra variedad de",
+                            "textoInfo2": "galletas saladas en Uno. El acompañamiento",
+                            "textoInfo3": "perfecto para tus dips, quesos o simplemente para",
+                            "textoInfo4": "disfrutar solas. Sabor y calidad al",
+                            "textoInfo5": "mejor precio. ¡Haz tu pedido hoy!"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Galletas integrales",
+                            "item1": "galletas-integrales",
+                            "textoInfo1": "Cuida de ti con nuestra selección de",
+                            "textoInfo2": "galletas integrales en Uno. Deliciosas,",
+                            "textoInfo3": "nutritivas y perfectas para un snack saludable",
+                            "textoInfo4": "en cualquier momento. ¡Haz tu pedido",
+                            "textoInfo5": "ahora y disfruta de su sabor natural!"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Galletas de arroz y otras",
+                            "item1": "galletas-de-arroz-y-otras",
+                            "textoInfo1": "Descubre nuestras galletas de arroz y",
+                            "textoInfo2": "otras opciones especiales en Uno. Ligeras,",
+                            "textoInfo3": "crujientes y perfectas para un snack saludable",
+                            "textoInfo4": "o para acompañar tus comidas.",
+                            "textoInfo5": "¡Haz tu pedido hoy y disfruta!"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "titulo1": "Bebidas y pasabocas",
+                    "item1": "bebidas-y-pasabocas",
+                    "textoInfo1": "Encuentra las mejores bebidas y pasabocas en Uno.",
+                    "textoInfo2": "Refrescos, jugos, snacks y más, ideales para",
+                    "textoInfo3": "compartir y disfrutar en cualquier momento.",
+                    "textoInfo4": "Calidad y sabor al mejor precio.",
+                    "textoInfo5": "¡Haz tu pedido ahora!",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Pasabocas y mecato de paquete",
+                            "item1": "pasabocas-y-mecato-de-paquete",
+                            "textoInfo1": "Disfruta nuestra variedad de pasabocas y",
+                            "textoInfo2": "mecato de paquete en Uno. Papas, chicharrones,",
+                            "textoInfo3": "palitos y más, perfectos para esos",
+                            "textoInfo4": "antojos irresistibles. ¡Haz tu pedido",
+                            "textoInfo5": "hoy y llena tus momentos de sabor!"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Gaseosas y sodas",
+                            "item1": "gaseosas-y-sodas",
+                            "textoInfo1": "Refresca tu día con nuestra selección de",
+                            "textoInfo2": "gaseosas y sodas en Uno. Desde los sabores",
+                            "textoInfo3": "clásicos hasta opciones ligeras, ideales para",
+                            "textoInfo4": "cualquier ocasión. ¡Haz tu pedido",
+                            "textoInfo5": "ahora y disfruta al máximo!"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Nueces, pistachos y frutos secos",
+                            "item1": "nueces-pistachos-y-frutos-secos",
+                            "textoInfo1": "Disfruta de nuestra selección de nueces,",
+                            "textoInfo2": "pistachos y frutos secos en Uno. Deliciosos,",
+                            "textoInfo3": "nutritivos y perfectos como snack o para",
+                            "textoInfo4": "complementar tus recetas. ¡Haz tu pedido hoy",
+                            "textoInfo5": "y prueba su frescura y calidad!"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Jugos y zumos",
+                            "item1": "jugos-y-zumos",
+                            "textoInfo1": "Refresca tu día con nuestros jugos",
+                            "textoInfo2": "y zumos en Uno. Sabores naturales y ",
+                            "textoInfo3": "refrescantes, ideales para acompañar",
+                            "textoInfo4": "tus comidas o disfrutar en cualquier momento.",
+                            "textoInfo5": "¡Haz tu pedido ahora y",
+                            "textoInfo6": "vive la frescura en cada sorbo!"
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Hidratantes y energizantes",
+                            "item1": "hidratantes-y-energizantes",
+                            "textoInfo1": "Mantén tu energía al máximo con nuestra",
+                            "textoInfo2": "selección de hidratantes y energizantes en Uno.",
+                            "textoInfo3": "Bebidas que te mantienen fresco y activo",
+                            "textoInfo4": "durante todo el día. ¡Haz tu pedido",
+                            "textoInfo5": "ahora y recarga tus fuerzas!"
+                        },
+                        {
+                            "id": 6,
+                            "titulo1": "Agua y te",
+                            "item1": "agua-y-te",
+                            "textoInfo1": "Disfruta de la frescura y bienestar con nuestra",
+                            "textoInfo2": "selección de agua y té en Uno. Hidratación y",
+                            "textoInfo3": "sabor en cada sorbo, ideales para tu día a día.",
+                            "textoInfo4": "¡Haz tu pedido ahora y mantente refrescado!"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "titulo1": "Panaderia y reposteria",
+                    "item1": "panaderia-y-reposteria",
+                    "textoInfo1": "Explora nuestra panadería y pastelería única.",
+                    "textoInfo2": "Con una mezcla de tradición y creatividad,",
+                    "textoInfo3": "garantizamos frescura y calidad en tortas, panes,",
+                    "textoInfo4": "ingredientes de repostería y mucho más.",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Panaderia y pasteleria empacada",
+                            "item1": "panaderia-y-pasteleria-empacada",
+                            "textoInfo1": "Descubre el sabor de panadería y pastelería",
+                            "textoInfo2": "empacada. Calidad garantizada con productos de",
+                            "textoInfo3": "Frescampo, Guadalupe, Taeq,",
+                            "textoInfo4": "SUSI y Comapan. Descubre más"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Panaderia fresca y artesanal",
+                            "item1": "panaderia-fresca-y-artesanal",
+                            "textoInfo1": "Uno te ofrece ofertas exclusivas en panadería",
+                            "textoInfo2": "fresca y artesanal. Calidad y sabor en nuestra",
+                            "textoInfo3": "selección de marcas: Frescampo y",
+                            "textoInfo4": "Pomona. Compra aquí"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Postres y tortas",
+                            "item1": "postres-y-tortas",
+                            "textoInfo1": "Descubre el exquisito sabor de postres y",
+                            "textoInfo2": "tortas frescas. Calidad garantizada con Pomona,",
+                            "textoInfo3": "Endulza tu vida, Candies & cookies y",
+                            "textoInfo4": "SUSI. Elige aquí la mejor opción para ti"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "titulo1": "Dulces y chocolateria",
+                    "item1": "dulces-y-chocolateria",
+                    "textoInfo1": "Endulza tu día con nuestra deliciosa selección",
+                    "textoInfo2": "de dulces y chocolatería en Uno. Desde",
+                    "textoInfo3": "bombones hasta barras de chocolate, perfectos",
+                    "textoInfo4": "para satisfacer tus antojos. ¡Haz tu",
+                    "textoInfo5": "pedido ahora y disfruta del mejor sabor!",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Chocolateria",
+                            "item1": "chocolateria",
+                            "textoInfo1": "Descubre nuestra exquisita chocolatería en Uno.",
+                            "textoInfo2": "Deliciosos chocolates, desde los más clásicos",
+                            "textoInfo3": "hasta los más innovadores, ideales para cada",
+                            "textoInfo4": "ocasión. ¡Haz tu pedido ahora y déjate",
+                            "textoInfo5": "cautivar por el auténtico sabor del chocolate!"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Chicles",
+                            "item1": "chicles",
+                            "textoInfo1": "Disfruta de nuestra variedad de chicles en Uno.",
+                            "textoInfo2": "Sabores frescos y duraderos, perfectos para mantener",
+                            "textoInfo3": "tu aliento fresco en cualquier momento. ¡Haz tu",
+                            "textoInfo4": "pedido ahora y disfruta de la frescura en cada mascar!"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Confiteria",
+                            "item1": "confiteria",
+                            "textoInfo1": "Satisface tu antojo con nuestra deliciosa",
+                            "textoInfo2": "selección de confitería en Uno. Caramelos,",
+                            "textoInfo3": "gomitas, y más, para endulzar tu día en ",
+                            "textoInfo4": "cualquier momento. ¡Haz tu pedido ahora",
+                            "textoInfo5": "y disfruta de la variedad y sabor!"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Arequipe y leche condensada",
+                            "item1": "arequipe-y-leche-condensada",
+                            "textoInfo1": "Deléitate con nuestra selección de arequipe",
+                            "textoInfo2": "y leche condensada en Uno. Productos cremosos",
+                            "textoInfo3": "y dulces, perfectos para tus postres y",
+                            "textoInfo4": "antojos. ¡Haz tu pedido ahora y",
+                            "textoInfo5": "disfruta de su sabor irresistible!"
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Gomitas y masmelos",
+                            "item1": "gomitas-y-masmelos",
+                            "textoInfo1": "Disfruta de nuestra variedad de gomitas",
+                            "textoInfo2": "y masmelos en Uno. Sabores divertidos y suaves,",
+                            "textoInfo3": "perfectos para un snack dulce en cualquier",
+                            "textoInfo4": "momento. ¡Haz tu pedido ahora",
+                            "textoInfo5": "y déjate llevar por su sabor!"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "titulo1": "Congelados",
+                    "item1": "congelados",
+                    "textoInfo1": "Explora calidad y frescura en nuestra selección",
+                    "textoInfo2": "de productos congelados. Opciones deliciosas y",
+                    "textoInfo3": "saludables, ofrecemos alimentos como frutas,",
+                    "textoInfo4": "verduras, helados y postres; ideales para",
+                    "textoInfo5": "preparaciones rápidas y cuidando tu alimentación.",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Papas, yucas y verduras congeladas",
+                            "item1": "papas-yucas-y-verduras-congeladas",
+                            "textoInfo1": "Descubre papas fritas, yucas y verduras congeladas",
+                            "textoInfo2": "en Uno, calidad garantizada. Lo mejor",
+                            "textoInfo3": " para tus comidas, elige tus ",
+                            "textoInfo4": "favoritos. No te lo pierdas"
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Pasabocas y panaderia congelada",
+                            "item1": "pasabocas-y-panaderia-congelada",
+                            "textoInfo1": "No te pierdas las promociones en pasabocas",
+                            "textoInfo2": "y panadería congelada en Uno. Calidad",
+                            "textoInfo3": "garantizada con Frescampo. Pide ahora"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Comida preparada",
+                            "item1": "comida-preparada",
+                            "textoInfo1": "Aprovecha descuentos en comidas y platos",
+                            "textoInfo2": "preparados congelados en Uno. Calidad y ahorro",
+                            "textoInfo3": "se unen para ofrecerte lo mejor. Descubre ahora"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Helados y postres",
+                            "item1": "helados-y-postres",
+                            "textoInfo1": "Sumérgete en el dulce mundo de los helados,",
+                            "textoInfo2": "postres y tortas congeladas. Helados de vainilla,",
+                            "textoInfo3": "fresa, helados light, de frutos rojos,",
+                            "textoInfo4": "paletas, conos, galletas de helado y las",
+                            "textoInfo5": "mejores marcas, Popsy, Colombina, Cremhelado y más."
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "titulo1": "Charcuteria",
+                    "item1": "charcuteria",
+                    "textoInfo1": "Explora la exclusiva sección de charcuteria en Uno",
+                    "textoInfo2": "para vivir una experiencia culinaria única.",
+                    "textoInfo3": "Encuentra una exquisita variedad de productos",
+                    "textoInfo4": "desde quesos artesanales y finos chocolates, hasta",
+                    "textoInfo5": "embutidos selectos. Todo lo necesario para crear",
+                    "textoInfo6": "momentos gastronómicos inolvidables.",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Quesos madurados y especiales",
+                            "item1": "quesos-madurados-y-especiales",
+                            "textoInfo1": "Disfruta de ofertas exclusivas en una gran variedad",
+                            "textoInfo2": "de quesos. Encuentra tus quesos especiales como",
+                            "textoInfo3": "parmesano, azul, gouda y más. Calidad y sabor a precios",
+                            "textoInfo4": "inigualables con Colanta, Centurion, Alpina,",
+                            "textoInfo5": "Dibufala y President. Compra ahora."
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Carnes especiales",
+                            "item1": "carnes-especiales",
+                            "textoInfo1": "Encuentra la variedad de carnes frías, jamón",
+                            "textoInfo2": "serrano y salami artesanales. Perfectas para",
+                            "textoInfo3": "deleitar tu paladar con las mejores marcas de",
+                            "textoInfo4": "carnes especiales: Pomona, Frescampo y",
+                            "textoInfo5": "Pietrán. Compra ahora"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Encurtidos, conservas y pates",
+                            "item1": "encurtidos-conservas-y-pates",
+                            "textoInfo1": "Descubre nuestra variedad de paté, aceitunas",
+                            "textoInfo2": "y encurtidos. Perfectas para deleitar tu",
+                            "textoInfo3": "paladar con las mejores marcas Alfa, Don",
+                            "textoInfo4": "chicharron, Ficacci, Koller y",
+                            "textoInfo5": "La Maison. Compra ahora"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Nueces, pistachos y frutos secos",
+                            "item1": "nueces-pistachos-y-frutos-secos",
+                            "textoInfo1": "Aprovecha nuestras ofertas únicas en maní,",
+                            "textoInfo2": "nueces, pistachos y frutos secos en Uno.",
+                            "textoInfo3": "Combina calidad y sabor a precios insuperables",
+                            "textoInfo4": "con Frescampo. Elige tus favoritos en Uno.com"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

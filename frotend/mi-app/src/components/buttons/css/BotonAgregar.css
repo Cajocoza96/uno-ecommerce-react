@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.boton-agregar{
+    margin: 1rem auto 0.5rem;
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    background-color: #f04e0e;
+    border: none;
+    border-radius: 0.3rem;
+    color: #ffffff;
+    font-size: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.boton-agregar:active{
+    background-color: #ec7141;
+}
+
+.boton-agregar .icono-carrito{
+    margin-top: 0.2rem;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape){
+    .boton-agregar{
+        font-size: 1.2rem;
+    }
+
+    .boton-agregar .icono-carrito{
+        font-size: 1.2rem;
+    }
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px){
+    .boton-agregar{
+        font-size: 1.2rem;
+    }
+
+    .boton-agregar .icono-carrito{
+        font-size: 1.2rem;
+    }
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px){
+    .boton-agregar{
+        font-size: 1.4rem;
+    }
+
+    .boton-agregar .icono-carrito{
+        font-size: 1.4rem;
+    }
+}
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+    .boton-agregar{
+        font-size: 1.6rem;
+    }
+
+    .boton-agregar .icono-carrito{
+        font-size: 1.6rem;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px){
+    .boton-agregar{
+        font-size: 1.8rem;
+    }
+
+    .boton-agregar .icono-carrito{
+        font-size: 1.8rem;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px){
+    .boton-agregar{
+        font-size: 2rem;
+    }
+
+    .boton-agregar .icono-carrito{
+        font-size: 2rem;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px){
+    .boton-agregar{
+        font-size: 2.2rem;
+    }
+
+    .boton-agregar .icono-carrito{
+        font-size: 2.2rem;
+    }
+}
+

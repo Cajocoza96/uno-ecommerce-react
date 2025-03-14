@@ -1,0 +1,591 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.swiper-producto-antes-despues-doble {
+    width: 100%;
+    height: 100%;
+} 
+
+.contenedor-producto-antes-despues-doble-boton-1{
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    background: linear-gradient(135deg, #e2bd02, #fa3c40, #8a2be2, #00c9ff);
+    background-size: 300% 300%;
+    animation: gradientAnimation 8s ease infinite;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+
+    overflow: hidden;
+}
+
+@keyframes gradientAnimation {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.burbuja{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    filter: blur(4px);
+    animation: bubbleAnimation 10s infinite ease-in-out;
+    opacity: 0.7;
+}
+
+@keyframes bubbleAnimation {
+    0% {
+        transform: translatey(200px) scale(1);
+        opacity: 0.5;
+    }
+    50% {
+        transform: translateY(-200px) scale(1.2);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(200px) scale(1);
+        opacity: 0.5;
+    }
+    
+}
+
+.burbuja:nth-child(1){
+    left: 10%;
+    animation-duration: 8s;
+    animation-delay: 0s;
+}
+
+.burbuja:nth-child(2){
+    left: 30%;
+    animation-duration: 10s;
+    animation-delay: 2s;
+}
+
+.burbuja:nth-child(3){
+    left: 50%;
+    animation-duration: 12s;
+    animation-delay: 4s;
+}
+
+.burbuja:nth-child(4){
+    left: 70%;
+    animation-duration: 9s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(5){
+    left: 90%;
+    animation-duration: 11s;
+    animation-delay: 1s;
+}
+
+.contenedor-producto-antes-despues-doble-boton-1 .boton-compra{
+    margin: 0.5rem auto 0.5rem;
+    padding: 0.5rem;
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #ff0000;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-producto-antes-despues-doble-boton-1 .boton-compra:active{
+    background-color: #f83636;
+}
+
+.contenedor-producto-antes-despues-doble-1{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.contenedor-antes-despues-tarjeta-oferta-detalles-1{
+    width: 100%;
+    height: 13.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.contenedor-antes-desp-productos-antes-despues-doble-1{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-antes-desp-productos-antes-despues-doble-1 .texto-antes-product{
+    font-size: 1rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000000;
+    text-align: center;
+    
+}
+
+.contenedor-antes-desp-productos-antes-despues-doble-1 .texto-despues-product{
+    font-size: 1rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000000;
+    text-align: center;
+}
+
+.contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-pagando-con-tu-tarjeta-uno{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-pagando-con-tu-tarjeta-uno .texto-tarj-product{
+    font-size: 1rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000000;
+    text-align: center;
+}
+
+.contenedor-tarjeta-uno {
+    padding: 0.4rem;
+    background-color: #fbff02;
+    border-radius: 50%;
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+.contenedor-tarjeta-uno .tarjeta-uno {
+    font-size: 1rem;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-precio-oferta{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-precio-oferta .texto-precio-oferta{
+    font-size: 1.1rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000000;
+    text-align: center;
+}
+
+.contenedor-precio-unitario-productos-antes-despues-doble-1{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-precio-unitario-productos-antes-despues-doble-1 .texto-precio-unitario{
+    font-size: 1.1rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000000;
+    text-align: center;
+}
+
+
+.contenedor-detalles-productos-antes-despues-doble-1{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-detalles-productos-antes-despues-doble-1 .texto-detalle1-productos-antes-despues-doble-1{
+    font-size: 1rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000000;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.contenedor-imagen-producto-antes-despues-doble{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-imagen-producto-antes-despues-doble .imagen-producto-antes-despues-doble{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape){
+    .contenedor-producto-antes-despues-doble-boton-1 .boton-compra{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-antes-despues-tarjeta-oferta-detalles-1{
+        height: 15.3rem;
+    }
+
+    .contenedor-antes-desp-productos-antes-despues-doble-1 .texto-antes-product{
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-antes-desp-productos-antes-despues-doble-1 .texto-despues-product{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-pagando-con-tu-tarjeta-uno .texto-tarj-product{
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-precio-oferta .texto-precio-oferta{
+        font-size: 1.3rem;
+    }
+
+    .contenedor-precio-unitario-productos-antes-despues-doble-1 .texto-precio-unitario{
+        font-size: 1.3rem;
+    }
+
+    .contenedor-detalles-productos-antes-despues-doble-1 .texto-detalle1-productos-antes-despues-doble-1{
+        font-size: 1.2rem;
+    }
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px){
+    .contenedor-producto-antes-despues-doble-boton-1 .boton-compra{
+        font-size: 1.2rem; 
+    }
+
+    .contenedor-producto-antes-despues-doble-1{
+        flex-direction: row;
+    }
+
+    .contenedor-antes-despues-tarjeta-oferta-detalles-1{
+        height: 15.3rem;
+    }
+    
+    .contenedor-antes-desp-productos-antes-despues-doble-1 .texto-antes-product{
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-antes-desp-productos-antes-despues-doble-1 .texto-despues-product{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-pagando-con-tu-tarjeta-uno .texto-tarj-product{
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-precio-oferta .texto-precio-oferta{
+        font-size: 1.3rem;
+    }
+
+    .contenedor-precio-unitario-productos-antes-despues-doble-1 .texto-precio-unitario{
+        font-size: 1.3rem;
+    }
+
+    .contenedor-detalles-productos-antes-despues-doble-1 .texto-detalle1-productos-antes-despues-doble-1{
+        font-size: 1.2rem;
+    }
+
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px){
+    .contenedor-producto-antes-despues-doble-boton-1 .boton-compra{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-producto-antes-despues-doble-1{
+        flex-direction: row;
+    }
+
+    .contenedor-antes-despues-tarjeta-oferta-detalles-1{
+        height: 18rem;
+    }
+
+    .contenedor-antes-desp-productos-antes-despues-doble-1 .texto-antes-product{
+        font-size: 1.4rem;
+    }
+    
+    .contenedor-antes-desp-productos-antes-despues-doble-1 .texto-despues-product{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-pagando-con-tu-tarjeta-uno .texto-tarj-product{
+        font-size: 1.4rem;
+    }
+    
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-precio-oferta .texto-precio-oferta{
+        font-size: 1.5rem;
+    }
+
+    .contenedor-precio-unitario-productos-antes-despues-doble-1 .texto-precio-unitario{
+        font-size: 1.5rem;
+    }
+
+    .contenedor-detalles-productos-antes-despues-doble-1 .texto-detalle1-productos-antes-despues-doble-1{
+        font-size: 1.4rem;
+    }
+}
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+    .contenedor-producto-antes-despues-doble-boton-1 .boton-compra{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-producto-antes-despues-doble-1{
+        flex-direction: row;
+    }
+
+    .contenedor-antes-despues-tarjeta-oferta-detalles-1{
+        height: 20rem;
+    }
+
+    .contenedor-antes-desp-productos-antes-despues-doble-1 .texto-antes-product{
+        font-size: 1.6rem;
+    }
+    
+    .contenedor-antes-desp-productos-antes-despues-doble-1 .texto-despues-product{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-pagando-con-tu-tarjeta-uno .texto-tarj-product{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-pagando-con-tu-tarjeta-uno .contenedor-tarjeta-uno{
+        padding: 0.4rem;
+    }
+    
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-precio-oferta .texto-precio-oferta{
+        font-size: 1.7rem;
+    }
+
+    .contenedor-precio-unitario-productos-antes-despues-doble-1 .texto-precio-unitario{
+        font-size: 1.7rem;
+    }
+
+    .contenedor-detalles-productos-antes-despues-doble-1 .texto-detalle1-productos-antes-despues-doble-1{
+        font-size: 1.6rem;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px){
+    .contenedor-producto-antes-despues-doble-boton-1 .boton-compra{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-producto-antes-despues-doble-1{
+        flex-direction: row;
+    }
+
+    .contenedor-antes-despues-tarjeta-oferta-detalles-1{
+        height: 22.5rem;
+    }
+
+    .contenedor-antes-desp-productos-antes-despues-doble-1 .texto-antes-product{
+        font-size: 1.8rem;
+    }
+    
+    .contenedor-antes-desp-productos-antes-despues-doble-1 .texto-despues-product{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-pagando-con-tu-tarjeta-uno .texto-tarj-product{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-pagando-con-tu-tarjeta-uno .contenedor-tarjeta-uno{
+        padding: 0.5rem;
+    }
+    
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-precio-oferta .texto-precio-oferta{
+        font-size: 1.9rem;
+    }
+
+    .contenedor-precio-unitario-productos-antes-despues-doble-1 .texto-precio-unitario{
+        font-size: 1.9rem;
+    }
+
+    .contenedor-detalles-productos-antes-despues-doble-1 .texto-detalle1-productos-antes-despues-doble-1{
+        font-size: 1.8rem;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px){
+    .contenedor-producto-antes-despues-doble-boton-1 .boton-compra{
+        font-size: 2rem;
+    }
+
+    .contenedor-producto-antes-despues-doble-1{
+        flex-direction: row;
+    }
+
+    .contenedor-antes-despues-tarjeta-oferta-detalles-1{
+        height: 26rem;
+    }
+
+    .contenedor-antes-desp-productos-antes-despues-doble-1 .texto-antes-product{
+        font-size: 2rem;
+    }
+    
+    .contenedor-antes-desp-productos-antes-despues-doble-1 .texto-despues-product{
+        font-size: 2rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-pagando-con-tu-tarjeta-uno .texto-tarj-product{
+        font-size: 2rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-pagando-con-tu-tarjeta-uno .contenedor-tarjeta-uno{
+        padding: 0.6rem;
+    }
+    
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 2rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-precio-oferta .texto-precio-oferta{
+        font-size: 2.1rem;
+    }
+
+    .contenedor-precio-unitario-productos-antes-despues-doble-1 .texto-precio-unitario{
+        font-size: 2.1rem;
+    }
+
+    .contenedor-detalles-productos-antes-despues-doble-1 .texto-detalle1-productos-antes-despues-doble-1{
+        font-size: 2.1rem;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px){
+    .contenedor-producto-antes-despues-doble-boton-1 .boton-compra{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-producto-antes-despues-doble-1{
+        flex-direction: row;
+    }
+
+    .contenedor-antes-despues-tarjeta-oferta-detalles-1{
+        height: 28rem;
+    }
+
+    .contenedor-antes-desp-productos-antes-despues-doble-1 .texto-antes-product{
+        font-size: 2.2rem;
+    }
+    
+    .contenedor-antes-desp-productos-antes-despues-doble-1 .texto-despues-product{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-pagando-con-tu-tarjeta-uno .texto-tarj-product{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-pagando-con-tu-tarjeta-uno .contenedor-tarjeta-uno{
+        padding: 0.7rem;
+    }
+    
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-tarjeta-uno-precio-oferta-productos-antes-despues-doble-1 .contenedor-precio-oferta .texto-precio-oferta{
+        font-size: 2.3rem;
+    }
+
+    .contenedor-precio-unitario-productos-antes-despues-doble-1 .texto-precio-unitario{
+        font-size: 2.3rem;
+    }
+
+    .contenedor-detalles-productos-antes-despues-doble-1 .texto-detalle1-productos-antes-despues-doble-1{
+        font-size: 2.3rem;
+    }
+}

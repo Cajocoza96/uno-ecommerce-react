@@ -1,0 +1,415 @@
+{
+    "vinosYLicores": [
+        {
+            "id": 1,
+            "titulo1": "Vinos y licores",
+            "item1": "vinos-y-licores",
+            "textoInfo1": "Disfruta de lo mejor con nuestras seleccion de vinos y",
+            "textoInfo2": "licores. Encuentra marcas reconocidas como: 3",
+            "textoInfo3": "Cordilleras, Corona, Cruzares, Chivas y Buchana's a",
+            "textoInfo4": "precios increibles y haz de cada ocasion sea especial.",
+            "textoInfo5": "Compra aqui en Uno.com",
+            "contenido": [
+                {
+                    "id": 1,
+                    "titulo1": "Marcas whisky",
+                    "item1": "marcas-whisky",
+                    "textoInfo1": "Sumérgete en el deleite de sabores inigualables con",
+                    "textoInfo2": "nuestra selección de whisky. Encuentra el compañero",
+                    "textoInfo3": "perfecto para cada momento especial en nuestra",
+                    "textoInfo4": "variedad de marcas, Buchanans, Chivas, Jack Daniels,",
+                    "textoInfo5": "Old Parr y Glenlivet. Realiza tu compra aqui",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Buchana's",
+                            "item1": "buchanas",
+                            "textoInfo1": "Disfruta el sabor y aroma de Buchanans",
+                            "textoInfo2": "los mejores catalogos escogidos para usted",
+                            "textoInfo3": "con su familia, amigos y seres queridos.",
+                            "textoInfo4": "Realiza tu compra aqui ",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "whiskyBuchananSDeluxe12Anos750Ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Whisky BUCHANAN S Deluxe 12 Años (750 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 220)",
+                                    "precioProductoUnitario": 168300
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "whiskyBuchananSMaster750Ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Whisky BUCHANAN S Master (750 Ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 258)",
+                                    "precioProductoUnitario": 193800
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "whiskyBuchananSBotella18Anos750Ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Whisky BUCHANAN S Botella 18 Años (750 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 529)",
+                                    "precioProductoUnitario": 397000
+                                },
+                                {
+                                    "id": 4,
+                                    "imagen": "whiskyBuchananSTwoSouls750Ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Whisky BUCHANAN S Two Souls (750 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 253)",
+                                    "precioProductoUnitario": 190000
+                                },
+                                {
+                                    "id": 5,
+                                    "imagen": "whiskyBuchananSDeluxe2VasosDeRegalo12Anos750Ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Whisky BUCHANAN S Deluxe + 2 vasos de regalo 12 años (750 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 220)",
+                                    "precioProductoUnitario": 165000
+                                },
+                                {
+                                    "id": 6,
+                                    "imagen": "whiskyBuchananSMaster2VasosDeRegalo750Ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Whisky BUCHANAN S Master + 2 vasos de regalo (750 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 253)",
+                                    "precioProductoUnitario": 190000
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Old Parr",
+                            "item1": "old-parr",
+                            "textoInfo1": "Disfruta del inigualable sabor de Old Parr en Uno.",
+                            "textoInfo2": "El whisky premium que combina tradición y carácter,",
+                            "textoInfo3": "perfecto para tus momentos especiales.",
+                            "textoInfo4": "Aprovecha nuestras ofertas exclusivas y haz tu pedido ahora.",
+                            "productoSimilares": "En Old Parr\nLicores\ny muchos mas",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "whiskyOldParrPremium12Anos750ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Whisky OLD PARR premium 12 Años (750 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 154)",
+                                    "porcentajeProductoDescuentoUnitario": 20,
+                                    "precioProductoAntesUnitarioPorcentaje": 145000,
+                                    "precioProductoUnitario": 116000
+
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "whiskyOldParrBotella18Años750ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Whisky OLD PARR Botella 18 Años (750 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 493)",
+                                    "porcentajeProductoDescuentoUnitario": 35,
+                                    "precioProductoAntesUnitarioPorcentaje": 195350,
+                                    "precioProductoUnitario": 125450
+                                }
+
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Chivas",
+                            "item1": "chivas",
+                            "textoInfo1": "Vive la experiencia única de Chivas en Uno.",
+                            "textoInfo2": "El whisky escocés de mezcla premium, reconocido por su suavidad y elegancia.",
+                            "textoInfo3": "Ideal para celebrar tus mejores momentos.",
+                            "textoInfo4": "Aprovecha nuestras ofertas especiales y haz tu pedido hoy.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "whiskyChivasRegalBlendedScotch12años700ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Whisky CHIVAS REGAL Blended Scotch 12 años (700 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 168)",
+                                    "porcentajeProductoDescuentoUnitario": 20,
+                                    "precioProductoAntesUnitarioPorcentaje": 147700,
+                                    "precioProductoUnitario": 118160
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "whiskyChivasRegalBlendedScotchGoldSignature18años700ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Whisky CHIVAS REGAL Blended Scotch Gold Signature 18 años (700 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 557)",
+                                    "precioProductoUnitario": 389900
+                                }
+
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Glenlivet",
+                            "item1": "glenlivet",
+                            "textoInfo1": "Descubre la excelencia de Glenlivet en Uno.",
+                            "textoInfo2": "Un whisky escocés single malt de prestigio, conocido por su suavidad y carácter único.",
+                            "textoInfo3": "Perfecto para los amantes del buen whisky.",
+                            "textoInfo4": "Aprovecha nuestras ofertas exclusivas y realiza tu pedido ahora.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "whiskyGlenlivetFoundersReserveSingleMalt700ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Whisky GLENLIVET Founders Reserve Single Malt (700 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 210)",
+                                    "porcentajeProductoDescuentoUnitario": 20,
+                                    "precioProductoAntesUnitarioPorcentaje": 184600,
+                                    "precioProductoUnitario": 147680
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "whiskyGlenlivetCaptainsReserveSingleMalt.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Whisky GLENLIVET Captains Reserve Single Malt (700 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 343)",
+                                    "precioProductoUnitario": 240300
+                                }
+
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo1": "Whisky",
+                    "item1": "whisky",
+                    "textoInfo1": "Explora nuestra amplia selección de whiskies en Uno.",
+                    "textoInfo2": "Desde las mezclas más elegantes hasta los single malts más refinados, ideales para cada ocasión.",
+                    "textoInfo3": "Calidad premium a precios irresistibles.",
+                    "textoInfo4": "¡Haz tu pedido ahora y disfruta del sabor del buen whisky!",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Para regalar",
+                            "item1": "para-regalar",
+                            "textoInfo1": "Encuentra el regalo perfecto con nuestra selección",
+                            "textoInfo2": "de whiskies premium en Uno. Elegancia y sabor",
+                            "textoInfo3": "en cada botella, ideal para sorprender",
+                            "textoInfo4": "en cualquier ocasión especial.",
+                            "textoInfo5": "Aprovecha nuestras ofertas y haz tu pedido hoy mismo.",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "anchetafantasia.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Ancheta Fantasia",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 345)",
+                                    "precioProductoUnitario": 65900
+                                },
+                                {
+                                    "id": 2,
+                                    "imagen": "whiskyBuchananSMaster+2VasosDeRegalo750ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Whisky BUCHANAN S Master + 2 vasos de regalo (750 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 253)",
+                                    "precioProductoUnitario": 190000
+                                },
+                                {
+                                    "id": 3,
+                                    "imagen": "anchetaPrestigio.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Ancheta Prestigio",
+                                    "unidadPrecioProductoUnitario": "(Und a $ 99.850)",
+                                    "precioProductoUnitario": 99850
+                                }
+                            ]
+
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Whisky joven",
+                            "item1": "whisky-joven",
+                            "textoInfo1": "Descubre nuestra selección de whiskies jóvenes en Uno.",
+                            "textoInfo2": "Sabores frescos y vibrantes, perfectos para disfrutar en cócteles o en cualquier ocasión casual.",
+                            "textoInfo3": "Calidad y precio que te encantarán. ¡Haz tu pedido ahora!",
+                            "productos": [
+                                { 
+                                    "id": 1,
+                                    "imagen": "whiskyJohnnieWalkerRedLabel8Años700ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Whisky JOHNNIE WALKER. Red Label 8 Años (700 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 107)",
+                                    "precioProductoUnitario": 75000
+                                },
+                                { 
+                                    "id": 2,
+                                    "imagen": "whiskyBallantinesFinest+1VasoRegalo700Ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Whisky BALLANTINES Finest + 1 vaso regalo (700 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 100)",
+                                    "precioProductoUnitario": 70500
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Whisky premium",
+                            "item1": "whisky-premium",
+                            "textoInfo1": "Disfruta de lo mejor con nuestra selección de",
+                            "textoInfo2": "whisky premium. Descubre marcas reconocidas",
+                            "textoInfo3": "Glenfiddich, Buchanans, Chivas, Old Parr,",
+                            "textoInfo4": "Jhonny Walker y Dewars a precios increibles",
+                            "textoInfo5": "y haz de cada ocasión sea especial. Compra ya"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Whisky reserva",
+                            "item1": "whisky-reserva",
+                            "textoInfo1": "Descubre el placer de lo extraordinario con nuestra",
+                            "textoInfo2": "colección de whisky reserva. Te ofrecemos una",
+                            "textoInfo3": "experiencia incomparable con productos de alta",
+                            "textoInfo4": "calidad y las marcas más prestigiosas, Buchanans,",
+                            "textoInfo5": "Glenfiddich y Glenlivet. Realiza tu compra aquí"
+                        },
+                        {
+                            "id": 5,
+                            "titulo1": "Cremas de whisky",
+                            "item1": "cremas-de-whisky",
+                            "textoInfo1": "Disfruta de la suavidad y el sabor único",
+                            "textoInfo2": "de nuestras cremas de whisky en Uno. Perfectas",
+                            "textoInfo3": "para un toque indulgente en cualquier ocasión, ideales",
+                            "textoInfo4": "para disfrutar solas o en cócteles.",
+                            "textoInfo5": "¡Haz tu pedido ahora y saborea la excelencia!"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "titulo1": "Cervezas",
+                    "item1": "cervezas",
+                    "textoInfo1": "Descubre el placer de lo extraordinario con nuestra",
+                    "textoInfo2": "colección de cerveza. Te ofrecemos una experiencia",
+                    "textoInfo3": "incomparable con productos de alta calidad y las",
+                    "textoInfo4": "marcas más reconocidas: Corona, Águila, Andina,",
+                    "textoInfo5": "Stella Artois, Poker y Club Colombia. ¡Encuentra la tuya",
+                    "textoInfo6": "hoy mismo!",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Cervezas nacionales",
+                            "item1": "cervezas-nacionales",
+                            "textoInfo1": "Dale ese toque a tus celebraciones con nuestra",
+                            "textoInfo2": "selección de cerveza nacional. Con una variedad de",
+                            "textoInfo3": "marcas como: Club Colombia, Aguila, Andina, Aguila",
+                            "textoInfo4": "Light y Cerveza Costeña. Ingresa aquí",
+                            "productoSimilares": "En Cerveza Aguila\nCosteñita\ny muchos mas",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "cervezaLataSixpackAguila1980ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Cerveza Lata Sixpack AGUILA 1980 ml",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 9)",
+                                    "porcentajeProductoDescuentoUnitario": 25,
+                                    "precioProductoAntesUnitarioPorcentaje": 174700,
+                                    "precioProductoUnitario": 144700
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Cervezas importadas",
+                            "item1": "cervezas-importadas",
+                            "textoInfo1": "Disfruta de lo mejor con nuestra selección de cerveza",
+                            "textoInfo2": "importada. Descubre marcas reconocidas como",
+                            "textoInfo3": "Corona, Czechvar, Becks y Budweiser a precios",
+                            "textoInfo4": "increibles y haz que cada ocasión sea especial. Compra",
+                            "textoInfo5": "ahora"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Cervezas artesanales",
+                            "item1": "cervezas-artesanales",
+                            "textoInfo1": "Déjate de llevar por la excelencia con nuestra gran",
+                            "textoInfo2": "variedad de cerveza artesanal. Placer en cada sorbo,",
+                            "textoInfo3": "de nuestras mejores marcas: Goldenlion, Pola de pub,",
+                            "textoInfo4": "3 Cordilleras y BBB cuidadosamente elegidas para ti.",
+                            "textoInfo5": "Compra ya"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Cervezas sin alcohol",
+                            "item1": "cervezas-sin-alcohol",
+                            "textoInfo1": "Déjate de llevar por la excelencia con nuestra gran",
+                            "textoInfo2": "variedad de cerveza sin alcohol. Placer en cada sorbo,",
+                            "textoInfo3": "de nuestras mejores marcas: Erdinger, Heineken y Estrella",
+                            "textoInfo4": "Galicia, cuidadosamente elegidas para ti. Compra aquí",
+                            "textoInfo5": "en uno.com"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "titulo1": "Vinos",
+                    "item1": "vinos",
+                    "textoInfo1": "Descubre el vino perfecto para cada ocasión con",
+                    "textoInfo2": "nuestra amplia gama de marcas: Cruzares, La Piurna,",
+                    "textoInfo3": "Casillero del Diablo, Gato Negro, Undurraga y Siete",
+                    "textoInfo4": "Soles. Explora ahora y enamórate de cada sorbo.",
+                    "subContenido": [
+                        {
+                            "id": 1,
+                            "titulo1": "Vino tinto",
+                            "item1": "vino-tinto",
+                            "textoInfo1": "Sumérgete en el deleite de sabores inigualables con",
+                            "textoInfo2": "nuestra selección de vino tinto. Encuentra el",
+                            "textoInfo3": "compañero perfecto para cada momento especial en",
+                            "textoInfo4": "nuestra variedad de marcas como: Cruzares, Casillero",
+                            "textoInfo5": "del Diablo, Gato Negro y Santa Rita. Haz clic aquí",
+                            "productoSimilares": "En Vino Tinto\nChampaña\ny muchos mas",
+                            "productos": [
+                                {
+                                    "id": 1,
+                                    "imagen": "vinoTintoCruzaresMarcaExclusiva750ml.jpg",
+                                    "vendidoPor": "Uno",
+                                    "nombreProductoUnitario": "Vino Tinto CRUZARES MARCA EXCLUSIVA (750 ml)",
+                                    "unidadPrecioProductoUnitario": "(Ml a $ 22)",
+                                    "porcentajeProductoDescuentoUnitario": 20,
+                                    "precioProductoAntesUnitarioPorcentaje": 147700,
+                                    "precioProductoUnitario": 118160
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "titulo1": "Vino blanco",
+                            "item1": "vino-blanco",
+                            "textoInfo1": "Encuentra la bebida perfecta para cada ocasión, una",
+                            "textoInfo2": "selección de vino blanco con una variedad de marcas:",
+                            "textoInfo3": "Cruzares, Casilleros del Diablo, Terra Vega y Siete Soles",
+                            "textoInfo4": "que satisfacen todos los gustos y preferencias.",
+                            "textoInfo5": "¡Compra Ahora!"
+                        },
+                        {
+                            "id": 3,
+                            "titulo1": "Vino rosado",
+                            "item1": "vino-rosado",
+                            "textoInfo1": "Disfruta de lo mejor con nuestra selección de vino",
+                            "textoInfo2": "rosado. Descubre marcas reconocidas: Cruzares, Terra",
+                            "textoInfo3": "Vega, Las Morras y Undurraga a precios increibles y haz",
+                            "textoInfo4": "que cada ocasión sea especial. ¡Compra tu vino rosado",
+                            "textoInfo5": "favorito!"
+                        },
+                        {
+                            "id": 4,
+                            "titulo1": "Vino espumoso y champaña",
+                            "item1": "vino-espumoso-y-champana",
+                            "textoInfo1": "Sumérgete en el deleite de sabores inigualables con",
+                            "textoInfo2": "nuestra selección de vino espumoso y champaña.",
+                            "textoInfo3": "Encuentra el compañero perfecto para cada momento",
+                            "textoInfo4": "especial en nuestra variedad de marcas: La Piurna, JP",
+                            "textoInfo5": "Chenef, Undurraga y Chandon. Realiza tu compra aquí"
+                        }
+                    ]
+                }
+
+            ]
+        }
+    ]
+}

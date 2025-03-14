@@ -1,0 +1,1434 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.contenedor-padre-articulos-compra {
+    margin: 8rem auto 0rem;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 1.5rem;
+}
+
+.contenedor-titulo-mensaje-promocion-icono-mostrar-regresar {
+    margin: 0.5rem auto;
+    width: 95%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 0.5rem;
+}
+
+.contenedor-titulo-item1-mensaje-promocion {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.contenedor-titulo-item1-mensaje-promocion .texto-titulo-item1 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.contenedor-mensaje-promocion-item1 {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-mensaje-promocion-item1 .texto-mensaje-promocion-item1 {
+    font-size: 0.9rem;
+    color: #000000;
+}
+
+.contenedor-texto-oculto-visto {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-texto-oculto-visto .texto-mensaje-promocion-item1 {
+    font-size: 0.9rem;
+    color: #000000;
+}
+
+.contenedor-mostrar-menos-mas-icono-menos-mas {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.contenedor-mostrar-menos-mas-icono-menos-mas .texto-mostrar {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+.contenedor-icono-mas-menos {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-icono-mas-menos .icono-mas,
+.icono-menos {
+    font-size: 1rem;
+    color: #000000;
+}
+
+.contenedor-padre-icono-expansion-izquierda-regresar {
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenedor-icono-expansion-izquierda-regresar {
+    width: auto;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contenedor-icono-expansion-izquierda-regresar .icono-expansion-izquierda {
+    font-size: 0.9rem;
+    color: #000000;
+}
+
+.contenedor-icono-expansion-izquierda-regresar .texto-regresar {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+.contenedor-filtrar-ordenar-por-icono-expansion-abajo-fila-columna {
+    width: 95%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-filtrar-ordenar-por-icono-expansion-abajo-fila-columna .texto-filtrar {
+    font-size: 1rem;
+    color: #000000;
+    cursor: pointer;
+}
+
+.contenedor-ordenar-por-icono-expansion {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    position: relative;
+}
+
+.contenedor-ordenar-por-tipo-orden-icono-expansion-abajo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+
+.contenedor-ordenar-por-tipo-orden .texto-ordenar-por {
+    text-align: center;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.contenedor-ordenar-por-tipo-orden .texto-tipo-de-orden {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #000000;
+}
+
+.contenedor-ordenar-por-icono-expansion .icono-expansion-abajo {
+    color: #000000;
+    font-size: 0.9rem;
+}
+
+.contenedor-ordenar-por-icono-expansion .menu-desplegable {
+    padding: 0.5rem;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border: 1px solid #000000;
+}
+
+.contenedor-ordenar-por-icono-expansion .menu-desplegable .opcion-menu-desplegable {
+    list-style: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+
+.contenedor-icono-ver-fila-columna {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contenedor-icono-ver-fila-columna .icono-organizar-como-fila,
+.icono-organizar-como-columna {
+    font-size: 1rem;
+    color: #646363;
+    cursor: pointer;
+}
+
+.contenedor-icono-ver-fila-columna .icono-organizar-como-fila.negro,
+.icono-organizar-como-columna.negro {
+    color: #000000;
+}
+
+.contenedor-cantidad-resultados-productos-obtenidos {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+    border: 1px dashed #000000;
+}
+
+.contenedor-cantidad-resultados-productos-obtenidos .texto-cantidad-productos-obtenidos,
+.texto-resultados-productos-obtenidos {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+/* Formato Fila grid*/
+/*==================================*/
+.contenedor-productos-unitarios.negro {
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/*==================================*/
+
+
+/* Formato Fila*/
+/*==================================*/
+.contenedor-producto-unitario.negro {
+    margin-bottom: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.contenedor-imagen-vendido-por-producto-unitario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-imagen-producto-unitario {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.contenedor-imagen-producto-unitario .imagen-producto-unitario {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.contenedor-imagen-vendido-por-producto-unitario .texto-vendido-por {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #000000;
+    text-align: center;
+}
+
+.contenedor-imagen-vendido-por-producto-unitario .negrita {
+    font-weight: bold;
+}
+
+.contenedor-detalles-boton-agregar-producto-unitario {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contenedor-detalles-producto-unitario {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contenedor-detalles-producto-unitario .nombre-producto-unitario {
+    font-size: 0.9rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.contenedor-detalles-producto-unitario .marca-producto-unitario {
+    font-size: 1rem;
+    color: #333131;
+    font-weight: bold;
+}
+
+.contenedor-detalles-producto-unitario .unidad-precio-producto-unitario {
+    font-size: 0.9rem;
+    color: #333131;
+}
+
+.contenedor-porcentaje-producto-descuento-unitario-antes-unitario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contenedor-porcentaje-producto-descuento-unitario-antes-unitario .contenedor-porcentaje-producto-descuento-unitario {
+    background-color: #000000;
+    height: auto;
+    width: auto;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-porcentaje-producto-descuento-unitario-antes-unitario .precio-producto-antes-unitario-porcentaje {
+    font-size: 0.9rem;
+    color: #333131;
+    text-decoration: line-through;
+    text-decoration-color: #333131;
+}
+
+.contenedor-producto-oferta-uno-tarjeta-uno-unitario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contenedor-producto-oferta-uno-tarjeta-uno-unitario .contenedor-producto-oferta-uno-unitario .producto-oferta-uno-unitario {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #d84723;
+}
+
+.contenedor-tarjeta-uno {
+    padding: 0.4rem;
+    background-color: #fbff02;
+    border-radius: 50%;
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenedor-tarjeta-uno .tarjeta-uno {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+
+.contenedor-producto-unitario-otros-texto-otros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contenedor-producto-unitario-otros-texto-otros .contenedor-producto-unitario-otros .producto-unitario-otros {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+.contenedor-producto-unitario-otros-texto-otros .contenedor-forma-pago-otros .forma-pago-otros {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.contenedor-porcentaje-producto-descuento-unitario .porcentaje-producto-descuento-unitario {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.contenedor-detalles-producto-unitario .precio-producto-antes-unitario {
+    font-size: 0.9rem;
+    color: #333131;
+    text-decoration: line-through;
+    text-decoration-color: #333131;
+}
+
+.contenedor-detalles-producto-unitario .precio-producto-unitario {
+    font-size: 0.9rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.contenedor-detalles-boton-agregar-producto-unitario .boton-agregar {
+    border-radius: 0.5rem;
+}
+
+/*==================================*/
+
+
+/* Formato columna grid*/
+/*==================================*/
+.contenedor-productos-unitarios {
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1.5rem;
+}
+
+/*==================================*/
+
+
+/* Formato columna.*/
+/*==================================*/
+.contenedor-producto-unitario {
+    margin-bottom: 2rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.contenedor-detalles-boton-agregar-producto-unitario {
+    justify-content: space-between;
+}
+
+/*==================================*/
+
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape) {
+    .contenedor-padre-articulos-compra {
+        margin: 9rem auto 0rem;
+    }
+
+    .contenedor-titulo-item1-mensaje-promocion .texto-titulo-item1 {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-mensaje-promocion-item1 .texto-mensaje-promocion-item1 {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-texto-oculto-visto .texto-mensaje-promocion-item1 {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-mostrar-menos-mas-icono-menos-mas .texto-mostrar {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-icono-mas-menos .icono-mas,
+    .icono-menos {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-icono-expansion-izquierda-regresar .icono-expansion-izquierda {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-icono-expansion-izquierda-regresar .texto-regresar {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-filtrar-ordenar-por-icono-expansion-abajo-fila-columna .texto-filtrar {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-ordenar-por-tipo-orden .texto-ordenar-por {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-ordenar-por-tipo-orden .texto-tipo-de-orden {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .icono-expansion-abajo {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .menu-desplegable {
+        width: 80%;
+        left: 2rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .menu-desplegable .opcion-menu-desplegable {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-icono-ver-fila-columna .icono-organizar-como-fila,
+    .icono-organizar-como-columna {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-cantidad-resultados-productos-obtenidos .texto-cantidad-productos-obtenidos,
+    .texto-resultados-productos-obtenidos {
+        font-size: 1.2rem;
+    }
+
+    /* Formato Fila grid*/
+    /*==================================*/
+    .contenedor-productos-unitarios.negro {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /*==================================*/
+
+
+    /* Formato Fila*/
+    /*==================================*/
+    .contenedor-imagen-producto-unitario .imagen-producto-unitario {
+        max-width: 50%;
+    }
+
+    .contenedor-imagen-vendido-por-producto-unitario .texto-vendido-por {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-detalles-producto-unitario .nombre-producto-unitario {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-detalles-producto-unitario .marca-producto-unitario {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-detalles-producto-unitario .unidad-precio-producto-unitario {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-porcentaje-producto-descuento-unitario-antes-unitario .precio-producto-antes-unitario-porcentaje {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-producto-oferta-uno-tarjeta-uno-unitario .contenedor-producto-oferta-uno-unitario .producto-oferta-uno-unitario {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-producto-unitario-otros-texto-otros .contenedor-producto-unitario-otros .producto-unitario-otros {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-producto-unitario-otros-texto-otros .contenedor-forma-pago-otros .forma-pago-otros {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-porcentaje-producto-descuento-unitario .porcentaje-producto-descuento-unitario {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-detalles-producto-unitario .precio-producto-antes-unitario {
+        font-size: 1.1rem;
+    }
+    
+    .contenedor-detalles-producto-unitario .precio-producto-unitario {
+        font-size: 1.1rem;
+    }
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+    .contenedor-padre-articulos-compra {
+        margin: 12rem auto 0rem;
+    }
+
+    .contenedor-titulo-item1-mensaje-promocion .texto-titulo-item1 {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-mensaje-promocion-item1 .texto-mensaje-promocion-item1 {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-texto-oculto-visto .texto-mensaje-promocion-item1 {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-mostrar-menos-mas-icono-menos-mas .texto-mostrar {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-icono-mas-menos .icono-mas,
+    .icono-menos {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-icono-expansion-izquierda-regresar .icono-expansion-izquierda {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-icono-expansion-izquierda-regresar .texto-regresar {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-filtrar-ordenar-por-icono-expansion-abajo-fila-columna .texto-filtrar {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-ordenar-por-tipo-orden .texto-ordenar-por {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-ordenar-por-tipo-orden .texto-tipo-de-orden {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .icono-expansion-abajo {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .menu-desplegable {
+        width: 58%;
+        left: 5.5rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .menu-desplegable .opcion-menu-desplegable {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-icono-ver-fila-columna .icono-organizar-como-fila,
+    .icono-organizar-como-columna {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-cantidad-resultados-productos-obtenidos .texto-cantidad-productos-obtenidos,
+    .texto-resultados-productos-obtenidos {
+        font-size: 1.2rem;
+    }
+
+    /* Formato Fila grid*/
+    /*==================================*/
+    .contenedor-productos-unitarios.negro {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /*==================================*/
+
+
+    /* Formato Fila*/
+    /*==================================*/
+    .contenedor-imagen-producto-unitario .imagen-producto-unitario {
+        max-width: 50%;
+    }
+
+    .contenedor-imagen-vendido-por-producto-unitario .texto-vendido-por {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-detalles-producto-unitario .nombre-producto-unitario {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-detalles-producto-unitario .marca-producto-unitario {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-detalles-producto-unitario .unidad-precio-producto-unitario {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-porcentaje-producto-descuento-unitario-antes-unitario .precio-producto-antes-unitario-porcentaje {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-producto-oferta-uno-tarjeta-uno-unitario .contenedor-producto-oferta-uno-unitario .producto-oferta-uno-unitario {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-producto-unitario-otros-texto-otros .contenedor-producto-unitario-otros .producto-unitario-otros {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-producto-unitario-otros-texto-otros .contenedor-forma-pago-otros .forma-pago-otros {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-porcentaje-producto-descuento-unitario .porcentaje-producto-descuento-unitario {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-detalles-producto-unitario .precio-producto-antes-unitario {
+        font-size: 1.1rem;
+    }
+    
+    .contenedor-detalles-producto-unitario .precio-producto-unitario {
+        font-size: 1.1rem;
+    }
+    
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+    .contenedor-padre-articulos-compra {
+        margin: 12rem auto 0rem;
+    }
+
+    .contenedor-titulo-item1-mensaje-promocion .texto-titulo-item1 {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-mensaje-promocion-item1 .texto-mensaje-promocion-item1 {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-texto-oculto-visto .texto-mensaje-promocion-item1 {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-mostrar-menos-mas-icono-menos-mas .texto-mostrar {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-icono-mas-menos .icono-mas,
+    .icono-menos {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-icono-expansion-izquierda-regresar .icono-expansion-izquierda {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-icono-expansion-izquierda-regresar .texto-regresar {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-filtrar-ordenar-por-icono-expansion-abajo-fila-columna .texto-filtrar {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-ordenar-por-tipo-orden .texto-ordenar-por {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-ordenar-por-tipo-orden .texto-tipo-de-orden {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .icono-expansion-abajo {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .menu-desplegable {
+        width: 50%;
+        left: 9rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .menu-desplegable .opcion-menu-desplegable {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-icono-ver-fila-columna .icono-organizar-como-fila,
+    .icono-organizar-como-columna {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-cantidad-resultados-productos-obtenidos .texto-cantidad-productos-obtenidos,
+    .texto-resultados-productos-obtenidos {
+        font-size: 1.4rem;
+    }
+
+    /* Formato Fila grid*/
+    /*==================================*/
+    .contenedor-productos-unitarios.negro {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /*==================================*/
+
+
+    /* Formato Fila*/
+    /*==================================*/
+    .contenedor-imagen-producto-unitario .imagen-producto-unitario {
+        max-width: 50%;
+    }
+
+    .contenedor-imagen-vendido-por-producto-unitario .texto-vendido-por {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-detalles-producto-unitario .nombre-producto-unitario {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-detalles-producto-unitario .marca-producto-unitario {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-detalles-producto-unitario .unidad-precio-producto-unitario {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-porcentaje-producto-descuento-unitario-antes-unitario .precio-producto-antes-unitario-porcentaje {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-producto-oferta-uno-tarjeta-uno-unitario .contenedor-producto-oferta-uno-unitario .producto-oferta-uno-unitario {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-producto-unitario-otros-texto-otros .contenedor-producto-unitario-otros .producto-unitario-otros {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-producto-unitario-otros-texto-otros .contenedor-forma-pago-otros .forma-pago-otros {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-porcentaje-producto-descuento-unitario .porcentaje-producto-descuento-unitario {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-detalles-producto-unitario .precio-producto-antes-unitario {
+        font-size: 1.3rem;
+    }
+    
+    .contenedor-detalles-producto-unitario .precio-producto-unitario {
+        font-size: 1.3rem;
+    }
+}
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .contenedor-padre-articulos-compra {
+        margin: 12rem auto 0rem;
+    }
+
+    .contenedor-titulo-item1-mensaje-promocion .texto-titulo-item1 {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-mensaje-promocion-item1 .texto-mensaje-promocion-item1 {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-texto-oculto-visto .texto-mensaje-promocion-item1 {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-mostrar-menos-mas-icono-menos-mas .texto-mostrar {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-icono-mas-menos .icono-mas,
+    .icono-menos {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-icono-expansion-izquierda-regresar .icono-expansion-izquierda {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-icono-expansion-izquierda-regresar .texto-regresar {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-filtrar-ordenar-por-icono-expansion-abajo-fila-columna .texto-filtrar {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-ordenar-por-tipo-orden .texto-ordenar-por {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-ordenar-por-tipo-orden .texto-tipo-de-orden {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .icono-expansion-abajo {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .menu-desplegable {
+        width: 55%;
+        left: 7rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .menu-desplegable .opcion-menu-desplegable {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-icono-ver-fila-columna .icono-organizar-como-fila,
+    .icono-organizar-como-columna {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-cantidad-resultados-productos-obtenidos .texto-cantidad-productos-obtenidos,
+    .texto-resultados-productos-obtenidos {
+        font-size: 1.6rem;
+    }
+
+    /* Formato Fila grid*/
+    /*==================================*/
+    .contenedor-productos-unitarios.negro {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /*==================================*/
+
+
+    /* Formato Fila*/
+    /*==================================*/
+    .contenedor-imagen-producto-unitario .imagen-producto-unitario {
+        max-width: 50%;
+    }
+
+    .contenedor-imagen-vendido-por-producto-unitario .texto-vendido-por {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-detalles-producto-unitario .nombre-producto-unitario {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-detalles-producto-unitario .marca-producto-unitario {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-detalles-producto-unitario .unidad-precio-producto-unitario {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-porcentaje-producto-descuento-unitario-antes-unitario .precio-producto-antes-unitario-porcentaje {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-producto-oferta-uno-tarjeta-uno-unitario .contenedor-producto-oferta-uno-unitario .producto-oferta-uno-unitario {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-producto-unitario-otros-texto-otros .contenedor-producto-unitario-otros .producto-unitario-otros {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-producto-unitario-otros-texto-otros .contenedor-forma-pago-otros .forma-pago-otros {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-porcentaje-producto-descuento-unitario .porcentaje-producto-descuento-unitario {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-detalles-producto-unitario .precio-producto-antes-unitario {
+        font-size: 1.5rem;
+    }
+    
+    .contenedor-detalles-producto-unitario .precio-producto-unitario {
+        font-size: 1.5rem;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px) {
+    .contenedor-padre-articulos-compra {
+        margin: 12rem auto 0rem;
+    }
+
+    .contenedor-titulo-item1-mensaje-promocion .texto-titulo-item1 {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-mensaje-promocion-item1 .texto-mensaje-promocion-item1 {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-texto-oculto-visto .texto-mensaje-promocion-item1 {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-mostrar-menos-mas-icono-menos-mas .texto-mostrar {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-icono-mas-menos .icono-mas,
+    .icono-menos {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-icono-expansion-izquierda-regresar .icono-expansion-izquierda {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-icono-expansion-izquierda-regresar .texto-regresar {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-filtrar-ordenar-por-icono-expansion-abajo-fila-columna .texto-filtrar {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-ordenar-por-tipo-orden .texto-ordenar-por {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-ordenar-por-tipo-orden .texto-tipo-de-orden {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .icono-expansion-abajo {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .menu-desplegable {
+        width: 40%;
+        left: 15rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .menu-desplegable .opcion-menu-desplegable {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-icono-ver-fila-columna .icono-organizar-como-fila,
+    .icono-organizar-como-columna {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-cantidad-resultados-productos-obtenidos .texto-cantidad-productos-obtenidos,
+    .texto-resultados-productos-obtenidos {
+        font-size: 1.8rem;
+    }
+
+    /* Formato Fila grid*/
+    /*==================================*/
+    .contenedor-productos-unitarios.negro {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /*==================================*/
+
+
+    /* Formato Fila*/
+    /*==================================*/
+    .contenedor-imagen-producto-unitario .imagen-producto-unitario {
+        max-width: 50%;
+    }
+
+    .contenedor-imagen-vendido-por-producto-unitario .texto-vendido-por {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-detalles-producto-unitario .nombre-producto-unitario {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-detalles-producto-unitario .marca-producto-unitario {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-detalles-producto-unitario .unidad-precio-producto-unitario {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-porcentaje-producto-descuento-unitario-antes-unitario .precio-producto-antes-unitario-porcentaje {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-producto-oferta-uno-tarjeta-uno-unitario .contenedor-producto-oferta-uno-unitario .producto-oferta-uno-unitario {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-producto-unitario-otros-texto-otros .contenedor-producto-unitario-otros .producto-unitario-otros {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-producto-unitario-otros-texto-otros .contenedor-forma-pago-otros .forma-pago-otros {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-porcentaje-producto-descuento-unitario .porcentaje-producto-descuento-unitario {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-detalles-producto-unitario .precio-producto-antes-unitario {
+        font-size: 1.7rem;
+    }
+    
+    .contenedor-detalles-producto-unitario .precio-producto-unitario {
+        font-size: 1.7rem;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px) {
+    .contenedor-padre-articulos-compra {
+        margin: 12rem auto 0rem;
+    }
+
+    .contenedor-titulo-item1-mensaje-promocion .texto-titulo-item1 {
+        font-size: 2rem;
+    }
+
+    .contenedor-mensaje-promocion-item1 .texto-mensaje-promocion-item1 {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-texto-oculto-visto .texto-mensaje-promocion-item1 {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-mostrar-menos-mas-icono-menos-mas .texto-mostrar {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-icono-mas-menos .icono-mas,
+    .icono-menos {
+        font-size: 2rem;
+    }
+
+    .contenedor-icono-expansion-izquierda-regresar .icono-expansion-izquierda {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-icono-expansion-izquierda-regresar .texto-regresar {
+        font-size: 2rem;
+    }
+
+    .contenedor-filtrar-ordenar-por-icono-expansion-abajo-fila-columna .texto-filtrar {
+        font-size: 2rem;
+    }
+
+    .contenedor-ordenar-por-tipo-orden .texto-ordenar-por {
+        font-size: 2rem;
+    }
+
+    .contenedor-ordenar-por-tipo-orden .texto-tipo-de-orden {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .icono-expansion-abajo {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .menu-desplegable {
+        width: 25%;
+        left: 30rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .menu-desplegable .opcion-menu-desplegable {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-icono-ver-fila-columna .icono-organizar-como-fila,
+    .icono-organizar-como-columna {
+        font-size: 2rem;
+    }
+
+    .contenedor-cantidad-resultados-productos-obtenidos .texto-cantidad-productos-obtenidos,
+    .texto-resultados-productos-obtenidos {
+        font-size: 2rem;
+    }
+
+    /* Formato Fila grid*/
+    /*==================================*/
+    .contenedor-productos-unitarios.negro {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /*==================================*/
+
+
+    /* Formato Fila*/
+    /*==================================*/
+    .contenedor-imagen-producto-unitario .imagen-producto-unitario {
+        max-width: 50%;
+    }
+
+    .contenedor-imagen-vendido-por-producto-unitario .texto-vendido-por {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-detalles-producto-unitario .nombre-producto-unitario {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-detalles-producto-unitario .marca-producto-unitario {
+        font-size: 2rem;
+    }
+
+    .contenedor-detalles-producto-unitario .unidad-precio-producto-unitario {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-porcentaje-producto-descuento-unitario-antes-unitario .precio-producto-antes-unitario-porcentaje {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-producto-oferta-uno-tarjeta-uno-unitario .contenedor-producto-oferta-uno-unitario .producto-oferta-uno-unitario {
+        font-size: 2rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 2rem;
+    }
+
+    .contenedor-producto-unitario-otros-texto-otros .contenedor-producto-unitario-otros .producto-unitario-otros {
+        font-size: 2rem;
+    }
+
+    .contenedor-producto-unitario-otros-texto-otros .contenedor-forma-pago-otros .forma-pago-otros {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-porcentaje-producto-descuento-unitario .porcentaje-producto-descuento-unitario {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-detalles-producto-unitario .precio-producto-antes-unitario {
+        font-size: 1.9rem;
+    }
+    
+    .contenedor-detalles-producto-unitario .precio-producto-unitario {
+        font-size: 1.9rem;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px) {
+    .contenedor-padre-articulos-compra {
+        margin: 12rem auto 0rem;
+    }
+
+    .contenedor-titulo-item1-mensaje-promocion .texto-titulo-item1 {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-mensaje-promocion-item1 .texto-mensaje-promocion-item1 {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-texto-oculto-visto .texto-mensaje-promocion-item1 {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-mostrar-menos-mas-icono-menos-mas .texto-mostrar {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-icono-mas-menos .icono-mas,
+    .icono-menos {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-icono-expansion-izquierda-regresar .icono-expansion-izquierda {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-icono-expansion-izquierda-regresar .texto-regresar {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-filtrar-ordenar-por-icono-expansion-abajo-fila-columna .texto-filtrar {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-ordenar-por-tipo-orden .texto-ordenar-por {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-ordenar-por-tipo-orden .texto-tipo-de-orden {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .icono-expansion-abajo {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .menu-desplegable {
+        width: 30%;
+        left: 40rem;
+    }
+
+    .contenedor-ordenar-por-icono-expansion .menu-desplegable .opcion-menu-desplegable {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-icono-ver-fila-columna .icono-organizar-como-fila,
+    .icono-organizar-como-columna {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-cantidad-resultados-productos-obtenidos .texto-cantidad-productos-obtenidos,
+    .texto-resultados-productos-obtenidos {
+        font-size: 2.2rem;
+    }
+
+    /* Formato Fila grid*/
+    /*==================================*/
+    .contenedor-productos-unitarios.negro {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /*==================================*/
+
+
+    /* Formato Fila*/
+    /*==================================*/
+    .contenedor-imagen-producto-unitario .imagen-producto-unitario {
+        max-width: 50%;
+    }
+
+    .contenedor-imagen-vendido-por-producto-unitario .texto-vendido-por {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-detalles-producto-unitario .nombre-producto-unitario {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-detalles-producto-unitario .marca-producto-unitario {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-detalles-producto-unitario .unidad-precio-producto-unitario {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-porcentaje-producto-descuento-unitario-antes-unitario .precio-producto-antes-unitario-porcentaje {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-producto-oferta-uno-tarjeta-uno-unitario .contenedor-producto-oferta-uno-unitario .producto-oferta-uno-unitario {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-producto-unitario-otros-texto-otros .contenedor-producto-unitario-otros .producto-unitario-otros {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-producto-unitario-otros-texto-otros .contenedor-forma-pago-otros .forma-pago-otros {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-porcentaje-producto-descuento-unitario .porcentaje-producto-descuento-unitario {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-detalles-producto-unitario .precio-producto-antes-unitario {
+        font-size: 2.1rem;
+    }
+    
+    .contenedor-detalles-producto-unitario .precio-producto-unitario {
+        font-size: 2.1rem;
+    }
+}

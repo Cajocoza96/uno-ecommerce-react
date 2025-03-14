@@ -1,0 +1,420 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.contenedor-producto-descuento2-boton {
+    margin-bottom: 2rem;
+    background: #d10b0b;
+    height: auto;
+    padding: 0.5rem;
+    border-radius: 1.3rem;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+}
+
+.contenedor-producto-descuento2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+
+.contenedor-informacion-produc-desc2-padre {
+    border: 1px solid #ffffff;
+    padding: 0.5rem;
+    width: 95%;
+    height: auto;
+    border-radius: 1.3rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+.contenedor-texto-informacion-produc-desc2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contenedor-texto-hasta-porcentaje-produc-desc2 .texto-hasta {
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.contenedor-texto-hasta-porcentaje-produc-desc2 .texto-descuento {
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.contenedor-pagando-con-tarjeta-uno-producto-descuento2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-pagando-con-tarjeta-uno-producto-descuento2 .texto-pagando {
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.contenedor-tarjeta-uno {
+    padding: 0.4rem;
+    background-color: #fbff02;
+    border-radius: 50%;
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+.contenedor-tarjeta-uno .tarjeta-uno {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+
+.contenedor-en-marca-producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-en-marca-producto .texto-marca-de-producto {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.contenedor-imagen-producto-descuento2 {
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-imagen-producto-descuento2 .imagen-producto-descuento2 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.contenedor-producto-descuento2-boton .boton-compra {
+    margin-left: 1rem;
+    width: auto;
+    height: auto;
+    padding: 0.5rem;
+    background-color: #f7f31a;
+    border: none;
+    border-radius: 0.3rem;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contenedor-producto-descuento2-boton .boton-compra:active {
+    background-color: #e6e477;
+}
+
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape) {
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-texto-informacion-produc-desc2 {
+        flex-direction: row;
+    }
+
+    .contenedor-producto-descuento2-boton {
+        align-items: center;
+    }
+
+    .contenedor-texto-hasta-porcentaje-produc-desc2 .texto-hasta {
+        font-size: 2rem;
+    }
+
+    .contenedor-texto-hasta-porcentaje-produc-desc2 .texto-descuento {
+        font-size: 4rem;
+    }
+
+    .contenedor-pagando-con-tarjeta-uno-producto-descuento2 .texto-pagando {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-en-marca-producto .texto-marca-de-producto {
+        font-size: 2rem;
+    }
+
+    .contenedor-imagen-producto-descuento2 {
+        width: 50%;
+    }
+
+    .contenedor-producto-descuento2-boton .boton-compra {
+        font-size: 1.2rem;
+    }
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-texto-informacion-produc-desc2 {
+        flex-direction: row;
+    }
+    
+    .contenedor-producto-descuento2-boton {
+        align-items: center;
+    }
+
+    .contenedor-texto-hasta-porcentaje-produc-desc2 .texto-hasta {
+        font-size: 2rem;
+    }
+
+    .contenedor-texto-hasta-porcentaje-produc-desc2 .texto-descuento {
+        font-size: 4rem;
+    }
+
+    .contenedor-pagando-con-tarjeta-uno-producto-descuento2 .texto-pagando {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-en-marca-producto .texto-marca-de-producto {
+        font-size: 2rem;
+    }
+
+    .contenedor-imagen-producto-descuento2 {
+        width: 50%;
+    }
+
+    .contenedor-producto-descuento2-boton .boton-compra {
+        font-size: 1.2rem;
+    }
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-texto-informacion-produc-desc2 {
+        flex-direction: row;
+    }
+
+    .contenedor-producto-descuento2-boton {
+        align-items: center;
+    }
+
+    .contenedor-texto-hasta-porcentaje-produc-desc2 .texto-hasta {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-texto-hasta-porcentaje-produc-desc2 .texto-descuento {
+        font-size: 4.2rem;
+    }
+
+    .contenedor-pagando-con-tarjeta-uno-producto-descuento2 .texto-pagando {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-en-marca-producto .texto-marca-de-producto {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-imagen-producto-descuento2 {
+        width: 50%;
+    }
+
+    .contenedor-producto-descuento2-boton .boton-compra {
+        font-size: 1.4rem;
+    }
+}
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-texto-informacion-produc-desc2 {
+        flex-direction: row;
+    }
+
+    .contenedor-producto-descuento2-boton {
+        align-items: center;
+    }
+
+    .contenedor-texto-hasta-porcentaje-produc-desc2 .texto-hasta {
+        font-size: 2.4rem;
+    }
+
+    .contenedor-texto-hasta-porcentaje-produc-desc2 .texto-descuento {
+        font-size: 4.4rem;
+    }
+
+    .contenedor-pagando-con-tarjeta-uno-producto-descuento2 .texto-pagando {
+        font-size: 1.9rem;
+    }
+
+
+    .contenedor-en-marca-producto .texto-marca-de-producto {
+        font-size: 2.4rem;
+    }
+
+    .contenedor-imagen-producto-descuento2 {
+        width: 50%;
+    }
+
+    .contenedor-producto-descuento2-boton .boton-compra {
+        font-size: 1.6rem;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px) {
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-texto-informacion-produc-desc2 {
+        flex-direction: row;
+    }
+
+    .contenedor-producto-descuento2-boton {
+        align-items: center;
+    }
+
+    .contenedor-texto-hasta-porcentaje-produc-desc2 .texto-hasta {
+        font-size: 2.6rem;
+    }
+
+    .contenedor-texto-hasta-porcentaje-produc-desc2 .texto-descuento {
+        font-size: 4.6rem;
+    }
+
+    .contenedor-pagando-con-tarjeta-uno-producto-descuento2 .texto-pagando {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-en-marca-producto .texto-marca-de-producto {
+        font-size: 2.6rem;
+    }
+
+    .contenedor-imagen-producto-descuento2 {
+        width: 50%;
+    }
+
+    .contenedor-producto-descuento2-boton .boton-compra {
+        font-size: 1.8rem;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px) {
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 2rem;
+    }
+
+    .contenedor-texto-informacion-produc-desc2 {
+        flex-direction: row;
+    }
+
+    .contenedor-producto-descuento2-boton {
+        align-items: center;
+    }
+
+    .contenedor-texto-hasta-porcentaje-produc-desc2 .texto-hasta {
+        font-size: 2.8rem;
+    }
+
+    .contenedor-texto-hasta-porcentaje-produc-desc2 .texto-descuento {
+        font-size: 4.8rem;
+    }
+
+    .contenedor-pagando-con-tarjeta-uno-producto-descuento2 .texto-pagando {
+        font-size: 2.3rem;
+    }
+
+    .contenedor-en-marca-producto .texto-marca-de-producto {
+        font-size: 2.8rem;
+    }
+
+    .contenedor-imagen-producto-descuento2 {
+        width: 50%;
+    }
+
+    .contenedor-producto-descuento2-boton .boton-compra {
+        font-size: 2rem;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px) {
+    .contenedor-tarjeta-uno .tarjeta-uno {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-texto-informacion-produc-desc2 {
+        flex-direction: row;
+    }
+    
+    .contenedor-producto-descuento2-boton {
+        align-items: center;
+    }
+
+    .contenedor-texto-hasta-porcentaje-produc-desc2 .texto-hasta {
+        font-size: 3rem;
+    }
+
+    .contenedor-texto-hasta-porcentaje-produc-desc2 .texto-descuento {
+        font-size: 5rem;
+    }
+
+    .contenedor-pagando-con-tarjeta-uno-producto-descuento2 .texto-pagando {
+        font-size: 2.5rem;
+    }
+
+    .contenedor-en-marca-producto .texto-marca-de-producto {
+        font-size: 3rem;
+    }
+
+    .contenedor-imagen-producto-descuento2 {
+        width: 50%;
+    }
+
+    .contenedor-producto-descuento2-boton .boton-compra {
+        font-size: 2.2rem;
+    }
+}

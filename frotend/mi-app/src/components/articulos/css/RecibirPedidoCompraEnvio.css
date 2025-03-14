@@ -1,0 +1,592 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.contenedor-recibir-pedido-compra-envio-domicilio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1rem;
+
+    overflow: hidden;
+
+}
+
+.opcion.activo .icono-maletin,
+.opcion.activo .icono-camion,
+.contenedor-compra-recoge-sin-costo.blanco .primer-texto,
+.contenedor-compra-recoge-sin-costo.blanco .segundo-texto,
+.contenedor-envio-domicilio.blanco .primer-texto {
+    color: #ffffff;
+}
+
+
+.contenedor-recibir-pedido-icono-cerrar {
+    margin-bottom: 0.5rem;
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    background-color: #e7ff11;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contenedor-recibir-pedido-icono-cerrar .titulo-recibir-pedido {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.contenedor-recibir-pedido-icono-cerrar .icono-cerrar {
+    font-size: 1.1rem;
+    color: #000000;
+    cursor: pointer;
+}
+
+.opciones {
+    width: 95%;
+    height: auto;
+    padding: 0.2rem 0;
+    border-radius: 15rem;
+    border: 1px solid #2b2929;
+    background-color: #f0e3e3;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+
+
+    position: relative;
+
+}
+
+.opcion {
+    padding: 0.5rem 0;
+    cursor: pointer;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 1rem;
+    z-index: 100;
+}
+
+.opcion :active {
+    color: #ffffff;
+}
+
+.indicador {
+    position: absolute;
+    padding: 0.5rem 0;
+    width: 50%;
+    height: 100%;
+    background-color: #000000;
+    border: none;
+    border-radius: 15rem;
+    transition: transform 0.3s ease;
+}
+
+
+.indicador.izquierda {
+    transform: translateX(0);
+}
+
+.indicador.derecha {
+    transform: translateX(100%);
+}
+
+.opcion .icono-maletin,
+.icono-camion {
+    font-size: 1rem;
+    color: #1f1e1e;
+}
+
+.contenedor-compra-recoge-sin-costo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-compra-recoge-sin-costo .primer-texto,
+.segundo-texto {
+    color: #1f1e1e;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contenedor-envio-domicilio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.contenedor-envio-domicilio .primer-texto {
+    color: #1f1e1e;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contenedor-formulario-recibir-pedido-compra-envio-domicilio {
+    width: 97%;
+    height: auto;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contenedor-titulo-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-titulo-formulario .texto-titulo-formulario {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contenedor-label-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contenedor-label-input .label {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contenedor-input-icono-expansion-abajo {
+    border: 1px solid #000000;
+    width: 100%;
+    height: auto;
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-input-icono-expansion-abajo .input {
+    width: 90%;
+    height: auto;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1rem;
+}
+
+.contenedor-input-icono-expansion-abajo .input:focus {
+    outline: none;
+}
+
+.contenedor-input-icono-expansion-abajo .icono-expansion-abajo {
+    font-size: 1rem;
+    color: #000000;
+    cursor: pointer;
+}
+
+.formulario .ul {
+    margin: 0.5rem auto 0.5rem;
+    width: 87%;
+    height: auto;
+    max-height: 10rem;
+    background-color: #ffffff;
+    list-style: none;
+    border: 1px solid #000000;
+
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.formulario .li {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.formulario .boton-confirmar {
+    width: auto;
+    height: auto;
+    padding: 0.5rem;
+    background-color: #035f57;
+    border: none;
+    border-radius: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.formulario {
+    margin-top: 1rem;
+}
+
+.formulario .boton-confirmar:active {
+    background-color: #2c5f5b;
+}
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape) {
+    .contenedor-recibir-pedido-icono-cerrar .titulo-recibir-pedido {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-recibir-pedido-icono-cerrar .icono-cerrar {
+        font-size: 1.3rem;
+    }
+
+    .opcion .icono-maletin,
+    .icono-camion {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-compra-recoge-sin-costo .primer-texto,
+    .segundo-texto {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-envio-domicilio .primer-texto {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-titulo-formulario .texto-titulo-formulario {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-label-input .label {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-input-icono-expansion-abajo .input {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-input-icono-expansion-abajo .icono-expansion-abajo {
+        font-size: 1.2rem;
+    }
+
+    .formulario .li {
+        font-size: 1.2rem;
+    }
+
+    .formulario .boton-confirmar {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+    .contenedor-recibir-pedido-icono-cerrar .titulo-recibir-pedido {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-recibir-pedido-icono-cerrar .icono-cerrar {
+        font-size: 1.3rem;
+    }
+
+    .opcion .icono-maletin,
+    .icono-camion {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-compra-recoge-sin-costo .primer-texto,
+    .segundo-texto {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-envio-domicilio .primer-texto {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-titulo-formulario .texto-titulo-formulario {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-label-input .label {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-input-icono-expansion-abajo .input {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-input-icono-expansion-abajo .icono-expansion-abajo {
+        font-size: 1.2rem;
+    }
+
+    .formulario .li {
+        font-size: 1.2rem;
+    }
+
+    .formulario .boton-confirmar {
+        font-size: 1.2rem;
+    }
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+    .contenedor-recibir-pedido-icono-cerrar .titulo-recibir-pedido {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-recibir-pedido-icono-cerrar .icono-cerrar {
+        font-size: 1.5rem;
+    }
+
+    .opcion .icono-maletin,
+    .icono-camion {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-compra-recoge-sin-costo .primer-texto,
+    .segundo-texto {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-envio-domicilio .primer-texto {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-titulo-formulario .texto-titulo-formulario {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-label-input .label {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-input-icono-expansion-abajo .input {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-input-icono-expansion-abajo .icono-expansion-abajo {
+        font-size: 1.4rem;
+    }
+
+    .formulario .li {
+        font-size: 1.4rem;
+    }
+
+    .formulario .boton-confirmar {
+        font-size: 1.4rem;
+    }
+}
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .contenedor-recibir-pedido-icono-cerrar .titulo-recibir-pedido {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-recibir-pedido-icono-cerrar .icono-cerrar {
+        font-size: 1.7rem;
+    }
+
+    .opcion .icono-maletin,
+    .icono-camion {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-compra-recoge-sin-costo .primer-texto,
+    .segundo-texto {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-envio-domicilio .primer-texto {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-titulo-formulario .texto-titulo-formulario {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-label-input .label {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-input-icono-expansion-abajo .input {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-input-icono-expansion-abajo .icono-expansion-abajo {
+        font-size: 1.6rem;
+    }
+
+    .formulario .li {
+        font-size: 1.6rem;
+    }
+
+    .formulario .boton-confirmar {
+        font-size: 1.6rem;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px) {
+    .contenedor-recibir-pedido-icono-cerrar .titulo-recibir-pedido {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-recibir-pedido-icono-cerrar .icono-cerrar {
+        font-size: 1.9rem;
+    }
+
+    .opcion .icono-maletin,
+    .icono-camion {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-compra-recoge-sin-costo .primer-texto,
+    .segundo-texto {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-envio-domicilio .primer-texto {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-titulo-formulario .texto-titulo-formulario {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-label-input .label {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-input-icono-expansion-abajo .input {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-input-icono-expansion-abajo .icono-expansion-abajo {
+        font-size: 1.8rem;
+    }
+
+    .formulario .li {
+        font-size: 1.8rem;
+    }
+
+    .formulario .boton-confirmar {
+        font-size: 1.8rem;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px) {
+    .contenedor-recibir-pedido-icono-cerrar .titulo-recibir-pedido {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-recibir-pedido-icono-cerrar .icono-cerrar {
+        font-size: 2.1rem;
+    }
+
+    .opcion .icono-maletin,
+    .icono-camion {
+        font-size: 2rem;
+    }
+
+    .contenedor-compra-recoge-sin-costo .primer-texto,
+    .segundo-texto {
+        font-size: 2rem;
+    }
+
+    .contenedor-envio-domicilio .primer-texto {
+        font-size: 2rem;
+    }
+
+    .contenedor-titulo-formulario .texto-titulo-formulario {
+        font-size: 2rem;
+    }
+
+    .contenedor-label-input .label {
+        font-size: 2rem;
+    }
+
+    .contenedor-input-icono-expansion-abajo .input {
+        font-size: 2rem;
+    }
+
+    .contenedor-input-icono-expansion-abajo .icono-expansion-abajo {
+        font-size: 2rem;
+    }
+
+    .formulario .li {
+        font-size: 2rem;
+    }
+
+    .formulario .boton-confirmar {
+        font-size: 2rem;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px) {
+    .contenedor-recibir-pedido-icono-cerrar .titulo-recibir-pedido {
+        font-size: 2.3rem;
+    }
+
+    .contenedor-recibir-pedido-icono-cerrar .icono-cerrar {
+        font-size: 2.3rem;
+    }
+
+    .opcion .icono-maletin,
+    .icono-camion {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-compra-recoge-sin-costo .primer-texto,
+    .segundo-texto {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-envio-domicilio .primer-texto {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-titulo-formulario .texto-titulo-formulario {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-label-input .label {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-input-icono-expansion-abajo .input {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-input-icono-expansion-abajo .icono-expansion-abajo {
+        font-size: 2.2rem;
+    }
+
+    .formulario .li {
+        font-size: 2.2rem;
+    }
+
+    .formulario .boton-confirmar {
+        font-size: 2.2rem;
+    }
+}

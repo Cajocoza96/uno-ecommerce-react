@@ -1,0 +1,631 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.contenedor-menu-hamburguesa-info-principal{
+    width: 98%;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.contenedor-primera-seccion-menu-hamburguesa-principal{
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    background-color: #e7ff11;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contenedor-primera-seccion-menu-hamburguesa-principal .titulo-uno-menu-hamburguesa-principal{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.contenedor-primera-seccion-menu-hamburguesa-principal .icono-cerrar{
+    font-size: 1rem;
+    color: #000000;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.contenedor-segunda-seccion-menu-hamburguesa-principal{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #000000;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu{
+    width: auto;
+    height: auto;
+    padding: 0.8rem;
+    background-color: #ffffff;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+
+.contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .icono-ubicacion{
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+.contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .texto-como-recibir-pedido-menu-hamburguesa-principal{
+    color: #000000;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.contenedor-segunda-tercera-cuarta-quinta-seccion-menu-hamburguesa-principal{
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+
+.contenedor-tercera-seccion-menu-hamburguesa-principal{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #000000;
+}
+
+.contenedor-tercera-seccion-menu-hamburguesa-principal .texto-novedades-menu-hamburguesa-principal{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 1.5rem;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal .texto-item-novedades-menu-hamburguesa-tercera-principal{
+    margin-bottom: 0.7rem;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.contenedor-cuarta-seccion-menu-hamburguesa-principal{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #000000;
+}
+
+.contenedor-cuarta-seccion-menu-hamburguesa-principal .texto-categorias-menu-hamburguesa-principal{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 1.5rem;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal .texto-item-categorias-menu-hamburguesa-cuarta-principal{
+    margin-bottom: 0.7rem;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.contenedor-quinta-seccion-menu-hamburguesa-principal{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contenedor-quinta-seccion-menu-hamburguesa-principal .texto-servicios-menu-hamburguesa-principal{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal .texto-item-servicios-menu-hamburguesa-quinta-principal{
+    margin-bottom: 0.7rem;
+    font-size: 1rem;
+    color: #000000;
+    cursor: pointer;
+}
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape){
+    .contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal{
+        margin-top: 1.1rem;
+        margin-bottom: 1.1rem;
+        height: 1.5rem;
+    }
+    
+    .contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal{
+        margin-top: 1.1rem;
+        margin-bottom: 1.1rem;
+        height: 1.5rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal{
+        margin-top: 1.1rem;
+        margin-bottom: 1.1rem;
+        height: 1.5rem;
+    }
+
+    .contenedor-segunda-seccion-menu-hamburguesa-principal{
+        justify-content: start;
+    }
+
+    .contenedor-primera-seccion-menu-hamburguesa-principal .titulo-uno-menu-hamburguesa-principal{
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-primera-seccion-menu-hamburguesa-principal .icono-cerrar{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .icono-ubicacion{
+        font-size: 1.3rem;
+    }
+    
+    .contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .texto-como-recibir-pedido-menu-hamburguesa-principal{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-tercera-seccion-menu-hamburguesa-principal .texto-novedades-menu-hamburguesa-principal{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal .texto-item-novedades-menu-hamburguesa-tercera-principal{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-cuarta-seccion-menu-hamburguesa-principal .texto-categorias-menu-hamburguesa-principal{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal .texto-item-categorias-menu-hamburguesa-cuarta-principal{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-quinta-seccion-menu-hamburguesa-principal .texto-servicios-menu-hamburguesa-principal{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal .texto-item-servicios-menu-hamburguesa-quinta-principal{
+        font-size: 1.2rem;
+    }
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px){
+    .contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal{
+        margin-top: 1.1rem;
+        margin-bottom: 1.1rem;
+        height: 1.5rem;
+    }
+    
+    .contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal{
+        margin-top: 1.1rem;
+        margin-bottom: 1.1rem;
+        height: 1.5rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal{
+        margin-top: 1.1rem;
+        margin-bottom: 1.1rem;
+        height: 1.5rem;
+    }
+
+    .contenedor-segunda-seccion-menu-hamburguesa-principal{
+        justify-content: start;
+    }
+
+    .contenedor-primera-seccion-menu-hamburguesa-principal .titulo-uno-menu-hamburguesa-principal{
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-primera-seccion-menu-hamburguesa-principal .icono-cerrar{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .icono-ubicacion{
+        font-size: 1.3rem;
+    }
+    
+    .contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .texto-como-recibir-pedido-menu-hamburguesa-principal{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-tercera-seccion-menu-hamburguesa-principal .texto-novedades-menu-hamburguesa-principal{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal .texto-item-novedades-menu-hamburguesa-tercera-principal{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-cuarta-seccion-menu-hamburguesa-principal .texto-categorias-menu-hamburguesa-principal{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal .texto-item-categorias-menu-hamburguesa-cuarta-principal{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-quinta-seccion-menu-hamburguesa-principal .texto-servicios-menu-hamburguesa-principal{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal .texto-item-servicios-menu-hamburguesa-quinta-principal{
+        font-size: 1.2rem;
+    }
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px){
+    .contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal{
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+        height: 1.8rem;
+    }
+    
+    .contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal{
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+        height: 1.8rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal{
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+        height: 1.8rem;
+    }
+
+    .contenedor-segunda-seccion-menu-hamburguesa-principal{
+        justify-content: start;
+    }
+
+    .contenedor-primera-seccion-menu-hamburguesa-principal .titulo-uno-menu-hamburguesa-principal{
+        font-size: 1.4rem;
+    }
+    
+    .contenedor-primera-seccion-menu-hamburguesa-principal .icono-cerrar{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .icono-ubicacion{
+        font-size: 1.5rem;
+    }
+    
+    .contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .texto-como-recibir-pedido-menu-hamburguesa-principal{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-tercera-seccion-menu-hamburguesa-principal .texto-novedades-menu-hamburguesa-principal{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal .texto-item-novedades-menu-hamburguesa-tercera-principal{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-cuarta-seccion-menu-hamburguesa-principal .texto-categorias-menu-hamburguesa-principal{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal .texto-item-categorias-menu-hamburguesa-cuarta-principal{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-quinta-seccion-menu-hamburguesa-principal .texto-servicios-menu-hamburguesa-principal{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal .texto-item-servicios-menu-hamburguesa-quinta-principal{
+        font-size: 1.4rem;
+    }
+}
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+    .contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal{
+        margin-top: 1.3rem;
+        margin-bottom: 1.3rem;
+        height: 2.1rem;
+    }
+    
+    .contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal{
+        margin-top: 1.3rem;
+        margin-bottom: 1.3rem;
+        height: 2.1rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal{
+        margin-top: 1.3rem;
+        margin-bottom: 1.3rem;
+        height: 2.1rem;
+    }
+
+    .contenedor-segunda-seccion-menu-hamburguesa-principal{
+        justify-content: start;
+    }
+
+    .contenedor-primera-seccion-menu-hamburguesa-principal .titulo-uno-menu-hamburguesa-principal{
+        font-size: 1.6rem;
+    }
+    
+    .contenedor-primera-seccion-menu-hamburguesa-principal .icono-cerrar{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .icono-ubicacion{
+        font-size: 1.7rem;
+    }
+    
+    .contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .texto-como-recibir-pedido-menu-hamburguesa-principal{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-tercera-seccion-menu-hamburguesa-principal .texto-novedades-menu-hamburguesa-principal{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal .texto-item-novedades-menu-hamburguesa-tercera-principal{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-cuarta-seccion-menu-hamburguesa-principal .texto-categorias-menu-hamburguesa-principal{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal .texto-item-categorias-menu-hamburguesa-cuarta-principal{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-quinta-seccion-menu-hamburguesa-principal .texto-servicios-menu-hamburguesa-principal{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal .texto-item-servicios-menu-hamburguesa-quinta-principal{
+        font-size: 1.6rem;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px){
+    .contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        height: 2.4rem;
+    }
+    
+    .contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        height: 2.4rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        height: 2.4rem;
+    }
+
+    .contenedor-segunda-seccion-menu-hamburguesa-principal{
+        justify-content: start;
+    }
+
+    .contenedor-primera-seccion-menu-hamburguesa-principal .titulo-uno-menu-hamburguesa-principal{
+        font-size: 1.8rem;
+    }
+    
+    .contenedor-primera-seccion-menu-hamburguesa-principal .icono-cerrar{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .icono-ubicacion{
+        font-size: 1.9rem;
+    }
+    
+    .contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .texto-como-recibir-pedido-menu-hamburguesa-principal{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-tercera-seccion-menu-hamburguesa-principal .texto-novedades-menu-hamburguesa-principal{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal .texto-item-novedades-menu-hamburguesa-tercera-principal{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-cuarta-seccion-menu-hamburguesa-principal .texto-categorias-menu-hamburguesa-principal{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal .texto-item-categorias-menu-hamburguesa-cuarta-principal{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-quinta-seccion-menu-hamburguesa-principal .texto-servicios-menu-hamburguesa-principal{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal .texto-item-servicios-menu-hamburguesa-quinta-principal{
+        font-size: 1.8rem;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px){
+    .contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal{
+        margin-top: 1.8rem;
+        margin-bottom: 1.8rem;
+        height: 2.7rem;
+    }
+    
+    .contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal{
+        margin-top: 1.8rem;
+        margin-bottom: 1.8rem;
+        height: 2.7rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal{
+        margin-top: 1.8rem;
+        margin-bottom: 1.8rem;
+        height: 2.7rem;
+    }
+
+    .contenedor-segunda-seccion-menu-hamburguesa-principal{
+        justify-content: start;
+    }
+
+    .contenedor-primera-seccion-menu-hamburguesa-principal .titulo-uno-menu-hamburguesa-principal{
+        font-size: 2rem;
+    }
+    
+    .contenedor-primera-seccion-menu-hamburguesa-principal .icono-cerrar{
+        font-size: 2rem;
+    }
+
+    .contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .icono-ubicacion{
+        font-size: 2.1rem;
+    }
+    
+    .contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .texto-como-recibir-pedido-menu-hamburguesa-principal{
+        font-size: 2rem;
+    }
+
+    .contenedor-tercera-seccion-menu-hamburguesa-principal .texto-novedades-menu-hamburguesa-principal{
+        font-size: 2rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal .texto-item-novedades-menu-hamburguesa-tercera-principal{
+        font-size: 2rem;
+    }
+
+    .contenedor-cuarta-seccion-menu-hamburguesa-principal .texto-categorias-menu-hamburguesa-principal{
+        font-size: 2rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal .texto-item-categorias-menu-hamburguesa-cuarta-principal{
+        font-size: 2rem;
+    }
+
+    .contenedor-quinta-seccion-menu-hamburguesa-principal .texto-servicios-menu-hamburguesa-principal{
+        font-size: 2rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal .texto-item-servicios-menu-hamburguesa-quinta-principal{
+        font-size: 2rem;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px){
+    .contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 2.9rem;
+    }
+    
+    .contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 2.9rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 2.9rem;
+    }
+
+    .contenedor-segunda-seccion-menu-hamburguesa-principal{
+        justify-content: start;
+    }
+
+    .contenedor-primera-seccion-menu-hamburguesa-principal .titulo-uno-menu-hamburguesa-principal{
+        font-size: 2.2rem;
+    }
+    
+    .contenedor-primera-seccion-menu-hamburguesa-principal .icono-cerrar{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .icono-ubicacion{
+        font-size: 2.3rem;
+    }
+    
+    .contenedor-icono-ubicacion-recibir-pedido-icono-expansion-menu .texto-como-recibir-pedido-menu-hamburguesa-principal{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-tercera-seccion-menu-hamburguesa-principal .texto-novedades-menu-hamburguesa-principal{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-tercera-principal .texto-item-novedades-menu-hamburguesa-tercera-principal{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-cuarta-seccion-menu-hamburguesa-principal .texto-categorias-menu-hamburguesa-principal{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-cuarta-principal .texto-item-categorias-menu-hamburguesa-cuarta-principal{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-quinta-seccion-menu-hamburguesa-principal .texto-servicios-menu-hamburguesa-principal{
+        font-size: 2.2rem;
+    }
+
+    .contenedor-item-iconos-expansion-menu-hamburguesa-quinta-principal .texto-item-servicios-menu-hamburguesa-quinta-principal{
+        font-size: 2.2rem;
+    }
+}
+
+
+

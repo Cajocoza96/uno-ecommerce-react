@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.contenedor-siguenos-en-redes-sociales-footer{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.9rem;
+}
+
+.contenedor-siguenos-en-redes-sociales-footer .texto-siguenos-en{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #202020;
+}
+
+.contenedor-redes-sociales{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 40%;
+    height: auto;
+}
+
+.contenedor-redes-sociales .icono-facebook, .icono-instagram, .icono-tiktok, .icono-twitter{
+    font-size: 1rem;
+    color: #000000;
+    cursor: pointer;
+}
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape){
+    .contenedor-siguenos-en-redes-sociales-footer .texto-siguenos-en{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-redes-sociales .icono-facebook, .icono-instagram, .icono-tiktok, .icono-twitter{
+        font-size: 1.2rem;
+    }
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px){
+    .contenedor-siguenos-en-redes-sociales-footer .texto-siguenos-en{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-redes-sociales .icono-facebook, .icono-instagram, .icono-tiktok, .icono-twitter{
+        font-size: 1.2rem;
+    }
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px){
+    .contenedor-siguenos-en-redes-sociales-footer .texto-siguenos-en{
+        font-size: 1.4rem;
+    }
+    
+    .contenedor-redes-sociales .icono-facebook, .icono-instagram, .icono-tiktok, .icono-twitter{
+        font-size: 1.4rem;
+    }
+}
+
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+    .contenedor-siguenos-en-redes-sociales-footer .texto-siguenos-en{
+        font-size: 1.6rem;
+    }
+    
+    .contenedor-redes-sociales .icono-facebook, .icono-instagram, .icono-tiktok, .icono-twitter{
+        font-size: 1.6rem;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px){
+    .contenedor-siguenos-en-redes-sociales-footer .texto-siguenos-en{
+        font-size: 1.8rem;
+    }
+    
+    .contenedor-redes-sociales .icono-facebook, .icono-instagram, .icono-tiktok, .icono-twitter{
+        font-size: 1.8rem;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px){
+    .contenedor-siguenos-en-redes-sociales-footer .texto-siguenos-en{
+        font-size: 2rem;
+    }
+    
+    .contenedor-redes-sociales .icono-facebook, .icono-instagram, .icono-tiktok, .icono-twitter{
+        font-size: 2rem;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px){
+    .contenedor-siguenos-en-redes-sociales-footer .texto-siguenos-en{
+        font-size: 2.2rem;
+    }
+    
+    .contenedor-redes-sociales .icono-facebook, .icono-instagram, .icono-tiktok, .icono-twitter{
+        font-size: 2.2rem;
+    }
+}

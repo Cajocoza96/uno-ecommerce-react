@@ -1,0 +1,571 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.contenedor-autenticacion-crear-cuenta-derechos-footer-1 {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-autenticacion-crear-cuenta-1 {
+    margin-bottom: 11.8rem;
+    width: 100%;
+    min-height: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+.contenedor-eligir-opcion-ingresar-1 {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-eligir-opcion-ingresar-1 .texto-eligir-opcion-ingresar-1 {
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.contenedor-crear-cuenta-clave-acceso-ingresar-terminos-condiciones-1 {
+    width: 95%;
+    height: 100vh;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.contenedor-crear-cuenta-1 {
+    width: 95%;
+    height: auto;
+    background-color: #c9c3c3e5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contenedor-titulo-ingresar-email-1 .texto-titulo-ingresar-email-1 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenedor-ingresar-email-1 {
+    width: 95%;
+    height: auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.contenedor-ingresar-email-1 input {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    border: none;
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+.contenedor-ingresar-email-1 input:focus {
+    outline: none;
+}
+
+.contenedor-crear-cuenta-1 .boton-enviar {
+    padding: 0.8rem;
+    width: 95%;
+    height: auto;
+    border: none;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fc5304;
+    cursor: pointer;
+}
+
+.contenedor-crear-cuenta-1 .boton-enviar:active {
+    background-color: #e9743d;
+}
+
+.link-boton-volver-1 {
+    width: 95%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.contenedor-clave-acceso-ingresar-email-contrasena-terminos-condiciones-1 {
+    padding: 0.5rem;
+    width: 95%;
+    height: auto;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2rem;
+}
+
+.contenedor-crear-cuenta-1 .boton-volver {
+    padding: 0.8rem;
+    width: 100%;
+    height: auto;
+    border: 2px solid #281ae7;
+    border-radius: 0.5rem;
+    color: #281ae7;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #c9c3c3e5;
+    cursor: pointer;
+}
+
+.contenedor-crear-cuenta-1 .boton-volver:active {
+    background-color: #ada7a7e5;
+}
+
+.contenedor-recibir-clave-acceso-1 {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 0.5rem;
+}
+
+.contenedor-recibir-clave-acceso-1 .texto-recibir-clave-acceso-1 {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.link-ingresar-email-contrasena-1 {
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+}
+
+.contenedor-ingresar-email-contrasena-1 {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 0.5rem;
+}
+
+.contenedor-ingresar-email-contrasena-1 .texto-ingresar-email-contrasena-1 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    font-weight: bold;
+}
+
+.contenedor-texto-terminos-condiciones-tratamientos-datos-1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+    font-size: 0.8rem;
+    color: #000000;
+}
+
+.contenedor-texto-terminos-condiciones-tratamientos-datos-1 .subrayado-1 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*modo Landscape para dispositivos moviles*/
+@media screen and (min-width: 320px) and (max-width: 932px) and (orientation: landscape) {
+    .contenedor-autenticacion-crear-cuenta-1 {
+        margin-bottom: 11.9rem;
+    }
+
+    .contenedor-crear-cuenta-clave-acceso-ingresar-terminos-condiciones-1 {
+        flex-direction: row-reverse;
+    }
+
+    .contenedor-clave-acceso-ingresar-email-contrasena-terminos-condiciones-1 {
+        width: 55%;
+    }
+
+    .contenedor-eligir-opcion-ingresar-1 .texto-eligir-opcion-ingresar-1 {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-titulo-ingresar-email-1 .texto-titulo-ingresar-email-1 {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-ingresar-email-1 input {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-crear-cuenta-1 .boton-enviar {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-crear-cuenta-1 .boton-volver {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-recibir-clave-acceso-1 .texto-recibir-clave-acceso-1 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .contenedor-ingresar-email-contrasena-1 .texto-ingresar-email-contrasena-1 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+        font-size: 1rem;
+    }
+}
+
+/*Tablets y laptops pequeñas*/
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+    .contenedor-autenticacion-crear-cuenta-1 {
+        margin-bottom: 12.2rem;
+    }
+
+    .contenedor-crear-cuenta-clave-acceso-ingresar-terminos-condiciones-1 {
+        flex-direction: row-reverse;
+    }
+
+    .contenedor-clave-acceso-ingresar-email-contrasena-terminos-condiciones-1 {
+        width: 55%;
+    }
+
+    .contenedor-eligir-opcion-ingresar-1 .texto-eligir-opcion-ingresar-1 {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-titulo-ingresar-email-1 .texto-titulo-ingresar-email-1 {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-ingresar-email-1 input {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-crear-cuenta-1 .boton-enviar {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-crear-cuenta-1 .boton-volver {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-recibir-clave-acceso-1 .texto-recibir-clave-acceso-1 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .contenedor-ingresar-email-contrasena-1 .texto-ingresar-email-contrasena-1 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+        font-size: 1rem;
+    }
+}
+
+/*Laptops estandar*/
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+    .contenedor-autenticacion-crear-cuenta-1 {
+        margin-bottom: 11.9rem;
+    }
+
+    .contenedor-crear-cuenta-clave-acceso-ingresar-terminos-condiciones-1 {
+        flex-direction: row-reverse;
+    }
+
+    .contenedor-clave-acceso-ingresar-email-contrasena-terminos-condiciones-1 {
+        width: 60%;
+    }
+
+    .contenedor-eligir-opcion-ingresar-1 .texto-eligir-opcion-ingresar-1 {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-titulo-ingresar-email-1 .texto-titulo-ingresar-email-1 {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-ingresar-email-1 input {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-crear-cuenta-1 .boton-enviar {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-crear-cuenta-1 .boton-volver {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-recibir-clave-acceso-1 .texto-recibir-clave-acceso-1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .contenedor-ingresar-email-contrasena-1 .texto-ingresar-email-contrasena-1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+        font-size: 1.2rem;
+    }
+}
+
+/*Escritorio grandes*/
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .contenedor-autenticacion-crear-cuenta-1 {
+        margin-bottom: 12.2rem;
+    }
+
+    .contenedor-crear-cuenta-clave-acceso-ingresar-terminos-condiciones-1 {
+        flex-direction: row-reverse;
+    }
+
+    .contenedor-clave-acceso-ingresar-email-contrasena-terminos-condiciones-1 {
+        width: 65%;
+    }
+
+    .contenedor-eligir-opcion-ingresar-1 .texto-eligir-opcion-ingresar-1 {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-titulo-ingresar-email-1 .texto-titulo-ingresar-email-1 {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-ingresar-email-1 input {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-crear-cuenta-1 .boton-enviar {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-crear-cuenta-1 .boton-volver {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-recibir-clave-acceso-1 .texto-recibir-clave-acceso-1 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .contenedor-ingresar-email-contrasena-1 .texto-ingresar-email-contrasena-1 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+        font-size: 1.4rem;
+    }
+}
+
+/*TVs Full HD (1921px o mas)*/
+@media screen and (min-width: 1921px) and (max-width: 3840px) {
+    .contenedor-autenticacion-crear-cuenta-1 {
+        margin-bottom: 12.5rem;
+    }
+
+    .contenedor-crear-cuenta-clave-acceso-ingresar-terminos-condiciones-1 {
+        flex-direction: row-reverse;
+    }
+
+    .contenedor-clave-acceso-ingresar-email-contrasena-terminos-condiciones-1 {
+        width: 65%;
+    }
+
+    .contenedor-eligir-opcion-ingresar-1 .texto-eligir-opcion-ingresar-1 {
+        font-size: 2rem;
+    }
+
+    .contenedor-titulo-ingresar-email-1 .texto-titulo-ingresar-email-1 {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-ingresar-email-1 input {
+        font-size: 1.9rem;
+    }
+
+    .contenedor-crear-cuenta-1 .boton-enviar {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-crear-cuenta-1 .boton-volver {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-recibir-clave-acceso-1 .texto-recibir-clave-acceso-1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .contenedor-ingresar-email-contrasena-1 .texto-ingresar-email-contrasena-1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+        font-size: 1.6rem;
+    }
+}
+
+/*TVs 4K (3841px o mas)*/
+@media screen and (min-width: 3841px) and (max-width: 4480px) {
+    .contenedor-autenticacion-crear-cuenta-1 {
+        margin-bottom: 12.8rem;
+    }
+
+    .contenedor-crear-cuenta-clave-acceso-ingresar-terminos-condiciones-1 {
+        flex-direction: row-reverse;
+    }
+
+    .contenedor-clave-acceso-ingresar-email-contrasena-terminos-condiciones-1 {
+        width: 65%;
+    }
+
+    .contenedor-eligir-opcion-ingresar-1 .texto-eligir-opcion-ingresar-1 {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-titulo-ingresar-email-1 .texto-titulo-ingresar-email-1 {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-ingresar-email-1 input {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-crear-cuenta-1 .boton-enviar {
+        font-size: 2rem;
+    }
+
+    .contenedor-crear-cuenta-1 .boton-volver {
+        font-size: 2rem;
+    }
+
+    .contenedor-recibir-clave-acceso-1 .texto-recibir-clave-acceso-1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .contenedor-ingresar-email-contrasena-1 .texto-ingresar-email-contrasena-1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+        font-size: 1.8rem;
+    }
+}
+
+/*TVs 4481px o mas*/
+@media screen and (min-width: 4481px) {
+    .contenedor-autenticacion-crear-cuenta-1 {
+        margin-bottom: 12.9rem;
+    }
+
+    .contenedor-crear-cuenta-clave-acceso-ingresar-terminos-condiciones-1 {
+        flex-direction: row-reverse;
+    }
+
+    .contenedor-clave-acceso-ingresar-email-contrasena-terminos-condiciones-1 {
+        width: 65%;
+    }
+
+    .contenedor-eligir-opcion-ingresar-1 .texto-eligir-opcion-ingresar-1 {
+        font-size: 2.4rem;
+    }
+
+    .contenedor-titulo-ingresar-email-1 .texto-titulo-ingresar-email-1 {
+        font-size: 2.3rem;
+    }
+
+    .contenedor-ingresar-email-1 input {
+        font-size: 2.4rem;
+    }
+
+    .contenedor-crear-cuenta-1 .boton-enviar {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-crear-cuenta-1 .boton-volver {
+        font-size: 2.2rem;
+    }
+
+    .contenedor-recibir-clave-acceso-1 .texto-recibir-clave-acceso-1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .contenedor-ingresar-email-contrasena-1 .texto-ingresar-email-contrasena-1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .contenedor-texto-terminos-condiciones-tratamientos-datos-1 .texto-terminos-condiciones-tratamientos-datos-1 {
+        font-size: 2rem;
+    }
+}
